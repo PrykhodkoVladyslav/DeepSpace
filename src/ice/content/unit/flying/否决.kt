@@ -49,6 +49,18 @@ class 否决 :IceUnitType("units_veto") {
           "重型空中突击单位.舰首舰尾发射导弹,四门近程激光与两门远程磁轨炮交替射击,中央主炮投送高爆弹.加装护盾辅助发生器以维持友军护盾持续作战"
         details = "否决,人类?"
       }
+      en {
+        localizedName = "Denial"
+        description =
+          "Heavy aerial assault unit. Launches missiles from the bow and stern, alternates between four close-range lasers and two long-range railguns, while its central main cannon delivers high-explosive shells. Equipped with auxiliary shield generators to maintain allied shields during sustained combat."
+        details = "Denial, humanity?"
+      }
+      uk_UA {
+        localizedName = "Заперечення"
+        description =
+          "Важкий повітряний штурмовий підрозділ. Запускає ракети з носової та кормової частин, по черзі веде вогонь чотирма ближніми лазерами та двома далекобійними рейкотронними гарматами, а центральна головна гармата випускає фугасні снаряди. Оснащений допоміжними генераторами щита для підтримки щитів союзників під час тривалого бою."
+        details = "Заперечення, людство?"
+      }
     }
     flying = true
     lowAltitude = true

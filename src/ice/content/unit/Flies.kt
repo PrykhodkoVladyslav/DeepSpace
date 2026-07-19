@@ -21,6 +21,14 @@ class Flies :IceUnitType("flies", FliesUnit::class.java) {
         localizedName = "糜蝇"
         description = "小型飞行污染生物.常成群结队出现,并对任何被视作威胁的个体发动自杀式袭击"
       }
+      en {
+        localizedName = "Blightfly"
+        description = "Small airborne corrupted organism. Usually appears in swarms and launches suicidal attacks against any individual perceived as a threat."
+      }
+      uk_UA {
+        localizedName = "Поганка"
+        description = "Малий летючий заражений організм. Зазвичай з'являється роями та здійснює самогубні атаки на будь-які цілі, які вважає загрозою."
+      }
     }
     speed += 1f
     health = 300f

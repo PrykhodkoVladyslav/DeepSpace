@@ -13,6 +13,14 @@ class 骤雨 :IceUnitType("unit_torrentialRain") {
         localizedName = "骤雨"
         description = "轻型空中突击单位.发射聚焦激光攻击敌人"
       }
+      en {
+        localizedName = "Rainburst"
+        description = "Light aerial assault unit. Fires focused lasers to attack enemies."
+      }
+      uk_UA {
+        localizedName = "Злива"
+        description = "Легкий повітряний штурмовий підрозділ. Випускає сфокусовані лазерні промені для атаки ворогів."
+      }
     }
     lowAltitude = true
     flying = true

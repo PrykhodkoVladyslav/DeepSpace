@@ -197,6 +197,14 @@ class 奔袭 :IceUnitType("unit_garrison") {
         localizedName = "奔袭"
         description = "重型地面突击单位.装备多门等离子火焰喷射器,对建筑与重甲单位造成毁灭性伤害"
       }
+      en {
+        localizedName = "Onslaught"
+        description = "Heavy ground assault unit. Equipped with multiple plasma flamethrowers, capable of dealing devastating damage to structures and heavily armored targets."
+      }
+      uk_UA {
+        localizedName = "Навала"
+        description = "Важкий наземний штурмовий підрозділ. Оснащений кількома плазмовими вогнеметами, що завдають нищівної шкоди спорудам і важкоброньованим цілям."
+      }
     }
   }
 }

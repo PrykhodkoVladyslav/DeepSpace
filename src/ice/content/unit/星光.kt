@@ -19,6 +19,12 @@ class 星光 :MissileUnitType("starlight") {
       zh_CN {
         localizedName = "星光"
       }
+      en {
+        localizedName = "Starlight"
+      }
+      uk_UA {
+        localizedName = "Зоресвіт"
+      }
     }
     health = 130f
     hitSize = 4f

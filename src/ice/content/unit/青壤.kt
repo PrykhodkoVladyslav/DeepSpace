@@ -27,6 +27,14 @@ class 青壤 :IceUnitType("schizovegeta", SchizovegetaUnit::class.java) {
         localizedName = "青壤"
         description = "小型陆行污染生物.无法攻击,只能笨拙地蠕行移动.死亡后会释放出数颗丰瘤."
       }
+      en {
+        localizedName = "Schizovegeta"
+        description = "Small terrestrial contamination organism. Unable to attack, it can only crawl clumsily. Upon death, it releases several swollen growths."
+      }
+      uk_UA {
+        localizedName = "Зелений Ґрунт"
+        description = "Малий наземний забруднювальний організм. Не здатний атакувати й може лише незграбно повзати. Після загибелі вивільняє кілька пухлинних наростів."
+      }
     }
     speed = 0.3f
     health = 200f

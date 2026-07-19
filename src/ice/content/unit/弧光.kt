@@ -23,6 +23,14 @@ class 弧光 :IceUnitType("unit_arcLight") {
         localizedName = "弧光"
         description = "中型空中支援单位.发射激光与湍能弹攻击附近敌人,会自动修复受损建筑,并对附近的友军提供迅疗效果"
       }
+      en {
+        localizedName = "Arcflash"
+        description = "Medium airborne support unit. Fires lasers and turbulent energy projectiles at nearby enemies, automatically repairs damaged structures, and provides the Rapid Healing effect to nearby allies."
+      }
+      uk_UA {
+        localizedName = "Дугосвіт"
+        description = "Середній повітряний підрозділ підтримки. Атакує найближчих ворогів лазерами та турбулентними енергетичними снарядами, автоматично ремонтує пошкоджені споруди та надає сусіднім союзникам ефект швидкого лікування."
+      }
     }
 
     defaultCommand = UnitCommand.repairCommand

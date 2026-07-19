@@ -19,6 +19,14 @@ class 奔火 :IceUnitType("benFire") {
         localizedName = "奔火"
         description = "中型空中突击单位.投掷高爆航弹攻击敌人,并加装护盾辅助发生器以维持友军护盾持续作战.开火时减少所受伤害"
       }
+      en {
+        localizedName = "Firebolt"
+        description = "Medium aerial assault unit. Drops high-explosive bombs to attack enemies and is equipped with auxiliary shield generators to maintain allied shields during sustained combat. Reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Вогняний болт"
+        description = "Середній повітряний штурмовий підрозділ. Скидає фугасні авіабомби для атаки ворогів і оснащений допоміжними генераторами щита для підтримки щитів союзників під час тривалого бою. Зменшує отриману шкоду під час ведення вогню."
+      }
     }
     circleTarget = true
     faceTarget = false

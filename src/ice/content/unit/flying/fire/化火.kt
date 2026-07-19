@@ -27,6 +27,14 @@ class 化火 :IceUnitType("huaFire") {
         localizedName = "化火"
         description = "重型空中突击单位.部署导弹投掷高爆航弹并辅以机炮攻击敌人,特种装甲外壳使其足以应对绝大部分负面状况.开火时减少所受伤害"
       }
+      en {
+        localizedName = "Incinerator"
+        description = "Heavy aerial assault unit. Deploys missiles, drops high-explosive bombs, and supports attacks with autocannons. Its specialized armored hull allows it to withstand most adverse conditions. Reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Вогняний штурмовик"
+        description = "Важкий повітряний штурмовий підрозділ. Оснащений ракетами, скидає фугасні авіабомби та підтримує атаку автоматичними гарматами. Спеціальна броньована оболонка дозволяє витримувати більшість несприятливих умов. Зменшує отриману шкоду під час ведення вогню."
+      }
     }
 
     circleTarget = true

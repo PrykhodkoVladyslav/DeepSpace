@@ -16,6 +16,14 @@ class 幻影 :IceUnitType("unit_phantom") {
         localizedName = "幻影"
         description = "轻型空中工程单位.具备不俗的挖掘速度与物品容量,可在采集途中应对零星威胁"
       }
+      en {
+        localizedName = "Phantom"
+        description = "Light airborne engineering unit. Features high mining speed and ample carrying capacity, while possessing enough firepower to deal with minor threats encountered during resource gathering."
+      }
+      uk_UA {
+        localizedName = "Фантом"
+        description = "Легкий повітряний інженерний підрозділ. Вирізняється високою швидкістю видобутку та містким вантажним відсіком, а також здатний самостійно відбиватися від незначних загроз під час збору ресурсів."
+      }
     }
     requirements(IItems.低碳钢, 300, IItems.铅锭, 10, IItems.单晶硅, 10)
     flying = true

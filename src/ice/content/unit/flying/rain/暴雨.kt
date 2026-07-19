@@ -19,6 +19,14 @@ class 暴雨 :IceUnitType("unit_storm") {
         localizedName = "暴雨"
         description = "中型空中突击单位.发射双联球状闪电攻击敌人"
       }
+      en {
+        localizedName = "Stormburst"
+        description = "Medium aerial assault unit. Launches paired ball lightning projectiles to attack enemies."
+      }
+      uk_UA {
+        localizedName = "Буревій"
+        description = "Середній повітряний штурмовий підрозділ. Запускає подвійні кулі блискавки для атаки ворогів."
+      }
     }
     lowAltitude = true
     flying = true

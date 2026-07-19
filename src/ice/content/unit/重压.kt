@@ -20,6 +20,16 @@ class 重压 :IceUnitType("heavyPress", TankUnit::class.java) {
         description = "中型地面突击单位.持续以履带碾压对敌方建筑.正面投射弧形护盾抵御攻击,碾压时减少所受伤害"
         details = "钢铁的履带滚滚向前"
       }
+      en {
+        localizedName = "Overrun"
+        description = "Medium ground assault unit. Crushes enemy structures beneath its continuous treads. Projects a frontal arc shield for protection and takes reduced damage while crushing."
+        details = "The iron treads roll relentlessly forward."
+      }
+      uk_UA {
+        localizedName = "Натиск"
+        description = "Середній наземний штурмовий підрозділ. Розчавлює ворожі споруди безперервним рухом гусениць. Проєктує передній дуговий щит для захисту та отримує менше шкоди під час тиску."
+        details = "Сталеві гусениці невпинно котяться вперед."
+      }
     }
     squareShape = true
     omniMovement = false

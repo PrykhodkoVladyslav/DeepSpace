@@ -14,7 +14,11 @@ class 工蜂 :IceUnitType("unit_workerBee", BuildingTetherPayloadUnit::class.jav
       }
       en {
         localizedName = "Worker Bee"
-        description = "Light aerial engineering unit with modular construction system"
+        description = "Light airborne engineering unit. Equipped with a precision modular construction system, it is responsible for the assembly and construction of large units."
+      }
+      uk_UA {
+        localizedName = "Бджола-робітниця"
+        description = "Легкий повітряний інженерний підрозділ. Оснащений високоточним модульним будівельним комплексом, призначеним для складання та спорудження великих бойових одиниць."
       }
     }
     defaultCommand = UnitCommand.assistCommand

@@ -29,6 +29,14 @@ class 涤罪 :IceUnitType("unit_clearingGround", TankUnit::class.java) {
         localizedName = "涤罪"
         description = "涤罪是神殿[净罪计划]的产物"
       }
+      en {
+        localizedName = "Purgation"
+        description = "Purgation is a product of the Temple's [Purification Project]."
+      }
+      uk_UA {
+        localizedName = "Очищення"
+        description = "Очищення є продуктом храмового [Проєкту Очищення]."
+      }
     }
     speed = 0.44f
     armor = 13f

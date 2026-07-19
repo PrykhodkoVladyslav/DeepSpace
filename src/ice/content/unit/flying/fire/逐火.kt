@@ -24,6 +24,18 @@ class 逐火 :IceUnitType("unit_zhuFire") {
           "中型空中突击单位.交替发射机炮与离子激光攻击敌人,以自身为中心投射一片立场护盾.初级气动外壳足以应对一部分异常状态,开火时减少所受伤害"
         details = "在战争烈度逐渐升级当下,[逐火]攻击机应运而生,更强的火力及装甲使其足以担任小队护航或集群突袭等多种用途"
       }
+      en {
+        localizedName = "Fireseeker"
+        description =
+          "Medium aerial assault unit. Alternates between autocannon fire and ion laser attacks against enemies, while projecting a field shield centered around itself. Its basic aerodynamic hull provides resistance against some abnormal conditions. Reduces incoming damage while firing."
+        details = "As the intensity of warfare continues to escalate, the Pursuitfire attack aircraft was developed to meet new demands. Its enhanced firepower and armor allow it to serve multiple roles, including squad escort and coordinated assault operations."
+      }
+      uk_UA {
+        localizedName = "Вогняний переслідувач"
+        description =
+          "Середній повітряний штурмовий підрозділ. По черзі використовує автоматичні гармати та іонний лазер для атаки ворогів, створюючи навколо себе силовий щит. Базовий аеродинамічний корпус забезпечує захист від деяких аномальних станів. Зменшує отриману шкоду під час ведення вогню."
+        details = "У міру зростання інтенсивності війни був створений штурмовик [Вогняний переслідувач]. Покращене озброєння та броня дозволяють йому виконувати різні завдання, включаючи супровід загонів і масштабні групові атаки."
+      }
     }
     circleTarget = true
     lowAltitude = true

@@ -23,6 +23,14 @@ class 泽塔 :IceUnitType("unit_zeta") {
         localizedName = "泽塔"
         description = "拥有快速建造能力与强劲的武器系统,\n向敌人喷射等离子火焰的同时发射电磁震爆弹"
       }
+      en {
+        localizedName = "Zeta"
+        description = "Possesses rapid construction capabilities and a powerful weapons system.\nProjects plasma flames at enemies while simultaneously firing electromagnetic shockwave shells."
+      }
+      uk_UA {
+        localizedName = "Зета"
+        description = "Має швидкі будівельні можливості та потужну систему озброєння.\nОбпалює ворогів плазмовим полум'ям одночасно з випуском електромагнітних ударних снарядів."
+      }
     }
     coreUnitDock = true
     lowAltitude = true

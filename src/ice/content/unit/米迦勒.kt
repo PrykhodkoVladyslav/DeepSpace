@@ -18,6 +18,12 @@ class 米迦勒 :IceUnitType("unit_michael") {
       zh_CN {
         localizedName = "米迦勒"
       }
+      en {
+        localizedName = "Michael"
+      }
+      uk_UA {
+        localizedName = "Михаїл"
+      }
     }
     armor = 1f
     speed = 3.5f

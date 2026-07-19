@@ -29,6 +29,16 @@ class 雷劫 :IceUnitType("unit_thunderTribulation") {
         description =
           "重型空中突击单位.发射高能激光和双联球状闪电并辅等离子速射炮攻击敌人,正面投射弧形护盾抵御攻击.在场时抑制敌方建筑修复能力,同时以闪电场电击附近敌军并治疗友军"
       }
+      en {
+        localizedName = "Thunderfall"
+        description =
+          "Heavy aerial assault unit. Attacks enemies with high-energy lasers, twin ball lightning projectiles, and rapid-fire plasma cannons. Projects a frontal arc shield to withstand attacks. Suppresses enemy building repair capabilities while deployed, while its lightning field shocks nearby enemies and repairs allied units."
+      }
+      uk_UA {
+        localizedName = "Грімниця"
+        description =
+          "Важкий повітряний штурмовий підрозділ. Атакує ворогів потужними лазерами, подвійними кулями блискавки та швидкострільною плазмовою гарматою. Створює перед собою дуговий щит для захисту від атак. Під час перебування на полі бою пригнічує ремонт ворожих споруд, а також уражає найближчих ворогів електричним полем і відновлює союзні підрозділи."
+      }
     }
 
 

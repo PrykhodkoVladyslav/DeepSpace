@@ -27,6 +27,18 @@ class 风暴 :IceUnitType("unit_storBolt") {
           "重型空中突击单位.对远距离敌人发射能量弹,对近距离的敌人则发射高热激光.加装护盾辅助发生器以维持友军护盾持续作战,开火时减少所受伤害.攻击时无法移动"
         details = "风雨欲来..."
       }
+      en {
+        localizedName = "Storm"
+        description =
+          "Heavy airborne assault unit. Fires energy projectiles at distant enemies and high-temperature lasers at close range. Equipped with auxiliary shield generators to maintain allied shields during combat. Takes reduced damage while firing but cannot move when attacking."
+        details = "The storm is coming..."
+      }
+      uk_UA {
+        localizedName = "Буря"
+        description =
+          "Важкий повітряний штурмовий підрозділ. Випускає енергетичні снаряди по далеких цілях і високотемпературні лазери по ворогах поблизу. Оснащений допоміжними генераторами щитів для підтримки захисту союзників під час бою. Отримує менше шкоди під час атаки, але не може рухатися."
+        details = "Буря наближається..."
+      }
     }
     flying = true
     health = 75000f

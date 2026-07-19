@@ -22,6 +22,14 @@ class 雨燕 :IceUnitType("unit_rainFly", EntityC::class.java) {
         localizedName = "雨燕"
         description = "特快机动单位,轻量化装甲赋予了她无与伦比的机动性\n使用蜂群导弹及制导火箭弹攻击敌人"
       }
+      en {
+        localizedName = "Swift"
+        description = "Extreme mobility unit. Its lightweight armor grants unparalleled maneuverability. Attacks enemies with swarm missiles and guided rockets."
+      }
+      uk_UA {
+        localizedName = "Стриж"
+        description = "Підрозділ надзвичайної мобільності. Легка броня забезпечує йому неперевершену маневровість. Атакує ворогів ройовими ракетами та керованими реактивними снарядами."
+      }
     }
     flying = true
     lowAltitude = true

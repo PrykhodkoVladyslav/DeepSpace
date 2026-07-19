@@ -50,6 +50,20 @@ class 断业 :IceUnitType("breakUp", TankUnit::class.java) {
         details =
           "帝国腐朽的装甲部队节节败退,唯有枢机的神术能短暂驱散腐化,帝国残部讥讽其为伪神的铁棺材,但无人能否认——当它的履带碾过焦土时,连红雾都会为之退散"
       }
+      en {
+        localizedName = "Severance"
+        description =
+          "Severance is the product of the Temple's [Purification Project]. Its armor is lined with twilight alloy sanctified through divine rites. Its main cannon inflicts devastating damage against structures and heavily armored units, capable of tearing through clusters of aberrations within the Red Mist."
+        details =
+          "The Empire's decaying armored forces collapsed one after another. Only the Cardinal's divine arts could briefly repel the corruption. The remnants of the Empire mocked it as the false god's iron coffin, yet none could deny the truth—when its tracks rolled across the scorched earth, even the Red Mist itself retreated."
+      }
+      uk_UA {
+        localizedName = "Розсікання"
+        description =
+          "Розсікання є результатом храмового [Проєкту Очищення]. Внутрішній шар його броні викуваний із сутінкового сплаву, освяченого божественним ритуалом. Його головна гармата завдає нищівної шкоди спорудам і важкоброньованим цілям, здатна розривати цілі скупчення потвор у Червоному Тумані."
+        details =
+          "Зогнилі броньовані сили Імперії відступали одна за одною. Лише божественні чари кардинала могли на короткий час відганяти скверну. Залишки Імперії глузливо називали його залізною труною несправжнього бога, але ніхто не міг заперечити — коли його гусениці проходили випаленою землею, навіть Червоний Туман відступав."
+      }
     }
     speed = 0.48f
     armor = 26f

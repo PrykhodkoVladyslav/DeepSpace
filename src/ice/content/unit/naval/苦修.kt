@@ -17,6 +17,14 @@ class 苦修 :IceUnitType("unit_meditation", UnitWaterMove::class.java) {
         localizedName = "苦修"
         description = "中型海栖突击单位.发射炮弹与导弹攻击敌人,并加装护盾辅助发生器以维持友军护盾持续作战"
       }
+      en {
+        localizedName = "Penance"
+        description = "Medium naval assault unit. Fires shells and missiles to attack enemies, equipped with auxiliary shield generators to maintain allied shields during sustained combat."
+      }
+      uk_UA {
+        localizedName = "Покута"
+        description = "Середній морський штурмовий підрозділ. Атакує ворогів снарядами та ракетами, оснащений допоміжними генераторами щита для підтримки щитів союзників під час тривалого бою."
+      }
     }
     health = 1365f
     hitSize = 25f

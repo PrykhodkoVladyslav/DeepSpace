@@ -31,6 +31,14 @@ class 甘霖 :IceUnitType("ganlin") {
         localizedName = "甘霖"
         description = "重型地面支援单位.交替发射机炮攻击敌人,同时对友军发射治疗光线.在场时会治疗附近的友军,缓慢恢复生命值"
       }
+      en {
+        localizedName = "Rainfall"
+        description = "Heavy ground support unit. Alternates between autocannon fire against enemies and healing beams for allies. Restores the health of nearby friendly units while present on the battlefield."
+      }
+      uk_UA {
+        localizedName = "Цілющий Дощ"
+        description = "Важкий наземний підрозділ підтримки. По черзі веде вогонь з автогармати по ворогах та випромінює лікувальні промені для союзників. Поки перебуває на полі бою, поступово відновлює здоров'я найближчих дружніх підрозділів."
+      }
     }
     health = 68700f
     hitSize = 48f

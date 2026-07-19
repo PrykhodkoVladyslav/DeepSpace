@@ -17,6 +17,14 @@ class 趋火 :IceUnitType("tuihuo") {
         localizedName = "趋火"
         description = "轻型空中突击单位.快速投掷航弹杀伤敌军,开火时减少所受伤害"
       }
+      en {
+        localizedName = "Fireflash"
+        description = "Light aerial assault unit. Rapidly drops bombs to inflict damage on enemy forces. Reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Вогняний спалах"
+        description = "Легкий повітряний штурмовий підрозділ. Швидко скидає авіабомби для ураження ворожих сил. Зменшує отриману шкоду під час ведення вогню."
+      }
     }
     requirements(IItems.低碳钢, 35, IItems.高碳钢, 15, IItems.单晶硅, 10, IItems.铬锭, 10)
     immunities.add(StatusEffects.wet)

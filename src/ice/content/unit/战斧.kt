@@ -22,6 +22,12 @@ class 战斧 :MissileUnitType("unit_warAxe") {
       zh_CN {
         localizedName = "战斧"
       }
+      en {
+        localizedName = "Battleaxe"
+      }
+      uk_UA {
+        localizedName = "Бойова Сокира"
+      }
     }
     health = 360f
     armor = 3f

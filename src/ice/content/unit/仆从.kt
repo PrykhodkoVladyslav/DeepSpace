@@ -47,6 +47,16 @@ class 仆从 :IceUnitType("footman") {init {
       description = "中型空中突击单位.喷射大范围高温等离子体攻击敌人.多用于打击密集小型敌人"
       details = "传教者的专属防空护卫\n确定是护卫不是火刑柱?"
     }
+    en {
+      localizedName = "Servitor"
+      description = "Medium aerial assault unit. Emits a wide-area stream of high-temperature plasma to attack enemies. Primarily used for eliminating dense groups of small targets."
+      details = "The Preacher's dedicated anti-air escort.\nAre you sure this is an escort and not a pyre?"
+    }
+    uk_UA {
+      localizedName = "Служник"
+      description = "Середній повітряний штурмовий підрозділ. Випускає широкосмуговий потік високотемпературної плазми для атаки ворогів. Переважно використовується для знищення щільних груп малих цілей."
+      details = "Спеціальний зенітний супровідник Проповідника.\nВи впевнені, що це супровідник, а не вогнище?"
+    }
   }
 }
 }

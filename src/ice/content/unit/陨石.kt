@@ -20,6 +20,14 @@ class 陨石 :IceUnitType("meteorite") {
         localizedName = "陨石"
         description = "轻型空中突击单位.以机炮持续扫射攻击敌人,以闪电场电击附近敌军并治疗友军.配备裂解炮抵御敌人的攻击"
       }
+      en {
+        localizedName = "Meteorite"
+        description = "Light airborne assault unit. Continuously fires autocannons at enemies, shocks nearby foes with a lightning field while healing allies, and carries a disintegrator cannon for defense."
+      }
+      uk_UA {
+        localizedName = "Метеорит"
+        description = "Легкий повітряний штурмовий підрозділ. Безперервно обстрілює ворогів з автогармат, вражає найближчих супротивників електричним полем і лікує союзників. Оснащений розщеплювачем для захисту."
+      }
     }
     flying = true
     lowAltitude = true

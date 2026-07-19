@@ -19,6 +19,14 @@ class 路西法 :IceUnitType("lucifer") {
         localizedName = "路西法"
         description = " "
       }
+      en {
+        localizedName = "Lucifer"
+        description = " "
+      }
+      uk_UA {
+        localizedName = "Люцифер"
+        description = " "
+      }
     }
     armor = 1f
     accel = 0.2f

@@ -22,6 +22,14 @@ class 陨铁 :IceUnitType("meteoricIron") {
         localizedName = "陨铁"
         description = "中型空中突击单位.发射高热激光并辅以机炮攻击敌人,以闪电场电击附近敌军并治疗友军.配备裂解炮抵御敌人的攻击"
       }
+      en {
+        localizedName = "Meteoric Iron"
+        description = "Medium airborne assault unit. Fires high-temperature lasers supported by autocannon fire against enemies. Shocks nearby foes with a lightning field while healing allies, and carries a disintegrator cannon for defense."
+      }
+      uk_UA {
+        localizedName = "Метеоритне Залізо"
+        description = "Середній повітряний штурмовий підрозділ. Атакує ворогів високотемпературними лазерами у поєднанні з вогнем автогармати. Вражає найближчих ворогів електричним полем, лікує союзників і оснащений розщеплювачем для захисту."
+      }
     }
     flying = true
     lowAltitude = true

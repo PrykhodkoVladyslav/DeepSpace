@@ -17,6 +17,12 @@ class 沐风 :IceUnitType("unit_bathedWind") {
       zh_CN {
         localizedName = "沐风"
       }
+      en {
+        localizedName = "Breeze"
+      }
+      uk_UA {
+        localizedName = "Вітерець"
+      }
     }
 
     faceTarget = true

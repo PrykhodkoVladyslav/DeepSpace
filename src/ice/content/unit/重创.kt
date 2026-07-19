@@ -20,6 +20,12 @@ class 重创 :MissileUnitType("unit_heavyDamageMissile") {
       zh_CN {
         localizedName = "重创"
       }
+      en {
+        localizedName = "Crippler"
+      }
+      uk_UA {
+        localizedName = "Калічник"
+      }
     }
 
     health = 3000f

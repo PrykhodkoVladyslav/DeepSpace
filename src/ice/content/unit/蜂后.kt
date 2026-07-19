@@ -31,6 +31,20 @@ class 蜂后 :IceUnitType("unit_queenBee", PayloadUnit::class.java) {
         details =
           "当它那庞大的堡垒碾碎星空的寂静时,敌人心中升起的将不再是恐惧,而是某种顿悟;这是一场早已写定的终局,是他们世间账上最后一笔清算."
       }
+      en {
+        localizedName = "Hive Queen"
+        description =
+          "Heavy airborne support unit. Fires homing turbulent energy shells at enemies and maintains allied shields with auxiliary shield generators. Emits a lightning field to shock nearby enemies while repairing allies and providing rapid healing. Capable of transporting large units or structures for deployment."
+        details =
+          "When its colossal fortress crushes the silence of the stars, the enemy feels not fear, but realization; this is an ending written long ago, the final reckoning upon their account."
+      }
+      uk_UA {
+        localizedName = "Королева Рою"
+        description =
+          "Важкий повітряний підрозділ підтримки. Випускає самонавідні турбулентні енергетичні снаряди по ворогах і підтримує щити союзників за допомогою допоміжних генераторів. Створює електричне поле, що вражає найближчих ворогів, одночасно відновлюючи союзників та надаючи їм швидке лікування. Може транспортувати великі підрозділи або споруди для розгортання."
+        details =
+          "Коли її величезна фортеця розриває тишу космосу, ворог відчуває вже не страх, а прозріння; це фінал, написаний задовго до їхнього падіння, останній розрахунок у їхньому житті."
+      }
     }
     researchCostMultiplier = 40f
     lowAltitude = true

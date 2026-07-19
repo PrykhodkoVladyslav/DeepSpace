@@ -18,6 +18,12 @@ class 火花 :MissileUnitType("unit_spark") {
       zh_CN {
         localizedName = "火花"
       }
+      en {
+        localizedName = "Spark"
+      }
+      uk_UA {
+        localizedName = "Іскра"
+      }
     }
     health = 385f
     hitSize = 11f

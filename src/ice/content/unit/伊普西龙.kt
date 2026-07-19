@@ -18,6 +18,12 @@ class 伊普西龙 :IceUnitType("unit_ipsiglon") {
       zh_CN {
         localizedName = "伊普西龙"
       }
+      en {
+        localizedName = "Epsilon"
+      }
+      uk_UA {
+        localizedName = "Епсилон"
+      }
     }
     coreUnitDock = true
     lowAltitude = true

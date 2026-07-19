@@ -34,6 +34,14 @@ class 丰穰之瘤 :IceUnitType("richTumor", RichTumorUnit::class.java) {
         localizedName = "丰瘤"
         description = "小型陆行污染生物.无法移动与攻击,不会被任何单位视为目标.落地后进入短暂的潜伏期,随后将下方地表同化为活性肿瘤地"
       }
+      en {
+        localizedName = "Bloomtumor"
+        description = "Small ground-based corrupted organism. Unable to move or attack and ignored by all units. After landing, enters a brief dormant phase before assimilating the ground beneath it into active tumor terrain."
+      }
+      uk_UA {
+        localizedName = "Пухлина"
+        description = "Малий наземний заражений організм. Не здатний рухатися чи атакувати та не вважається ціллю для будь-яких підрозділів. Після приземлення входить у коротку фазу спокою, а потім асимілює поверхню під собою, перетворюючи її на активну пухлинну землю."
+      }
     }
   }
 

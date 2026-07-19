@@ -22,6 +22,14 @@ class 赴火 :IceUnitType("fuFire") {
         localizedName = "赴火"
         description = "重型空中突击单位.投掷高爆航弹并辅以机炮攻击敌人,高级气动外壳保证飞行速度在大多数情况下不会降低,开火时减少所受伤害"
       }
+      en {
+        localizedName = "Firestorm"
+        description = "Heavy aerial assault unit. Drops high-explosive bombs and supports attacks with autocannons. Its advanced aerodynamic hull ensures flight speed remains unaffected in most situations. Reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Вогняний шторм"
+        description = "Важкий повітряний штурмовий підрозділ. Скидає фугасні авіабомби та підтримує атаку автоматичними гарматами. Вдосконалений аеродинамічний корпус гарантує збереження швидкості польоту за більшості умов. Зменшує отриману шкоду під час ведення вогню."
+      }
     }
     circleTarget = true
     flying = true

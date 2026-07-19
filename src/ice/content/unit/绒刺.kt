@@ -10,6 +10,14 @@ class 绒刺 :IceUnitType("unit_barb", CrawlUnit::class.java) {
         localizedName = "绒刺"
         description = "请输入文本"
       }
+      en {
+        localizedName = "Velvet Thorn"
+        description = "Text missing."
+      }
+      uk_UA {
+        localizedName = "Оксамитовий Шип"
+        description = "Текст відсутній."
+      }
     }
     health = 120f
     armor = 1.5f

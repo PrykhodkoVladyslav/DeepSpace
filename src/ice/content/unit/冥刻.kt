@@ -25,6 +25,14 @@ class 冥刻 :IceUnitType("darkCarving") {
         localizedName = "冥刻"
         description = "中型空中突击单位.发射充能激光攻击敌人,对附近的友军提供坚忍效果"
       }
+      en {
+        localizedName = "Darkmark"
+        description = "Medium aerial assault unit. Fires charged lasers to attack enemies and provides resilience to nearby allied units."
+      }
+      uk_UA {
+        localizedName = "Темна мітка"
+        description = "Середній повітряний штурмовий підрозділ. Випускає заряджені лазери для атаки ворогів та надає найближчим союзним підрозділам ефект стійкості."
+      }
     }
     accel = 0.04f
     drag = 0.04f

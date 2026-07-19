@@ -28,6 +28,16 @@ class 传教者 :IceUnitType("missionary") {
         description = "重型空中突击单位.发射磁轨弹和等离子爆裂弹攻击,并投掷粒子冲击弹轰炸敌人,火力强悍"
         details = "枢机教廷[净化之翼]军团\n枢机的例行祷告"
       }
+      en {
+        localizedName = "Evangelist"
+        description = "Heavy aerial assault unit. Fires railgun rounds and plasma burst shells, while launching particle impact bombs to devastate enemies. Possesses overwhelming firepower."
+        details = "The Cardinal Church's [Wings of Purification] legion.\nThe Cardinal's routine prayer."
+      }
+      uk_UA {
+        localizedName = "Євангеліст"
+        description = "Важкий повітряний штурмовий підрозділ. Випускає рейкові снаряди та плазмові заряди, а також скидає частинкові ударні бомби для знищення ворогів. Володіє надзвичайною вогневою міццю."
+        details = "Легіон [Крил очищення] Кардинальського престолу.\nЩоденна молитва кардинала."
+      }
     }
     speed = 0.9f
     flying = true

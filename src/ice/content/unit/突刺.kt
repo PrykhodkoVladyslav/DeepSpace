@@ -15,6 +15,14 @@ class 突刺 :IceUnitType("barbProtrusion", TankUnit::class.java) {
         localizedName = "突刺"
         description = "轻型地面突击单位.发射炮弹攻击敌人"
       }
+      en {
+        localizedName = "Lancer"
+        description = "Light ground assault unit. Fires shells to attack enemies."
+      }
+      uk_UA {
+        localizedName = "Списник"
+        description = "Легкий наземний штурмовий підрозділ. Обстрілює ворогів артилерійськими снарядами."
+      }
     }
     armor = 8f
     speed = 0.7f

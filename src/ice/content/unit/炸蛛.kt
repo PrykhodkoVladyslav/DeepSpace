@@ -41,6 +41,14 @@ class 炸蛛 :IceUnitType("unit_spiderBomb") {
         localizedName = "炸蛛"
         description = "中型地面突击单位.向敌人发起剧烈自杀式攻击.配备推进器以快速接近敌人.阵亡后会分裂出爆蚊"
       }
+      en {
+        localizedName = "Bombspider"
+        description = "Medium ground assault unit. Performs devastating suicide attacks against enemies. Equipped with thrusters to rapidly close the distance. Upon destruction, splits into smaller explosive drones."
+      }
+      uk_UA {
+        localizedName = "Бомбопавук"
+        description = "Середній наземний штурмовий підрозділ. Виконує нищівні самогубні атаки на ворогів. Оснащений прискорювачами для швидкого зближення з цілями. Після знищення розділяється на менші вибухові дрони."
+      }
     }
 
     health = 7680f

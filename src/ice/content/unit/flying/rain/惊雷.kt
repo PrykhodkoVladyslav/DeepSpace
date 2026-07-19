@@ -24,6 +24,14 @@ class 惊雷 :IceUnitType("unit_thunder") {
         localizedName = "惊雷"
         description = "重型空中突击单位.发射缓慢移动的球状闪电攻击敌人,同时以闪电场电击附近敌军并治疗友军"
       }
+      en {
+        localizedName = "Thunderbolt"
+        description = "Heavy aerial assault unit. Launches slow-moving ball lightning to attack enemies, while using an electric field to shock nearby enemy forces and repair allied units."
+      }
+      uk_UA {
+        localizedName = "Громовиця"
+        description = "Важкий повітряний штурмовий підрозділ. Запускає повільні кулі блискавки для атаки ворогів, одночасно вражаючи найближчі ворожі сили електричним полем та відновлюючи союзні підрозділи."
+      }
     }
     lowAltitude = true
     flying = true

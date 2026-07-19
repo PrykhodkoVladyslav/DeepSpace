@@ -24,6 +24,14 @@ class 死誓 :IceUnitType("unit_deathOath", MechUnit::class.java) {
         localizedName = "死誓"
         description = "重型地面突击单位.对远距离敌人发射穿透能量弹,对近距离敌人则切换为高热激光,会缓慢恢复生命值,开火时减少所受伤害"
       }
+      en {
+        localizedName = "Deathsworn"
+        description = "Heavy ground assault unit. Fires penetrating energy projectiles at distant enemies and switches to high-temperature lasers against nearby targets. Slowly regenerates health and reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Смертник"
+        description = "Важкий наземний штурмовий підрозділ. Випускає пробивні енергетичні снаряди по віддалених ворогах та перемикається на високотемпературні лазери проти близьких цілей. Повільно відновлює здоров'я та зменшує отриману шкоду під час ведення вогню."
+      }
     }
     health = 29000f
     armor = 25f

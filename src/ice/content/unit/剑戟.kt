@@ -28,6 +28,16 @@ class 剑戟 :IceUnitType("unit_swordSpear") {
         description =
           "中型空中突击单位.在远处发射激光攻击敌人,尾迹灼烧途经的敌军.配备小型裂解炮抵御敌人的攻击,并对附近的友军提供屠戮效果,开火时减少所受伤害"
       }
+      en {
+        localizedName = "Glaive"
+        description =
+          "Medium airborne assault unit. Fires lasers at enemies from long range, leaving a burning trail that scorches enemies along its path. Equipped with a small disintegration cannon for self-defense and grants nearby allied units the Slaughter effect, reducing damage taken while firing."
+      }
+      uk_UA {
+        localizedName = "Глефа"
+        description =
+          "Середній повітряний штурмовий підрозділ. Веде вогонь лазерами по ворогах з великої відстані, залишаючи палаючий слід, що обпалює ворогів на своєму шляху. Оснащений малою дезінтеграційною гарматою для самозахисту та надає сусіднім союзникам ефект «Різанина», зменшуючи отримувану шкоду під час стрільби."
+      }
     }
     lowAltitude = true
     flying = true

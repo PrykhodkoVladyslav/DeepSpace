@@ -96,6 +96,16 @@ class 沧溟 :IceUnitType("unit_abyss", UnitWaterMove::class.java) {
         description =
           "重型海栖突击单位.发射炮弹和大型鱼雷并辅以机炮攻击敌人,加装护盾辅助发生器维持友军护盾,同时为附近友军提供反扑效果,对舰攻击能力极强"
       }
+      en {
+        localizedName = "Abyss"
+        description =
+          "Heavy naval assault unit. Attacks enemies with artillery shells, heavy torpedoes, and autocannons. Equipped with auxiliary shield generators to maintain allied shields while providing nearby allies with a counterattack effect. Extremely effective against enemy vessels."
+      }
+      uk_UA {
+        localizedName = "Безодня"
+        description =
+          "Важкий морський штурмовий підрозділ. Атакує ворогів артилерійськими снарядами, важкими торпедами та автоматичними гарматами. Оснащений допоміжними генераторами щита для підтримки щитів союзників, а також надає найближчим союзним підрозділам ефект контратаки. Надзвичайно ефективний проти ворожих кораблів."
+      }
     }
     health = 8800f
     armor = 14f

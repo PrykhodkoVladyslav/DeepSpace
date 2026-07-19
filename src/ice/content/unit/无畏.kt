@@ -35,6 +35,18 @@ class 无畏 :IceUnitType("fearless") {
           "重型空中突击单位.发射荷电粒子高爆弹并辅以激光攻击敌人.装载脉冲发生器用以过载敌军引擎和武器系统.加装护盾辅助发生器以维持友军护盾持续作战,配备裂解炮抵御敌人的攻击"
         details = "帝国舰队的中坚力量."
       }
+      en {
+        localizedName = "Fearless"
+        description =
+          "Heavy airborne assault unit. Fires charged particle high-explosive shells supported by laser weaponry. Equipped with pulse generators to overload enemy engines and weapon systems. Fitted with auxiliary shield generators to sustain allied shields during combat, and armed with disintegration cannons for defense against enemy attacks."
+        details = "The backbone of the Imperial fleet."
+      }
+      uk_UA {
+        localizedName = "Непохитний"
+        description =
+          "Важкий повітряний штурмовий підрозділ. Веде вогонь зарядженими високоексплозивними частинковими снарядами та підтримує атаку лазерами. Оснащений імпульсними генераторами для перевантаження ворожих двигунів і систем озброєння. Має допоміжні генератори щитів для підтримки союзних щитів у бою та дезінтеграційні гармати для захисту від ворожих атак."
+        details = "Основа імперського флоту."
+      }
     }
 
     flying = true

@@ -62,6 +62,14 @@ class 蚀虻 :IceUnitType("corrodfly-head", CorrodflyHead::class.java) {
         localizedName = "蚀虻"
         description = "小型陆行污染生物.拥有多段体节,尾部体节带有喷口,会喷射腐蚀胶体"
       }
+      en {
+        localizedName = "Corrofly"
+        description = "Small terrestrial contamination organism. Possesses multiple body segments, with rear segments equipped with nozzles that spray corrosive gel."
+      }
+      uk_UA {
+        localizedName = "Їдка Муха"
+        description = "Малий наземний забруднювальний організм. Має багатосегментне тіло, а хвостові сегменти оснащені соплами для розпилення корозійного гелю."
+      }
     }
   }
 }

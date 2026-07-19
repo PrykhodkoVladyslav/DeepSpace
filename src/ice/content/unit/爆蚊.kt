@@ -19,6 +19,16 @@ class 爆蚊 :IceUnitType("explosiveMosquito") {
         description = "轻型空中突击单位.向敌人发起自杀式攻击"
         details = "因其酷似蚊虫的行为方式而得名."
       }
+      en {
+        localizedName = "Stingray"
+        description = "Light airborne assault unit. Performs suicidal attacks against enemies."
+        details = "Named for its insect-like behavior resembling that of a mosquito."
+      }
+      uk_UA {
+        localizedName = "Москіт"
+        description = "Легкий повітряний штурмовий підрозділ. Здійснює самогубні атаки на ворогів."
+        details = "Отримав свою назву через поведінку, подібну до поведінки комара."
+      }
     }
     lowAltitude = true
     createWreck = false

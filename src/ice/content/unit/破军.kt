@@ -21,6 +21,14 @@ class 破军 :IceUnitType("breakArmy", TankUnit::class.java) {
         localizedName = "破军"
         description = "中型地面突击单位.发射高爆炮弹攻击敌人"
       }
+      en {
+        localizedName = "Ravager"
+        description = "Medium ground assault unit. Fires high-explosive shells to attack enemies."
+      }
+      uk_UA {
+        localizedName = "Спустошувач"
+        description = "Середній наземний штурмовий підрозділ. Веде вогонь по ворогах потужними фугасними снарядами."
+      }
     }
     armor = 14f
     speed = 0.7f

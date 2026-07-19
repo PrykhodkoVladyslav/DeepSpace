@@ -22,6 +22,16 @@ class 铁卫 :IceUnitType("unit_ironGuard", MechUnit::class.java) {
         localizedName = "铁卫"
         description = "中型地面突击单位.快速交替发射炮弹攻击敌人,会缓慢恢复生命值,开火时减少所受伤害"
       }
+      en {
+        localizedName = "Ironguard"
+        description =
+          "Medium ground assault unit. Rapidly alternates between cannon shots to attack enemies. Slowly regenerates health and reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Залізна варта"
+        description =
+          "Середній наземний штурмовий підрозділ. Швидко веде черговий вогонь з гармат, атакуючи ворогів. Повільно відновлює здоров'я та зменшує отриману шкоду під час ведення вогню."
+      }
     }
     health = 11000f
     armor = 11f

@@ -24,8 +24,15 @@ class 疟蚊 :IceUnitType("unit_mosquito", TimedKillUnit::class.java) {
     localization {
       zh_CN {
         localizedName = "疟蚊"
-        description =
-          "轻型空中突击单位.由飞蠓改进而成,体型略有增长,体表覆盖轻便的几丁质甲壳,在保持机动性的同时获得了一定的防护能力.阵亡后会洒下一滩血肉赘生物."
+        description = "轻型空中突击单位.由飞蠓改进而成,体型略有增长,体表覆盖轻便的几丁质甲壳,在保持机动性的同时获得了一定的防护能力.阵亡后会洒下一滩血肉赘生物."
+      }
+      en {
+        localizedName = "Malaria"
+        description = "Light airborne assault unit. Evolved from midges, it has grown slightly larger and developed a lightweight chitinous shell, gaining additional protection while maintaining high mobility. Upon death, it leaves behind a pool of fleshy organic growth."
+      }
+      uk_UA {
+        localizedName = "Малярія"
+        description = "Легкий повітряний штурмовий підрозділ. Створений на основі мошки, він дещо збільшився в розмірах і вкрився легким хітиновим панциром, отримавши додатковий захист без втрати маневровості. Після загибелі залишає по собі калюжу м'ясистих наростів."
       }
     }
     lifetime = 1800f

@@ -14,6 +14,16 @@ class 雨滴 :IceUnitType("unit_raindrop") {
         description = "轻型空中突击单位.发射速射电弧攻击敌人"
         details = "从小小的雨滴开始"
       }
+      en {
+        localizedName = "Raindrop"
+        description = "Light aerial assault unit. Fires rapid electric arcs to attack enemies."
+        details = "It all begins with a tiny raindrop."
+      }
+      uk_UA {
+        localizedName = "Крапля"
+        description = "Легкий повітряний штурмовий підрозділ. Випускає швидкострільні електричні дуги для атаки ворогів."
+        details = "Усе починається з маленької краплі."
+      }
     }
     circleTarget = true
     lowAltitude = true

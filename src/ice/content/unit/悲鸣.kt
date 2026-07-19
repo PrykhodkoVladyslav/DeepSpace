@@ -34,6 +34,16 @@ class 悲鸣 :IceUnitType("scream", TankUnit::class.java) {
         description =
           "重型地面突击单位.对远距离敌人发射集束弹轰击,对近距离敌人则切换为速射粒子炮与弧光冲击炮.对附近的友军提供庇护和突袭效果.配备单位构筑器,会随时间向战场投放\"重压\""
       }
+      en {
+        localizedName = "Wail"
+        description =
+          "Heavy ground assault unit. Bombards distant enemies with cluster projectiles, switching to rapid-fire particle cannons and arc shock cannons against nearby targets. Provides nearby allies with Shelter and Assault effects. Equipped with a unit constructor, periodically deploys \"Overpressure\" onto the battlefield."
+      }
+      uk_UA {
+        localizedName = "Стогін"
+        description =
+          "Важкий наземний штурмовий підрозділ. Обстрілює віддалені цілі касетними снарядами, а проти ворогів поблизу переходить на швидкострільні плазмові гармати та дугові ударні гармати. Надає найближчим союзникам ефекти «Захист» і «Натиск». Оснащений конструктором підрозділів та з часом розгортає на полі бою «Важкість»."
+      }
     }
     squareShape = true
     omniMovement = false

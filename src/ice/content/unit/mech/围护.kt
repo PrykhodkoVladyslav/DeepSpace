@@ -17,6 +17,14 @@ class 围护 :IceUnitType("unit_enclosure", MechUnit::class.java) {
         localizedName = "围护"
         description = "轻型地面突击单位.快速发射散射激光打击敌人,对近距离目标尤为有效,会缓慢恢复生命值,并在开火时减少所受伤害"
       }
+      en {
+        localizedName = "Bulwark"
+        description = "Light ground assault unit. Rapidly fires spread lasers to strike enemies, especially effective against nearby targets. Slowly regenerates health and reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Оплот"
+        description = "Легкий наземний штурмовий підрозділ. Швидко випускає розсіювальні лазери для ураження ворогів, особливо ефективні проти цілей на близькій відстані. Повільно відновлює здоров'я та зменшує отриману шкоду під час ведення вогню."
+      }
     }
     health = 640f
     armor = 5f

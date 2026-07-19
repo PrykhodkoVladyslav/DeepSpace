@@ -17,6 +17,14 @@ class 扑火 :IceUnitType("putotFire") {
         localizedName = "扑火"
         description = "轻型空中突击单位.以极高的机动性持续骚扰敌军,开火时减少所受伤害"
       }
+      en {
+        localizedName = "Firefly"
+        description = "Light aerial assault unit. Uses extremely high mobility to continuously harass enemy forces. Reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Вогняний рій"
+        description = "Легкий повітряний штурмовий підрозділ. Використовує надзвичайно високу мобільність для постійного переслідування ворожих сил. Зменшує отриману шкоду під час ведення вогню."
+      }
     }
     requirements(IItems.低碳钢, 30, IItems.单晶硅, 10)
     circleTarget = true

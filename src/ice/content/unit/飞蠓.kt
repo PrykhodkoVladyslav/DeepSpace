@@ -23,6 +23,14 @@ class 飞蠓 :IceUnitType("unit_flyingMidges", TimedKillUnit::class.java) {
         localizedName = "飞蠓"
         description = "轻型空中突击单位.体型轻盈,行动敏捷,以其机动性在进攻中占据主导地位,集群作战中有显著优势"
       }
+      en {
+        localizedName = "Midge"
+        description = "Light airborne assault unit. Small and agile, it dominates attacks through superior mobility and gains significant advantages when operating in swarms."
+      }
+      uk_UA {
+        localizedName = "Мошка"
+        description = "Легкий повітряний штурмовий підрозділ. Малий і спритний, завдяки високій мобільності домінує в атаці та отримує значну перевагу під час дій у зграях."
+      }
     }
     lifetime = 1800f
     flying = true

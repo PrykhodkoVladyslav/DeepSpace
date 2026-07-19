@@ -28,6 +28,18 @@ class 文漪 {
             "精英作战部队,能够呼叫增援,以生物钢作为主要材料,辅以陶钢作为电磁屏蔽层,一般装备甚至无法留下划痕,同时在澎湃的能量输出下,其回复速度令人惊异"
           details = "控制中枢与动力炉紧密相连,在内部结构大规模受损导致动力炉失稳融毁后会一同损毁"
         }
+        en {
+          localizedName = "Wripple"
+          description =
+            "Elite combat unit capable of calling in reinforcements. Built primarily from biosteel and reinforced with ceramic alloy electromagnetic shielding, it is nearly impervious to conventional weapons. Its immense energy output grants an astonishing rate of self-repair."
+          details = "The control core is directly linked to the power reactor. If severe internal damage destabilizes and melts down the reactor, both systems will be destroyed together."
+        }
+        uk_UA {
+          localizedName = "Плин"
+          description =
+            "Елітний бойовий підрозділ, здатний викликати підкріплення. Виготовлений переважно з біосталі та доповнений керамічним сплавом для електромагнітного захисту; звичайне озброєння майже не здатне залишити на ньому подряпини. Завдяки потужному енергетичному потоку має надзвичайну швидкість самовідновлення."
+          details = "Ядро керування безпосередньо з'єднане з енергетичним реактором. У разі масштабного пошкодження внутрішньої структури, що призводить до нестабільності та розплавлення реактора, обидві системи будуть знищені разом."
+        }
       }
       abilities.add(FlashbackAbility(0.1f, 4, 80f, IUnitTypes.陨星, wycu))
     }

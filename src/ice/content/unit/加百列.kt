@@ -21,6 +21,18 @@ class 加百列 :IceUnitType("gabriel") {
         details =
           "在教廷尚处襁褓的年代,信徒们在星系间流亡.没有家园,没有工业,没有武装.\n初代加百列诞生于这段最黑暗的岁月.\n它最初只是一具简陋的原型机,由废船上拆下的零件拼凑而成.\n这具粗劣的躯壳,被信徒们赋予了一个名字\"加百列\",传达神旨意的天使.\n教廷的所有胜利,皆由此开始.\n如今,从废船零件到合金躯壳,型号迭代了无数次,加百列却从未离开过前线."
       }
+      en {
+        localizedName = "Gabriel"
+        description = "Light airborne engineering unit. Has relatively low construction and mining efficiency, with limited armament."
+        details =
+          "In the infancy of the Theocracy, the faithful wandered from star system to star system. They had no home, no industry, and no army.\nThe first Gabriel was born during those darkest days.\nAt first, it was nothing more than a crude prototype assembled from salvaged parts stripped from derelict ships.\nThis rough shell was given the name \"Gabriel\" by the faithful—the angel who delivers God's will.\nEvery victory of the Theocracy began here.\nToday, although its design has evolved countless times from salvaged scrap to alloy hulls, Gabriel has never left the front lines."
+      }
+      uk_UA {
+        localizedName = "Гавриїл"
+        description = "Легкий повітряний інженерний підрозділ. Має порівняно низьку ефективність будівництва й видобутку та обмежене озброєння."
+        details =
+          "У часи, коли Теократія лише зароджувалася, віряни поневірялися між зоряними системами. Вони не мали ані дому, ані промисловості, ані війська.\nПерший «Гавриїл» народився в ті найтемніші часи.\nСпочатку це був лише примітивний прототип, зібраний із деталей, знятих із покинутих кораблів.\nЦій грубій оболонці віряни дали ім'я «Гавриїл» — ангел, що несе Божу волю.\nСаме звідси почалися всі перемоги Теократії.\nСьогодні, попри незліченні покоління модернізацій — від уламків покинутих кораблів до сучасних легованих корпусів — «Гавриїл» ніколи не залишав передову."
+      }
     }
     armor = 1f
     speed = 3.5f

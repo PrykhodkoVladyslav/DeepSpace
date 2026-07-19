@@ -35,6 +35,14 @@ class 血俎 :IceUnitType("unit_bloodAltar", TimedKillUnit::class.java) {
         localizedName = "血俎"
         description = "中型空中突击单位.由疟蚊改进而成,体表覆盖坚韧的几丁质甲壳.阵亡后会分裂出飞蠓并洒下一滩血肉赘生物"
       }
+      en {
+        localizedName = "Bloodcarver"
+        description = "Medium airborne assault unit. Evolved from Malaria, its body is covered with a resilient chitinous shell. Upon destruction, it splits into midges and leaves behind a pool of fleshy organic growth."
+      }
+      uk_UA {
+        localizedName = "Кроворіз"
+        description = "Середній повітряний штурмовий підрозділ. Удосконалений з Малярії, його тіло вкрите міцним хітиновим панциром. Після знищення розділяється на мошок і залишає по собі калюжу м'ясистих органічних наростів."
+      }
     }
     health = 3240f
     armor = 3f

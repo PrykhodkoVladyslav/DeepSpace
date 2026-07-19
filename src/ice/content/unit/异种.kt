@@ -21,6 +21,14 @@ class 异种 :IceUnitType("unit_heterogeneous", LegsUnit::class.java) {
         localizedName = "异种"
         description = "重型地面突击单位.对远距离敌人发射不稳定的聚变能量弹,对近距离敌人则发射密集弱化激光"
       }
+      en {
+        localizedName = "Xenotype"
+        description = "Heavy ground assault unit. Fires unstable fusion energy projectiles at distant enemies and unleashes dense weakened laser fire against nearby targets."
+      }
+      uk_UA {
+        localizedName = "Ксенотип"
+        description = "Важкий наземний штурмовий підрозділ. Випускає нестабільні термоядерні енергетичні снаряди по віддалених цілях і веде щільний вогонь послабленими лазерами по ворогах поблизу."
+      }
     }
     health = 127000f
     armor = 31f

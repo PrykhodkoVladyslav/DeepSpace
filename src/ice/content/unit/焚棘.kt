@@ -36,6 +36,16 @@ class 焚棘 :IceUnitType("unit_ardenThorn", ArdenThornUnit::class.java) {
         description = "重型空中突击单位.发射渐速机枪弹和导弹攻击敌人"
         details = "虽定位为侦察单位,但其出色的滞空能力与双重火力配置,使其能在探查敌情的同時实施骚扰性攻击,成为战场上空难以驱离的刺眼存在"
       }
+      en {
+        localizedName = "Thornburn"
+        description = "Heavy airborne assault unit. Fires accelerating machine gun rounds and missiles to attack enemies."
+        details = "Although classified as a reconnaissance unit, its exceptional endurance and dual weapon systems allow it to conduct harassment attacks while gathering intelligence, becoming an unmistakable presence in the skies that is difficult to drive away."
+      }
+      uk_UA {
+        localizedName = "Палючий Шип"
+        description = "Важкий повітряний штурмовий підрозділ. Атакує ворогів прискорюваними кулеметними снарядами та ракетами."
+        details = "Хоча він класифікується як розвідувальний підрозділ, його виняткова здатність триматися в повітрі та подвійна система озброєння дозволяють йому здійснювати диверсійні атаки під час збору розвідданих, перетворюючи його на яскраву присутність у небі, яку важко усунути."
+      }
     }
     speed = 1.3f
     accel = 0.5f

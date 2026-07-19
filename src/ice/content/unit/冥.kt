@@ -23,6 +23,12 @@ class 冥 :IceUnitType("unit_pluto") {
       zh_CN {
         localizedName = "冥"
       }
+      en {
+        localizedName = "Pluto"
+      }
+      uk_UA {
+        localizedName = "Плутон"
+      }
     }
     circleTarget = true
     lowAltitude = true

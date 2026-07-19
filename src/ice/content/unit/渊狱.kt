@@ -33,6 +33,12 @@ class 渊狱 :IceUnitType("unit_abyssPrison") {
       zh_CN {
         localizedName = "渊狱"
       }
+      en {
+        localizedName = "Abyssal Prison"
+      }
+      uk_UA {
+        localizedName = "Тартар"
+      }
     }
 
     flying = true

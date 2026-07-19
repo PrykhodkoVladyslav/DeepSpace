@@ -15,6 +15,14 @@ class 履行 :IceUnitType("unit_execution", UnitWaterMove::class.java) {
         localizedName = "履行"
         description = "轻型海栖突击单位.发射炮弹与导弹攻击敌人,在见证的火力上进行了增强"
       }
+      en {
+        localizedName = "Fulfillment"
+        description = "Light naval assault unit. Fires shells and missiles to attack enemies, enhanced with the firepower of the Witness."
+      }
+      uk_UA {
+        localizedName = "Виконання"
+        description = "Легкий морський штурмовий підрозділ. Атакує ворогів снарядами та ракетами, посилений вогневою міццю Свідка."
+      }
     }
     health = 750f
     hitSize = 16f

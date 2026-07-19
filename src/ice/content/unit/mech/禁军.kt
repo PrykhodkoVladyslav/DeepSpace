@@ -30,6 +30,16 @@ class 禁军 :IceUnitType("unit_forbiddenArmy", MechUnit::class.java) {
         description =
           "重型地面突击单位.对远距离敌人发射穿透能量弹,对近距离敌人则切换为高热激光,并对附近的友军提供坚忍效果.会缓慢恢复生命值,开火时减少所受伤害"
       }
+      en {
+        localizedName = "Praetorian"
+        description =
+          "Heavy ground assault unit. Fires penetrating energy projectiles at distant enemies and switches to high-temperature lasers against nearby targets. Grants resilience to nearby allied units. Slowly regenerates health and reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Преторіанець"
+        description =
+          "Важкий наземний штурмовий підрозділ. Випускає пробивні енергетичні снаряди по віддалених ворогах та перемикається на високотемпературні лазери проти близьких цілей. Надає найближчим союзним підрозділам ефект стійкості. Повільно відновлює здоров'я та зменшує отриману шкоду під час ведення вогню."
+      }
     }
     health = 109000f
     armor = 20f

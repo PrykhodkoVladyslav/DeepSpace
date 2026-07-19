@@ -23,6 +23,16 @@ class 罗织 :IceUnitType("unit_weaver", LegsUnit::class.java) {
         description = "重型地面突击单位.快速交替发射密集穿甲子弹攻击敌人.会缓慢恢复生命值"
         details = "以一种取之不尽的原生六足甲壳生物为基底,移除不必要的器官,进行代谢优化,植入控制芯片,然后整体置入标准外骨骼中"
       }
+      en {
+        localizedName = "Carapace"
+        description = "Heavy ground assault unit. Rapidly alternates between dense armor-piercing rounds to attack enemies. Slowly regenerates health over time."
+        details = "Built upon an endlessly renewable native hexapod organism. Unnecessary organs are removed, metabolism is optimized, control implants are installed, and the entire creature is encased within a standardized exoskeleton."
+      }
+      uk_UA {
+        localizedName = "Панцир"
+        description = "Важкий наземний штурмовий підрозділ. Швидко чергує щільний вогонь бронебійними снарядами для атаки ворогів. Поступово відновлює здоров'я."
+        details = "Створений на основі невичерпного природного шестиногого панцирного організму. Непотрібні органи видалено, метаболізм оптимізовано, встановлено керуючі імпланти, а все тіло поміщено у стандартний екзоскелет."
+      }
     }
     health = 57900f
     hitSize = 32f

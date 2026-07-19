@@ -51,6 +51,16 @@ class 裂片集群 :IceUnitType("clusterLobes", ClusterLobesUnit::class.java) {
         description = "超重型空中毁灭单位."
         details = "阴影宣告到来,\n灰白落定尘埃."
       }
+      en {
+        localizedName = "Shardfall"
+        description = "Superheavy airborne annihilation unit."
+        details = "The shadow announces its arrival,\nleaving only pale dust behind."
+      }
+      uk_UA {
+        localizedName = "Осколкопад"
+        description = "Надважкий повітряний підрозділ знищення."
+        details = "Тінь сповіщає про свій прихід,\nзалишаючи по собі лише блідий пил."
+      }
     }
     setWeapon {
       shoot.apply {

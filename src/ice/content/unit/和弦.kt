@@ -12,6 +12,14 @@ class 和弦 :IceUnitType("chord") {
         localizedName = "和弦"
         description = "轻型空中工程单位.配备大容量货舱与稳定悬挂系统,专精于物资运输任务.常三机编队协同作业"
       }
+      en {
+        localizedName = "Chord"
+        description = "Light airborne engineering unit. Equipped with a high-capacity cargo bay and a stabilized suspension system, it specializes in logistics and material transport. Commonly operates in coordinated three-unit formations."
+      }
+      uk_UA {
+        localizedName = "Акорд"
+        description = "Легкий повітряний інженерний підрозділ. Оснащений містким вантажним відсіком і стабілізованою системою підвіски, спеціалізується на транспортуванні ресурсів. Зазвичай діє у складі скоординованої ланки з трьох машин."
+      }
     }
     drag = 0.017f
     accel = 0.05f

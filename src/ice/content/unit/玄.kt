@@ -23,6 +23,12 @@ class 玄 :IceUnitType("unit_hyun") {
       zh_CN {
         localizedName = "玄"
       }
+      en {
+        localizedName = "Mystic"
+      }
+      uk_UA {
+        localizedName = "Містик"
+      }
     }
     circleTarget = true
     lowAltitude = true

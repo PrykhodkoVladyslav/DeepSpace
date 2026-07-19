@@ -31,6 +31,14 @@ class 欧米茄 :IceUnitType("unit_omega") {
         localizedName = "欧米茄"
         description = "舍弃了建造及挖掘能力换取了更大的载弹量和更强劲的武器系统\n向敌人喷射等离子火焰的同时发射电磁震爆弹"
       }
+      en {
+        localizedName = "Omega"
+        description = "Sacrificed construction and mining capabilities in exchange for increased ammunition capacity and a more powerful weapons system.\nProjects plasma flames at enemies while simultaneously firing electromagnetic shockwave shells."
+      }
+      uk_UA {
+        localizedName = "Омега"
+        description = "Відмовився від будівельних і видобувних можливостей заради збільшеного боєзапасу та потужнішої системи озброєння.\nОбпалює ворогів плазмовим полум'ям одночасно з випуском електромагнітних ударних снарядів."
+      }
     }
     lowAltitude = true
     flying = true

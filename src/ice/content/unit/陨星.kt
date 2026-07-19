@@ -26,6 +26,16 @@ class 陨星 :IceUnitType("meteoricStar") {
         description =
           "重型空中突击单位.投送湍能弹并辅以四门机炮交替攻击敌人,侧翼分别投射弧形护盾抵御攻击.以闪电场电击附近敌军并治疗友军,配备裂解炮抵御敌人的攻击"
       }
+      en {
+        localizedName = "Meteoric Star"
+        description =
+          "Heavy airborne assault unit. Delivers turbulent energy shells supported by four alternating autocannons. Projects arc shields from its flanks for protection, shocks nearby enemies with a lightning field while healing allies, and carries a disintegrator cannon for defense."
+      }
+      uk_UA {
+        localizedName = "Метеорна Зоря"
+        description =
+          "Важкий повітряний штурмовий підрозділ. Запускає турбулентні енергетичні снаряди у поєднанні з чотирма автогарматами, що ведуть вогонь по черзі. Бічні щити захищають його від атак, а електричне поле вражає ворогів поблизу та лікує союзників. Оснащений розщеплювачем для відбиття атак."
+      }
     }
     flying = true
     lowAltitude = true

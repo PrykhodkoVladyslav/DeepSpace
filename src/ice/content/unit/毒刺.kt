@@ -17,6 +17,16 @@ class 毒刺 :IceUnitType("poisonBarb") {
         description = "轻型空中突击单位.发射穿透性激光攻击敌人,每隔一段时间会克隆自身"
         details = "帝国科技的终极产物,几乎可以无限制地自我增殖"
       }
+      en {
+        localizedName = "Stinger"
+        description = "Light airborne assault unit. Fires penetrating lasers at enemies and periodically clones itself."
+        details = "The ultimate achievement of Imperial technology, capable of near-limitless self-replication."
+      }
+      uk_UA {
+        localizedName = "Жало"
+        description = "Легкий повітряний штурмовий підрозділ. Атакує ворогів проникаючими лазерами та періодично створює власні клони."
+        details = "Вершина імперських технологій, здатна майже безмежно відтворювати себе."
+      }
     }
     lowAltitude = true
     flying = true

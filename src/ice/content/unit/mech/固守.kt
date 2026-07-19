@@ -16,6 +16,14 @@ class 固守 :IceUnitType("unit_hold", MechUnit::class.java) {
         localizedName = "固守"
         description = "中型地面突击单位.连续发射穿透性激光束攻击敌人,并以自身为中心投射一片立场护盾.会缓慢恢复生命值,开火时减少所受伤害"
       }
+      en {
+        localizedName = "Hold"
+        description = "Medium ground assault unit. Continuously fires penetrating laser beams to attack enemies and projects a field shield centered around itself. Slowly regenerates health and reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Стійкість"
+        description = "Середній наземний штурмовий підрозділ. Безперервно випускає проникаючі лазерні промені для атаки ворогів та створює навколо себе силовий щит. Повільно відновлює здоров'я та зменшує отриману шкоду під час ведення вогню."
+      }
     }
     health = 1270f
     hitSize = 14f

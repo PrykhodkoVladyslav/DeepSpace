@@ -29,6 +29,16 @@ class 摧枯 :IceUnitType("unit_gravestone") {
         description =
           "精英作战部队,具有凶猛的火力.以生物钢作为主要材料,辅以陶钢作为电磁屏蔽层,一般装备甚至无法留下划痕,同时在澎湃的能量输出下,其回复速度令人惊异\n控制中枢与动力炉紧密相连,在内部结构大规模受损导致动力炉失稳融毁后会一同损毁"
       }
+      en {
+        localizedName = "Gravestone"
+        description =
+          "Elite combat unit with overwhelming firepower. Built primarily from biosteel and reinforced with ceramic alloy electromagnetic shielding, it is nearly impervious to conventional weapons. Its immense energy output enables an astonishing rate of self-repair.\nThe control core is directly linked to the power reactor, causing both to be destroyed together if severe internal damage destabilizes and melts down the reactor."
+      }
+      uk_UA {
+        localizedName = "Могильник"
+        description =
+          "Елітний бойовий підрозділ із нищівною вогневою міццю. Основним матеріалом корпусу є біосталь, доповнена керамічним сплавом для електромагнітного захисту; звичайне озброєння майже не здатне залишити на ньому навіть подряпини. Завдяки потужному енергетичному потоку він має надзвичайну швидкість відновлення.\nЯдро керування безпосередньо з'єднане з енергетичним реактором, тому після критичного пошкодження внутрішньої структури та нестабільного розплавлення реактора обидва компоненти знищуються разом."
+      }
     }
     health = 68700f
     hitSize = 48f

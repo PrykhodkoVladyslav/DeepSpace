@@ -29,6 +29,14 @@ class 黑棘 :IceUnitType("unit_blackThorns") {
         localizedName = "黑棘"
         description = "重型空中突击单位.向远处敌人发射导弹与穿透激光,对近距离目标则切换为穿透激光与空爆火箭快速打击"
       }
+      en {
+        localizedName = "Blackthorn"
+        description = "Heavy airborne assault unit. Fires missiles and piercing lasers at distant enemies, switching to piercing lasers and airburst rockets for rapid strikes against nearby targets."
+      }
+      uk_UA {
+        localizedName = "Чорний Шип"
+        description = "Важкий повітряний штурмовий підрозділ. Запускає ракети та пробивні лазери по далеких ворогах, а проти близьких цілей перемикається на пробивні лазери й осколкові ракети для швидких атак."
+      }
     }
 
     lowAltitude = true

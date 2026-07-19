@@ -14,6 +14,14 @@ class 碎甲 :IceUnitType("shatter", TankUnit::class.java) {
         localizedName = "碎甲"
         description = "轻型地面突击单位.发射高热激光攻击敌人"
       }
+      en {
+        localizedName = "Shatterer"
+        description = "Light ground assault unit. Fires high-temperature lasers to attack enemies."
+      }
+      uk_UA {
+        localizedName = "Руйнівник"
+        description = "Легкий наземний штурмовий підрозділ. Атакує ворогів високотемпературними лазерами."
+      }
     }
     armor = 10f
     speed = 0.8f

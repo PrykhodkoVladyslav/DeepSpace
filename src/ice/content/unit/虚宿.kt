@@ -51,6 +51,14 @@ class 虚宿 :IceUnitType("emptiness") {
         localizedName = "虚宿"
         description = "巨型光棱战列舰,光束反应堆的最终产物,火力至上原则的最终答案,拥有强大的能量护盾"
       }
+      en {
+        localizedName = "Void Lodge"
+        description = "Colossal prismatic battleship, the ultimate product of beam reactors and the final answer to the doctrine of overwhelming firepower. Equipped with a powerful energy shield."
+      }
+      uk_UA {
+        localizedName = "Порожня Обитель"
+        description = "Гігантський призматичний лінійний корабель, остаточний результат розвитку променевих реакторів і втілення принципу абсолютної вогневої переваги. Оснащений потужним енергетичним щитом."
+      }
     }
     armor = 20f
     speed = 0.8f

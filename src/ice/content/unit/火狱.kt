@@ -24,6 +24,12 @@ class 火狱 :MissileUnitType("unit_hellFire") {
       zh_CN {
         localizedName = "火狱"
       }
+      en {
+        localizedName = "Hellfire"
+      }
+      uk_UA {
+        localizedName = "Інферно"
+      }
     }
 
     health = 3600f

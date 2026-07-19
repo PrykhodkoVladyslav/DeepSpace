@@ -20,6 +20,14 @@ class 坚盾 :IceUnitType("unit_strongShield", MechUnit::class.java) {
         localizedName = "坚盾"
         description = "轻型地面突击单位.发射标准子弹攻击敌人,会超频在附近的友军.会缓慢恢复生命值,并在开火时减少所受伤害"
       }
+      en {
+        localizedName = "Aegis"
+        description = "Light ground assault unit. Fires standard ammunition to attack enemies and can overdrive nearby allied units. Slowly regenerates health and reduces incoming damage while firing."
+      }
+      uk_UA {
+        localizedName = "Егіда"
+        description = "Легкий наземний штурмовий підрозділ. Випускає стандартні боєприпаси для атаки ворогів та може прискорювати роботу найближчих союзних підрозділів. Повільно відновлює здоров'я та зменшує отриману шкоду під час ведення вогню."
+      }
     }
     health = 180f
     armor = 2f

@@ -34,6 +34,18 @@ class 噬星 :IceUnitType("unit_starEater") {
           "由黑棘二次蛹化蜕变而成的生物战舰\n可以向敌人发射离散电浆炮和远距离穿透激光,且可以发射火花导弹摧毁敌军工事,对于近距离的敌人则快速发射穿透激光"
         details = "[#D75B6E]她多美啊!"
       }
+      en {
+        localizedName = "Stareater"
+        description =
+          "A living warship evolved from the Black Thorn through a second metamorphosis.\nCapable of firing dispersed plasma cannons and long-range piercing lasers at enemies. It can also launch Spark missiles to destroy hostile fortifications, while rapidly firing piercing lasers against close-range targets."
+        details = "[#D75B6E]How beautiful she is!"
+      }
+      uk_UA {
+        localizedName = "Зореїд"
+        description =
+          "Живий бойовий корабель, що виник унаслідок другої метаморфози Чорного Терну.\nЗдатний вести вогонь розсіяними плазмовими гарматами та далекобійними пронизливими лазерами. Також запускає ракети «Іскра» для знищення ворожих укріплень, а по цілях на близькій відстані веде швидкий вогонь пронизливими лазерами."
+        details = "[#D75B6E]Яка ж вона прекрасна!"
+      }
     }
     lowAltitude = true
     flying = true

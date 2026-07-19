@@ -20,6 +20,12 @@ class 雷精 :MissileUnitType("unit_lightning") {
       zh_CN {
         localizedName = "雷精"
       }
+      en {
+        localizedName = "Lightning"
+      }
+      uk_UA {
+        localizedName = "Блискавиця"
+      }
     }
 
     health = 480f

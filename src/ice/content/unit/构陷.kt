@@ -24,6 +24,16 @@ class 构陷 :IceUnitType("unit_constrict", LegsUnit::class.java) {
         description = "重型地面突击单位.发射大量追踪导弹打击敌人.会缓慢恢复生命值"
         details = "以一种取之不尽的原生六足甲壳生物为基底,移除不必要的器官,进行代谢优化,植入控制芯片,然后整体置入标准外骨骼中"
       }
+      en {
+        localizedName = "Constrict"
+        description = "Heavy ground assault unit. Launches large volleys of tracking missiles against enemies. Slowly regenerates health over time."
+        details = "Built upon an inexhaustible native hexapod arthropod species. Unnecessary organs are removed, its metabolism is optimized, control chips are implanted, and the organism is integrated into a standard exoskeleton."
+      }
+      uk_UA {
+        localizedName = "Стиск"
+        description = "Важкий наземний штурмовий підрозділ. Запускає численні самонавідні ракети по ворогах. Повільно відновлює здоров'я з часом."
+        details = "Створений на основі невичерпного місцевого шестиногого панцирного організму. Непотрібні органи видалено, метаболізм оптимізовано, встановлено керувальні чипи, а весь організм інтегровано у стандартний екзоскелет."
+      }
     }
     health = 57900f
     hitSize = 32f

@@ -26,6 +26,16 @@ class 攻城 :IceUnitType("siege", TankUnit::class.java) {
         description = "中型地面突击单位.使用冲击炮越过防御工事轰击敌方建筑.开火时无法移动"
         details = "炮平四海!!!"
       }
+      en {
+        localizedName = "Siegebreaker"
+        description = "Medium ground assault unit. Uses impact cannons to bombard enemy structures over defensive barriers. Unable to move while firing."
+        details = "Let the cannons level the world!!!"
+      }
+      uk_UA {
+        localizedName = "Обложник"
+        description = "Середній наземний штурмовий підрозділ. Використовує ударні гармати для обстрілу ворожих споруд через оборонні укріплення. Не може рухатися під час ведення вогню."
+        details = "Гармати зрівняють увесь світ!!!"
+      }
     }
     health = 8400f
     armor = 12f

@@ -15,6 +15,14 @@ class 见证 :IceUnitType("unit_witness", UnitWaterMove::class.java) {
         localizedName = "见证"
         description = "轻型海栖突击单位.发射机炮与小型鱼雷攻击敌人,机动性能优异,擅长清理落单的敌方舰只"
       }
+      en {
+        localizedName = "Witness"
+        description = "Light naval assault unit. Attacks enemies with autocannons and light torpedoes. Possesses exceptional mobility and excels at eliminating isolated enemy vessels."
+      }
+      uk_UA {
+        localizedName = "Свідок"
+        description = "Легкий морський штурмовий підрозділ. Атакує ворогів автоматичними гарматами та легкими торпедами. Має виняткову маневровість і спеціалізується на знищенні поодиноких ворожих кораблів."
+      }
     }
     health = 300f
     hitSize = 11f

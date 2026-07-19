@@ -20,6 +20,12 @@ class 火苗 :MissileUnitType("unit_flameMissile") {
       zh_CN {
         localizedName = "火苗"
       }
+      en {
+        localizedName = "Flamelet"
+      }
+      uk_UA {
+        localizedName = "Вогник"
+      }
     }
 
     health = 435f
