@@ -41,6 +41,14 @@ class 电磁损毁 :IceStatusEffect("emp_damaged") {
         localizedName = "电磁损毁"
         description = "单位的系统中枢及各周边电子设备严重损毁,火控核心几乎失效,所有功能设备完全失效,近乎废铁"
       }
+      en {
+        localizedName = "Electromagnetic Damage"
+        description = "The unit's central systems and surrounding electronics are severely damaged. Fire control is nearly disabled, all functional equipment has failed, leaving it almost as scrap metal."
+      }
+      uk_UA {
+        localizedName = "Електромагнітне Пошкодження"
+        description = "Центральні системи та навколишнє електронне обладнання підрозділу зазнали критичних пошкоджень. Система керування вогнем майже вийшла з ладу, усі функціональні модулі відмовили, залишивши майже лише металобрухт."
+      }
     }
     color = Pal.accent
     speedMultiplier = 0.5f

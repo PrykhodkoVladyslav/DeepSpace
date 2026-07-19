@@ -25,6 +25,14 @@ class 熔毁 :IceStatusEffect("meltdown") {
         localizedName = "熔毁"
         description = ""
       }
+      en {
+        localizedName = "Meltdown"
+        description = ""
+      }
+      uk_UA {
+        localizedName = "Розплавлення"
+        description = ""
+      }
     }
     damage = 2.2f
     effect = Fx.melting

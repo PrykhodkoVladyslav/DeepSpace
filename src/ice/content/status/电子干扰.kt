@@ -40,6 +40,14 @@ class 电子干扰 :IceStatusEffect("electric_disturb") {
         localizedName = "电子干扰"
         description = "电子设备受到外部干扰,火控系统将无法正常工作"
       }
+      en {
+        localizedName = "Electronic Interference"
+        description = "Electronic systems are disrupted by external interference, preventing the fire control system from operating normally."
+      }
+      uk_UA {
+        localizedName = "Електронні Перешкоди"
+        description = "Електронні системи зазнають зовнішніх перешкод, через що система керування вогнем не може нормально працювати."
+      }
     }
     color = Pal.accent
   }
