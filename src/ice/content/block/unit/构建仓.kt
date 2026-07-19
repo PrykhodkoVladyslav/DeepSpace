@@ -18,6 +18,14 @@ class 构建仓 :Reconstructor("block_buildWarehouses") {
         localizedName = "构建仓"
         description = "升级基础单位"
       }
+      en {
+        localizedName = "Build Warehouse"
+        description = "Upgrades basic units"
+      }
+      uk_UA {
+        localizedName = "Склад будівництва"
+        description = "Оновлює базові одиниці"
+      }
     }
     size = 3
     health = 400

@@ -17,6 +17,14 @@ class 装配厂 :UnitFactory("block_assemblyPlant") {
         localizedName = "装配厂"
         description = "生成基础单位"
       }
+      en {
+        localizedName = "Assembly Plant"
+        description = "Generates basic units"
+      }
+      uk_UA {
+        localizedName = "Збиральний завод"
+        description = "Генерує базові одиниці"
+      }
     }
     size = 3
     health = 600

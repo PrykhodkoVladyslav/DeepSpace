@@ -34,6 +34,14 @@ class 传奇铸造塔: HoveringUnitFactory("cstr_2"){
         localizedName = "传奇铸造塔"
         description = "大型集成单位建造塔,可以直接进行大型单位的建造,完成建造的目标可设置释放位置,它可以以很快的速度建造小型单位"
       }
+      en {
+        localizedName = "Legendary Casting Tower"
+        description = "Large integrated unit construction tower. Can directly construct large units. The release position of completed construction targets can be set. It can construct small units at very high speed."
+      }
+      uk_UA {
+        localizedName = "Легендарна литійна вежа"
+        description = "Велика інтегрована вежа будівництва одиниць. Може безпосередньо будувати великі одиниці. Позицію звільнення завершених цілей будівництва можна налаштувати. Вона може будувати малі одиниці з дуже високою швидкістю."
+      }
     }
     requirements(
       Category.units,

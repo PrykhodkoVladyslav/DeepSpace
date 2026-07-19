@@ -37,6 +37,18 @@ class 神话影射仪:HoveringUnitFactory("cstr_3"){
         details =
           "“无论从什么角度上看,这台机器已经足以完全改变战场局势,由这台机器可以建造的宏伟巨筑所具备的可怕力量,以及由它在短短几分钟内创造出的浩浩荡荡的钢铁洪流,无论哪个都能轻而易举的将敌人碾碎"
       }
+      en {
+        localizedName = "Mythical Projector"
+        description = "Extra-large unit construction factory. Can handle construction tasks for almost all units, and can construct small and medium units at extremely high speed."
+        details =
+          "From any angle, this machine is sufficient to completely change the battlefield situation. The terrifying power possessed by the magnificent structures that can be built by this machine, and the mighty steel tide it creates in just a few minutes, either can easily crush the enemy."
+      }
+      uk_UA {
+        localizedName = "Міфічний проектор"
+        description = "Надвеликий завод будівництва одиниць. Може виконувати завдання будівництва майже для всіх одиниць і може будувати малі та середні одиниці з надзвичайно високою швидкістю."
+        details =
+          "З будь-якого боку ця машина здатна повністю змінити ситуацію на полі бою. Жахлива сила, якою володіють величні споруди, що можуть бути побудовані цією машиною, і могутній сталевий потік, який вона створює за лічені хвилини, будь-який з них може легко розчавити ворога."
+      }
     }
     requirements(
       Category.units, ItemStack.with(

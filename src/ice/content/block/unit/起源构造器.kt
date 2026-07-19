@@ -18,6 +18,18 @@ class 起源构造器:SglUnitFactory("cstr_1"){
         description =
           "比起繁杂冗长的重构工作,我们将所有工作都集成在了你看到的这坐机器当中,这可以节省出大量的空间与成本,为对抗敌人创造更多的优势"
       }
+      en {
+        localizedName = "Origin Constructor"
+        description = "Highly integrated mechanical construction factory. Can directly handle construction tasks for small and medium units."
+        details =
+          "Compared to the complex and lengthy reconstruction work, we have integrated all the work into the machine you see. This can save a lot of space and cost, creating more advantages for fighting the enemy."
+      }
+      uk_UA {
+        localizedName = "Конструктор походження"
+        description = "Високоінтегрований механічний завод будівництва. Може безпосередньо виконувати завдання будівництва для малих та середніх одиниць."
+        details =
+          "Порівняно зі складною та довгою роботою з реконструкції, ми інтегрували всю роботу в машину, яку ви бачите. Це може заощадити багато місця та коштів, створюючи більше переваг для боротьби з ворогом."
+      }
     }
     requirements(Category.units, IItems.单晶硅, 120, IItems.锌锭, 160, IItems.钍锭, 90, IItems.铝锭, 120, IItems.强化合金, 135)
     size = 5
