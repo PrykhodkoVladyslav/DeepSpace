@@ -62,8 +62,18 @@ object IStatus {
   val 封冻 = IceStatusEffect("freeze") {
     localization {
       zh_CN {
-        localizedName = "封冻"
-        description = "超低温将快速脆化装甲直至开裂,而后渗透的寒气会对内部结构造成打击"
+          localizedName = "封冻"
+          description = "超低温将快速脆化装甲直至开裂,而后渗透的寒气会对内部结构造成打击"
+      }
+
+      en {
+          localizedName = "Deep Freeze"
+          description = "Extreme cold rapidly embrittles armor until it fractures, allowing penetrating frost to damage the internal structure."
+      }
+
+      uk_UA {
+          localizedName = "Глибоке замороження"
+          description = "Наднизька температура швидко робить броню крихкою, доки вона не розтріскується, після чого пронизливий холод ушкоджує внутрішню конструкцію."
       }
     }
     setUpdate { unit, e ->
@@ -101,8 +111,18 @@ object IStatus {
     speedMultiplier = 1.5f
     localization {
       zh_CN {
-        localizedName = "集群"
-        description = "激活协同协议,单位间建立纳米机器人共享网络,效应随范围内友方单位数量增强"
+          localizedName = "集群"
+          description = "激活协同协议,单位间建立纳米机器人共享网络,效应随范围内友方单位数量增强"
+      }
+
+      en {
+          localizedName = "Swarm"
+          description = "Activates a cooperative protocol, establishing a shared nanobot network between units. The effect grows stronger as the number of nearby allied units increases."
+      }
+
+      uk_UA {
+          localizedName = "Рій"
+          description = "Активує протокол взаємодії, створюючи спільну мережу нанороботів між одиницями. Ефект посилюється зі збільшенням кількості союзних одиниць поблизу."
       }
     }
   }
@@ -110,8 +130,18 @@ object IStatus {
     damage = 70 / 60f
     localization {
       zh_CN {
-        localizedName = "圣火"
-        description = "持续造成目标最大生命值百分比的火焰伤害"
+          localizedName = "圣火"
+          description = "持续造成目标最大生命值百分比的火焰伤害"
+      }
+
+      en {
+          localizedName = "Holy Fire"
+          description = "Continuously deals fire damage equal to a percentage of the target's maximum health."
+      }
+
+      uk_UA {
+          localizedName = "Священний вогонь"
+          description = "Безперервно завдає шкоди вогнем, що дорівнює відсотку від максимального запасу здоров'я цілі."
       }
     }
   }
@@ -121,6 +151,16 @@ object IStatus {
       zh_CN {
         localizedName = "邪火"
         description = "持续侵蚀生命,扣除单位生命上限"
+      }
+
+      en {
+        localizedName = "Unholy Fire"
+        description = "Continuously corrodes life, reducing the target's maximum health."
+      }
+
+      uk_UA {
+        localizedName = "Нечестивий вогонь"
+        description = "Безперервно роз'їдає життєву силу, зменшуючи максимальний запас здоров'я цілі."
       }
     }
   }
@@ -133,6 +173,16 @@ object IStatus {
         localizedName = "破甲I"
         description = "扣除目标单位护甲,使其遭受的伤害显著提升"
       }
+
+      en {
+        localizedName = "Armor Break I"
+        description = "Reduces the target's armor, significantly increasing the damage it takes."
+      }
+
+      uk_UA {
+        localizedName = "Пробиття броні I"
+        description = "Зменшує броню цілі, значно збільшуючи отримувану нею шкоду."
+      }
     }
   }
   val 破甲II = IceStatusEffect("armorBreakII") {
@@ -142,6 +192,16 @@ object IStatus {
       zh_CN {
         localizedName = "破甲II"
         description = "扣除目标单位护甲,使其遭受的伤害显著提升"
+      }
+
+      en {
+        localizedName = "Armor Break II"
+        description = "Reduces the target's armor, significantly increasing the damage it takes."
+      }
+
+      uk_UA {
+        localizedName = "Пробиття броні II"
+        description = "Зменшує броню цілі, значно збільшуючи отримувану нею шкоду."
       }
     }
   }
@@ -153,6 +213,14 @@ object IStatus {
         localizedName = "破甲III"
         description = "扣除目标单位护甲,使其遭受的伤害显著提升"
       }
+      en {
+        localizedName = "Armor Break III"
+        description = "Reduces the target unit's armor, significantly increasing the damage it receives"
+      }
+      uk_UA {
+        localizedName = "Пробиття броні III"
+        description = "Зменшує броню цілі, значно збільшуючи отримувану нею шкоду"
+      }
     }
   }
   val 破甲IV = IceStatusEffect("armorBreakIV") {
@@ -162,6 +230,14 @@ object IStatus {
       zh_CN {
         localizedName = "破甲IV"
         description = "扣除目标单位护甲,使其遭受的伤害显著提升"
+      }
+      en {
+        localizedName = "Armor Break IV"
+        description = "Reduces the target unit's armor, significantly increasing the damage it receives"
+      }
+      uk_UA {
+        localizedName = "Пробиття броні IV"
+        description = "Зменшує броню цілі, значно збільшуючи отримувану нею шкоду"
       }
     }
   }
@@ -173,6 +249,14 @@ object IStatus {
         localizedName = "穿甲"
         description = "完全无视目标护甲,直接穿透对本体造成伤害"
       }
+      en {
+        localizedName = "Armor Penetration"
+        description = "Completely ignores the target's armor, directly penetrating it to deal damage to the core"
+      }
+      uk_UA {
+        localizedName = "Бронепробиття"
+        description = "Повністю ігнорує броню цілі, напряму пробиваючи її та завдаючи шкоди самому тілу"
+      }
     }
   }
   val 电磁脉冲 = IceStatusEffect("electromagneticPulse") {
@@ -182,6 +266,14 @@ object IStatus {
       zh_CN {
         localizedName = "电磁脉冲"
         description = "突发宽带电磁辐射的高强度脉冲,用于破坏敌人的电子设备"
+      }
+      en {
+        localizedName = "Electromagnetic Pulse"
+        description = "A high-intensity burst of broadband electromagnetic radiation used to disrupt enemy electronic equipment"
+      }
+      uk_UA {
+        localizedName = "Електромагнітний імпульс"
+        description = "Потужний імпульс широкосмугового електромагнітного випромінювання, що використовується для виведення з ладу електронного обладнання ворога"
       }
     }
   }
@@ -208,6 +300,14 @@ object IStatus {
         localizedName = "辐射"
         description = "经过一次能级降低的辐射,依旧能干扰精密电路并对其造成相当程度的损伤"
       }
+      en {
+        localizedName = "Radiation"
+        description = "Radiation weakened by one energy level, still capable of interfering with precision circuits and causing considerable damage"
+      }
+      uk_UA {
+        localizedName = "Радіація"
+        description = "Радіація зі зниженим на один енергетичний рівень впливом, яка все ще здатна порушувати роботу точних електронних схем і завдавати їм значних пошкоджень"
+      }
     }
   }
   val 染血 = IceStatusEffect("stainedBlood") {
@@ -217,6 +317,14 @@ object IStatus {
         localizedName = "染血"
         description = "染血"
       }
+      en {
+        localizedName = "Bloodstained"
+        description = "Bloodstained"
+      }
+      uk_UA {
+        localizedName = "Закривавлений"
+        description = "Закривавлений"
+      }
     }
   }
   val 憎恨 = IceStatusEffect("hatred") {
@@ -224,6 +332,14 @@ object IStatus {
       zh_CN {
         localizedName = "憎恨"
         description = "憎恨"
+      }
+      en {
+        localizedName = "Hatred"
+        description = "Hatred"
+      }
+      uk_UA {
+        localizedName = "Ненависть"
+        description = "Ненависть"
       }
     }
   }
@@ -233,6 +349,14 @@ object IStatus {
       zh_CN {
         localizedName = "流血"
         description = "流血"
+      }
+      en {
+        localizedName = "Bleeding"
+        description = "Bleeding"
+      }
+      uk_UA {
+        localizedName = "Кровотеча"
+        description = "Кровотеча"
       }
     }
     setUpdate { u, s ->
@@ -251,6 +375,14 @@ object IStatus {
         localizedName = "回响"
         description = ""
       }
+      en {
+        localizedName = "Echo"
+        description = ""
+      }
+      uk_UA {
+        localizedName = "Відлуння"
+        description = ""
+      }
     }
   }
   val 搏动 = IceStatusEffect("throb") {
@@ -262,6 +394,14 @@ object IStatus {
         localizedName = "搏动"
         description = "畸变在血管中蔓延,欢愉在骨髓中滋长,血肉在律动中苏醒"
       }
+      en {
+        localizedName = "Pulsation"
+        description = "The mutation spreads through the veins, pleasure grows within the marrow, and flesh awakens with the rhythm"
+      }
+      uk_UA {
+        localizedName = "Пульсація"
+        description = "Мутація поширюється по кровоносних судинах, насолода проростає в кістковому мозку, а плоть пробуджується в ритмі"
+      }
     }
   }
   val 寄生 = IceStatusEffect("parasitism") {
@@ -272,6 +412,14 @@ object IStatus {
         localizedName = "寄生"
         description = "异种的胚胎在脏器间扎根,血肉在无声中溃烂,骨骼在无序里软化,直到我们新增一员"
       }
+      en {
+        localizedName = "Parasitism"
+        description = "An alien embryo takes root among the organs, flesh rots in silence, bones soften in disorder, until we gain a new member"
+      }
+      uk_UA {
+        localizedName = "Паразитизм"
+        description = "Зародок чужорідної істоти вкорінюється між органами, плоть безмовно гниє, кістки розм'якшуються в хаосі, доки ми не отримаємо нового члена"
+      }
     }
   }
   val 融合 = IceStatusEffect("merge") {
@@ -280,6 +428,14 @@ object IStatus {
       zh_CN {
         localizedName = "融合"
         description = "生物的界限在混沌中消融,纠缠,渗透,重组,褪去残存的躯壳,将我们的力量合为一体"
+      }
+      en {
+        localizedName = "Fusion"
+        description = "The boundaries of life dissolve in chaos, intertwining, infiltrating, and recombining, shedding the remnants of old shells and merging our strength into one"
+      }
+      uk_UA {
+        localizedName = "Злиття"
+        description = "Межі живих істот розчиняються в хаосі, переплітаються, проникають одна в одну та перебудовуються, скидаючи залишки оболонок і об'єднуючи нашу силу в єдине ціле"
       }
     }
   }
@@ -290,6 +446,14 @@ object IStatus {
         localizedName = "维生I"
         description = "激活纳米机器人集群,将储存的硅矿微粒与裂解液转化为生物修复单元,持续重构受损机体"
       }
+      en {
+        localizedName = "Regeneration I"
+        description = "Activates a swarm of nanobots, converting stored silicon mineral particles and lysis fluid into biological repair units to continuously reconstruct damaged tissue"
+      }
+      uk_UA {
+        localizedName = "Відновлення I"
+        description = "Активує рій нанороботів, перетворюючи збережені частинки кремнієвих мінералів і лізуючу рідину на біологічні відновлювальні одиниці для постійної реконструкції пошкодженого тіла"
+      }
     }
   }
   val 维生II = IceStatusEffect("vitalFixII") {
@@ -298,6 +462,14 @@ object IStatus {
       zh_CN {
         localizedName = "维生II"
         description = "激活纳米机器人集群,将储存的硅矿微粒与裂解液转化为生物修复单元,持续重构受损机体"
+      }
+      en {
+        localizedName = "Regeneration II"
+        description = "Activates a swarm of nanobots, converting stored silicon mineral particles and lysis fluid into biological repair units to continuously reconstruct damaged tissue"
+      }
+      uk_UA {
+        localizedName = "Відновлення II"
+        description = "Активує рій нанороботів, перетворюючи збережені частинки кремнієвих мінералів і лізуючу рідину на біологічні відновлювальні одиниці для постійної реконструкції пошкодженого тіла"
       }
     }
   }
@@ -335,6 +507,16 @@ object IStatus {
         description = "脉冲"
         details = " E!M!P!"
       }
+      en {
+        localizedName = "Pulse"
+        description = "Pulse"
+        details = " E!M!P!"
+      }
+      uk_UA {
+        localizedName = "Імпульс"
+        description = "Імпульс"
+        details = " E!M!P!"
+      }
     }
   }
   val 鼓舞 = IceStatusEffect("inspires") {
@@ -353,6 +535,14 @@ object IStatus {
       zh_CN {
         localizedName = "鼓舞"
         description = "为周围友军持续提供(具有鼓舞的单位)20%的属性倍率,且每秒回复相当于(具有鼓舞的单位)0.1%生命上限的生命值"
+      }
+      en {
+        localizedName = "Inspiration"
+        description = "Continuously grants nearby allies (units with Inspiration) a 20% attribute multiplier, and restores health every second equal to 0.1% of the (Inspiration unit's) maximum health"
+      }
+      uk_UA {
+        localizedName = "Натхнення"
+        description = "Постійно надає союзникам поблизу (юнітам із Натхненням) 20% множник характеристик, а також щосекунди відновлює здоров'я в розмірі 0,1% від максимального запасу здоров'я (юніта з Натхненням)"
       }
     }
     effectChance = 0.05f
@@ -411,6 +601,16 @@ object IStatus {
         description = "过载动力炉并重导向其能量配给以进行主炮开火或特殊行动,期间过量的能量可能损坏管路"
         details = "以此为信"
       }
+      en {
+        localizedName = "Overheat"
+        description = "Overloads the power core and redirects its energy allocation for main cannon fire or special actions, while excess energy may damage the conduits during the process"
+        details = "By this, we believe"
+      }
+      uk_UA {
+        localizedName = "Перегрів"
+        description = "Перевантажує енергетичне ядро та перенаправляє розподіл енергії для пострілу з головної гармати або спеціальних дій, під час чого надлишкова енергія може пошкодити магістралі"
+        details = "Цим ми віримо"
+      }
     }
     disarm = true
     dragMultiplier = 1f
@@ -433,6 +633,14 @@ object IStatus {
       zh_CN {
         localizedName = "屠戮"
         description = "屠戮"
+      }
+      en {
+        localizedName = "Massacre"
+        description = "Massacre"
+      }
+      uk_UA {
+        localizedName = "Різанина"
+        description = "Різанина"
       }
     }
     damageMultiplier = 1.5f
@@ -459,6 +667,14 @@ object IStatus {
         localizedName = "损毁"
         description = "损毁"
       }
+      en {
+        localizedName = "Destroyed"
+        description = "Destroyed"
+      }
+      uk_UA {
+        localizedName = "Знищений"
+        description = "Знищений"
+      }
     }
     healthMultiplier = 0.77f
     speedMultiplier = 0.85f
@@ -481,6 +697,14 @@ object IStatus {
         localizedName = "迅疗"
         description = "释放纳米机器人极速修复机体"
       }
+      en {
+        localizedName = "Rapid Healing"
+        description = "Releases nanobots to rapidly repair the body"
+      }
+      uk_UA {
+        localizedName = "Швидке відновлення"
+        description = "Вивільняє нанороботів для швидкого відновлення організму"
+      }
     }
     healthMultiplier = 1.2f
     speedMultiplier = 1.05f
@@ -501,6 +725,14 @@ object IStatus {
         localizedName = "熔融"
         description = "利用超高温的金属射流摧毁敌方单位的装甲及内部结构"
       }
+      en {
+        localizedName = "Melting"
+        description = "Uses an ultra-high-temperature metal jet to destroy enemy armor and internal structures"
+      }
+      uk_UA {
+        localizedName = "Плавлення"
+        description = "Використовує надвисокотемпературний металевий струмінь для знищення броні та внутрішніх структур ворожих одиниць"
+      }
     }
     healthMultiplier = 0.8f
     speedMultiplier = 0.9f
@@ -513,6 +745,14 @@ object IStatus {
       zh_CN {
         localizedName = "衰变"
         description = "使原子迅速衰变,n被附着的单位会转变为放射源,持续辐射周围的一切事物"
+      }
+      en {
+        localizedName = "Decay"
+        description = "Causes rapid atomic decay, turning affected units into radioactive sources that continuously emit radiation"
+      }
+      uk_UA {
+        localizedName = "Розпад"
+        description = "Викликає швидкий атомний розпад, перетворюючи відповідні одиниці на радіоактивні джерела, які постійно випроменюють радіацію"
       }
     }
     reloadMultiplier = 0.8f
@@ -564,12 +804,28 @@ object IStatus {
         localizedName = "蚀骨"
         description = "烈焰如附骨之疽,除之不尽"
       }
+      en {
+        localizedName = "Bone Erosion"
+        description = "Flames cling like a disease that has rooted into the bones, impossible to completely extinguish"
+      }
+      uk_UA {
+        localizedName = "Кісткова корозія"
+        description = "Полум'я, наче хвороба, що в'їлася в кістки, його неможливо повністю знищити"
+      }
     }
   }
   val 突袭 = IceStatusEffect("pounces") {
     localization {
       zh_CN {
         localizedName = "突袭"
+        description = ""
+      }
+      en {
+        localizedName = "Pounce"
+        description = ""
+      }
+      uk_UA {
+        localizedName = "Стрімкий напад"
         description = ""
       }
     }
@@ -618,6 +874,16 @@ object IStatus {
         description = "打散目标的分子结构并干扰原子链,进而液化装甲与软组织"
         details = "污秽涌动,侵蚀不息"
       }
+      en {
+        localizedName = "Filthy Erosion"
+        description = "Disrupts the molecular structure and interferes with atomic bonds, liquefying armor and soft tissue"
+        details = "Filth surges, erosion never ceases"
+      }
+      uk_UA {
+        localizedName = "Мерзотна ерозія"
+        description = "Руйнує молекулярну структуру цілі та порушує атомні зв'язки, поступово розріджуючи броню й м'які тканини"
+        details = "Скверна пульсує, руйнування не припиняється"
+      }
     }
     damage = 5f
     effectChance = 0.2f
@@ -646,6 +912,14 @@ object IStatus {
         localizedName = "湍能"
         description = "利用剧烈反应的能量破坏表层装甲稳定性,而后侵蚀内部结构"
       }
+      en {
+        localizedName = "Turbulent Energy"
+        description = "Uses the energy of violent reactions to destabilize surface armor, then erodes internal structures"
+      }
+      uk_UA {
+        localizedName = "Турбулентна енергія"
+        description = "Використовує енергію бурхливих реакцій для руйнування стабільності поверхневої броні, після чого роз'їдає внутрішні структури"
+      }
     }
     healthMultiplier = 0.9f
     color = Color.valueOf("A9D8FF")
@@ -668,6 +942,14 @@ object IStatus {
       zh_CN {
         localizedName = "日耀"
         description = "将太阳之力汇于指尖"
+      }
+      en {
+        localizedName = "Sunshine"
+        description = "Condenses the power of the sun into the fingertips"
+      }
+      uk_UA {
+        localizedName = "Сонячне сяйво"
+        description = "Збирає силу сонця на кінчиках пальців"
       }
     }
     effect = ParticleEffect().apply {
@@ -694,6 +976,14 @@ object IStatus {
       zh_CN {
         localizedName = "电链"
         description = "闪电,会连击两次"
+      }
+      en {
+        localizedName = "Electric Chain"
+        description = "Lightning that strikes twice in succession"
+      }
+      uk_UA {
+        localizedName = "Електричний ланцюг"
+        description = "Блискавка, яка завдає два послідовні удари"
       }
     }
     val range = 8 * 30f
@@ -758,6 +1048,14 @@ object IStatus {
         localizedName = "坍缩"
         description = ""
       }
+      en {
+        localizedName = "Collapse"
+        description = ""
+      }
+      uk_UA {
+        localizedName = "Крах"
+        description = ""
+      }
     }
   }
   val 幻像 = IceStatusEffect("illusion") {
@@ -765,6 +1063,14 @@ object IStatus {
       zh_CN {
         localizedName = "幻像"
         description = "通过全相投影装置,将光线转化为可以承受一定程度打击的固体形态,创造出作战单位的三维复制体"
+      }
+      en {
+        localizedName = "Illusion"
+        description = "Creates a three-dimensional copy of a unit by converting light into a solid form that can withstand a certain level of damage"
+      }
+      uk_UA {
+        localizedName = "Ілюзія"
+        description = "Створює тримірний копію одиниці шляхом перетворення світла в суцільну форму, яка може витримати певний рівень ураження"
       }
     }
     damageMultiplier = 0f
@@ -785,6 +1091,14 @@ object IStatus {
       zh_CN {
         localizedName = "狂乱"
         description = "混乱与疯狂"
+      }
+      en {
+        localizedName = "Frenzy"
+        description = "Chaos and madness"
+      }
+      uk_UA {
+        localizedName = "Шаленство"
+        description = "Хаос і божевілля"
       }
     }
   }
@@ -807,6 +1121,14 @@ object IStatus {
         localizedName = "坚忍"
         description = ""
       }
+      en {
+        localizedName = "Stoical"
+        description = "A calm and composed demeanor that enhances resilience"
+      }
+      uk_UA {
+        localizedName = "Стоїчний"
+        description = "Спокійний і сконцентрований стан, який підвищує стійкість"
+      }
     }
   }
   val 庇护 = IceStatusEffect("asylum") {
@@ -814,6 +1136,14 @@ object IStatus {
       zh_CN {
         localizedName = "庇护"
         description = "为单位填充一层动能泡沫内衬,内衬在伸缩之间将大量分散装甲承受的猛烈冲击"
+      }
+      en {
+        localizedName = "Asylum"
+        description = "Fills the unit with a layer of kinetic foam padding, which absorbs and disperses incoming impacts"
+      }
+      uk_UA {
+        localizedName = "Укриття"
+        description = "Заповнює одиницю шаром кінетичної піни, яка поглинає та розподіляє надходящі удари"
       }
     }
     reloadMultiplier = 1.1f
@@ -855,6 +1185,14 @@ object IStatus {
         localizedName = "复仇"
         description = ""
       }
+      en {
+        localizedName = "Revenge"
+        description = ""
+      }
+      uk_UA {
+        localizedName = "Помста"
+        description = ""
+      }
     }
     damageMultiplier = 1.8f
     healthMultiplier = 0.8f
@@ -879,6 +1217,14 @@ object IStatus {
         localizedName = "反扑"
         description = "每损失1%生命值获得1.5%各项属性值"
       }
+      en {
+        localizedName = "Counterattack"
+        description = "Gain 1.5% to all attributes for every 1% of health lost"
+      }
+      uk_UA {
+        localizedName = "Контратака"
+        description = "Отримує 1,5% до всіх характеристик за кожні 1% втраченого здоров'я"
+      }
     }
     color = Color.valueOf("FB7A83")
     effectChance = 0.01f
@@ -895,6 +1241,14 @@ object IStatus {
       zh_CN {
         localizedName = "作弊"
         description = "没关就是开了?"
+      }
+      en {
+        localizedName = "Cheat"
+        description = "Not enabled means it's enabled?"
+      }
+      uk_UA {
+        localizedName = "Шахрайство"
+        description = "Якщо не включено, то включено?"
       }
     }
     damageMultiplier = 99e9f
@@ -920,6 +1274,14 @@ object IStatus {
     localization {
       zh_CN {
         localizedName = "斩杀"
+        description = ""
+      }
+      en {
+        localizedName = "Kill"
+        description = ""
+      }
+      uk_UA {
+        localizedName = "Вбивство"
         description = ""
       }
     }
@@ -955,6 +1317,14 @@ object IStatus {
       zh_CN {
         localizedName = "结晶化"
         description = "FEX物质在单位表面富集结晶产生不稳定的晶体壳,使单位会与活性的FEX结晶相互作用,同时在受到攻击时会造成额外的衍生伤害"
+      }
+      en {
+        localizedName = "Crystallization"
+        description = "FEX material accumulates on the unit's surface, forming unstable crystal shells that interact with active FEX crystals, causing additional derived damage upon impact"
+      }
+      uk_UA {
+        localizedName = "Кристалізація"
+        description = "Матеріал FEX накопичується на поверхні одиниці, утворюючи нестабільні кристалічні оболонки, які взаємодіють з активними кристалами FEX, викликаючи додатковий похідний шкоду при ударі"
       }
     }
     speedMultiplier = 0.34f
@@ -1017,6 +1387,14 @@ object IStatus {
         localizedName = "暮春"
         description = "受力场控制的纳米机器人会干扰单位的行动,破坏其设施"
       }
+      en {
+        localizedName = "Wild Growth"
+        description = "Nanobots controlled by the field interfere with the unit's movement and damage its systems"
+      }
+      uk_UA {
+        localizedName = "Дикість"
+        description = "Наноботи, що контролюються полем, заважають руху одиниці та пошкоджують її системи"
+      }
     }
     color = Tmp.c1.set(Pal.heal).lerp(Color.black, 0.25f).cpy()
     speedMultiplier = 0.3f
@@ -1029,6 +1407,14 @@ object IStatus {
       zh_CN {
         localizedName = "临春"
         description = "纳米机器人矩阵会在力场的引导下为单位提供增益"
+      }
+      en {
+        localizedName = "Spring Arrival"
+        description = "The nanobot matrix provides enhancements to units under the guidance of a force field"
+      }
+      uk_UA {
+        localizedName = "Прихід весни"
+        description = "Матриця нанороботів під керуванням силового поля надає підсилення юнітам"
       }
     }
     color = Pal.heal
@@ -1044,6 +1430,14 @@ object IStatus {
       zh_CN {
         localizedName = "锁定"
         description = "单位受到的攻击有概率造成更高的伤害,这取决于锁定的强度"
+      }
+      en {
+        localizedName = "Locking"
+        description = "Attacks against the unit have a chance to cause more damage, depending on the locking strength"
+      }
+      uk_UA {
+        localizedName = "Блокування"
+        description = "Атаки проти одиниці мають шанс завдати більше шкоди, залежно від сили блокування"
       }
     }
     color = Pal.remove
@@ -1095,6 +1489,14 @@ object IStatus {
         localizedName = "冻结"
         description = "在极低的温度下,单位的系统将很难正常工作,在寒气完全渗透到单位的核心后,它将被冻成一个巨大的冰块"
       }
+      en {
+        localizedName = "Freezing"
+        description = "At extremely low temperatures, the unit's systems will have difficulty functioning normally. Once the cold fully penetrates the unit's core, it will be frozen into a massive ice block"
+      }
+      uk_UA {
+        localizedName = "Заморожування"
+        description = "У дуже низьких температурах системи одиниці будуть мати проблеми з нормальним функціонуванням. Після повного проникнення холоду в ядро одиниці, вона буде заморожена в великий блок льоду"
+      }
     }
     color = SglDrawConst.frost
     speedMultiplier = 0.5f
@@ -1139,6 +1541,14 @@ object IStatus {
       zh_CN {
         localizedName = "凛冻"
         description = "单位被寒气被彻底冰封,无法行动,如果寒气继续加深,在冰块碎裂时,它会彻底碎成一堆粉末"
+      }
+      en {
+        localizedName = "Frost Freeze"
+        description = "The unit is completely frozen by the frost, unable to move. If the cold continues to intensify, it will shatter into a pile of powder when the ice breaks"
+      }
+      uk_UA {
+        localizedName = "Морозне замерзання"
+        description = "Юніт повністю скутий холодом і не може діяти. Якщо мороз посилюється, під час руйнування льоду він розсиплеться на купу порошку"
       }
     }
     speedMultiplier = 0f
