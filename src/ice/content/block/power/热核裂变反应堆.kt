@@ -22,6 +22,11 @@ class 热核裂变反应堆 :NuclearReactor("heatNuclearReactor") {
         description =
           "Uses thorium fuel for nuclear fission reactions to generate massive amounts of power. Requires large quantities of cryofluid for cooling to prevent overheating, or a violent explosion will occur."
       }
+      uk_UA {
+        localizedName = "Термоядерний реактор поділу"
+        description =
+          "Використовує торієве паливо для ядерних реакцій поділу для генерації величезної кількості енергії. Потребує великої кількості кріогенної рідини для охолодження для запобігання перегріву, інакше станеться вибух."
+      }
     }
     fuelItem = IItems.钍锭
     health = 1200

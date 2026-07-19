@@ -21,6 +21,10 @@ class 中子能发电机 :NormalCrafter("neutron_generator") {
         localizedName = "Neutron Generator"
         description = "Decomposes neutrons to produce large amounts of power."
       }
+      uk_UA {
+        localizedName = "Нейтронний генератор"
+        description = "Розкладає нейтрони для виробництва великої кількості енергії."
+      }
     }
     requirements(
       Category.power, IItems.强化合金, 100, IItems.充能FEX水晶, 80, IItems.铀238, 75, IItems.絮凝剂, 70, IItems.气凝胶, 90

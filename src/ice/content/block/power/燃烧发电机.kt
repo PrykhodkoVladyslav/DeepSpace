@@ -23,6 +23,10 @@ class 燃烧发电机 :ConsumeGenerator("combustionGenerator") {
         localizedName = "Combustion Generator"
         description = "Slowly generates power by burning flammable materials."
       }
+      uk_UA {
+        localizedName = "Генератор згоряння"
+        description = "Повільно генерує енергію, спалюючи горючі матеріали."
+      }
     }
     powerProduction = 1f
     itemDuration = 120f

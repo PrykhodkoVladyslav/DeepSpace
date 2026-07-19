@@ -20,6 +20,10 @@ class 沼气发电机 :NormalCrafter("biogaGenerator") {
         localizedName = "Biogas Generator"
         description = "Slowly generates power by burning biogas."
       }
+      uk_UA {
+        localizedName = "Біогазовий генератор"
+        description = "Повільно генерує енергію, спалюючи біогаз."
+      }
     }
     size = 2
     liquidCapacity = 60f

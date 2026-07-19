@@ -17,6 +17,10 @@ class 光伏板 :SolarGenerator("solarPanel") {
         localizedName = "Solar Panel"
         description = "Generates power using starlight. Operates continuously without maintenance, providing basic energy support."
       }
+      uk_UA {
+        localizedName = "Сонячна панель"
+        description = "Генерує енергію, використовуючи світло зірки. Працює безперервно без обслуговування, забезпечуючи базову енергетичну підтримку."
+      }
     }
     size = 2
     powerProduction = 58f / 60f

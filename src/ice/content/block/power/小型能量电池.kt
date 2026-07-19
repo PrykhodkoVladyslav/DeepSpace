@@ -18,6 +18,10 @@ class 小型能量电池 :Battery("smallPowerBattery") {
         localizedName = "Small Power Battery"
         description = "Stores a small amount of power. Will explode when damaged."
       }
+      uk_UA {
+        localizedName = "Мала енергетична батарея"
+        description = "Зберігає невелику кількість енергії. Вибухне при пошкодженні."
+      }
     }
     size = 1
     health = 50

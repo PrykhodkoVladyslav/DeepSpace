@@ -23,6 +23,10 @@ class 血肉反应堆 :ImpactReactor("bloodImpactReactor") {
         localizedName = "Flesh Reactor"
         description = "Stimulates biological steel to generate massive amounts of power. Produces intense fluctuations during operation."
       }
+      uk_UA {
+        localizedName = "Реактор плоті"
+        description = "Стимулює біосталь для генерації величезної кількості енергії. Видає інтенсивні коливання під час роботи."
+      }
     }
     size = 5
     armor = 8f

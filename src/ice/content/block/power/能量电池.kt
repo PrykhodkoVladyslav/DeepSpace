@@ -18,6 +18,10 @@ class 能量电池 :Battery("powerBattery") {
         localizedName = "Power Battery"
         description = "Stores a large amount of power. Will explode when damaged."
       }
+      uk_UA {
+        localizedName = "Енергетична батарея"
+        description = "Зберігає велику кількість енергії. Вибухне при пошкодженні."
+      }
     }
     size = 2
     health = 300

@@ -18,6 +18,10 @@ class 大型能量电池 :Battery("largePowerBattery") {
         localizedName = "Large Power Battery"
         description = "Stores a massive amount of power. Will explode when damaged."
       }
+      uk_UA {
+        localizedName = "Велика енергетична батарея"
+        description = "Зберігає величезну кількість енергії. Вибухне при пошкодженні."
+      }
     }
     size = 4
     armor = 4f

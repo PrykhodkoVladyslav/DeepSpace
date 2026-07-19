@@ -16,6 +16,11 @@ class 风力发电机 :WindGenerator("windGenerator") {
         description =
           "Generates power using wind fields. Operates continuously without maintenance, but cannot provide a stable power source. Large buildings cannot be placed within its working area, or it will stop functioning."
       }
+      uk_UA {
+        localizedName = "Вітрогенератор"
+        description =
+          "Генерує енергію, використовуючи вітрові поля. Працює безперервно без обслуговування, але не може забезпечити стабільне джерело енергії. Великі будівлі не можна розміщувати в його робочій зоні, інакше він перестане працювати."
+      }
     }
     basePowerProduction = 70f
     size = 2

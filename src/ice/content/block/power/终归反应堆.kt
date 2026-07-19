@@ -37,6 +37,11 @@ class 终归反应堆 :ImpactReactor("endImpactReactor") {
         description =
           "Constrains the violent reaction of ethereal energy to produce enormous amounts of power. Requires continuous energy input to maintain field stability, or a catastrophic explosion will be triggered."
       }
+      uk_UA {
+        localizedName = "Кінцевий реактор удару"
+        description =
+          "Обмежує буйну реакцію ефірної енергії для виробництва величезної кількості енергії. Потребує безперервного введення енергії для підтримки стабільності поля, інакше буде спричинено катастрофічний вибух."
+      }
     }
     size = 6
     armor = 12f

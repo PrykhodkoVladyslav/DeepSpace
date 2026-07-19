@@ -19,6 +19,10 @@ class 能量节点 :BeamNode("powerNode") {
         localizedName = "Power Node"
         description = "Transmits power via laser beam. Can connect multiple nodes to expand the grid range."
       }
+      uk_UA {
+        localizedName = "Енергетичний вузол"
+        description = "Передає енергію через лазерний промінь. Може підключати кілька вузлів для розширення діапазону мережі."
+      }
     }
     squareSprite = false
     requirements(Category.power, IItems.高碳钢, 2, IItems.锌锭, 5, IItems.铜锭, 5)

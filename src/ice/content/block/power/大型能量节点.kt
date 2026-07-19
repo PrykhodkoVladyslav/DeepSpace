@@ -19,6 +19,10 @@ class 大型能量节点 :BeamNode("powerNodeLarge") {
         localizedName = "Large Power Node"
         description = "Transmits power via laser beam. Can connect multiple nodes to expand the grid range."
       }
+      uk_UA {
+        localizedName = "Великий енергетичний вузол"
+        description = "Передає енергію через лазерний промінь. Може підключати кілька вузлів для розширення діапазону мережі."
+      }
     }
     size = 3
     squareSprite = false

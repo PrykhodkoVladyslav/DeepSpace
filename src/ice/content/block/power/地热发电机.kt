@@ -25,6 +25,11 @@ class 地热发电机 :ThermalGenerator("geothermalGenerator") {
         description =
           "Continuously generates power using geothermal energy. Must be built in high-heat areas for maximum efficiency, providing stable energy output."
       }
+      uk_UA {
+        localizedName = "Геотермальний генератор"
+        description =
+          "Безперервно генерує енергію, використовуючи геотермальну енергію. Повинен бути побудований у зонах з високою температурою для максимальної ефективності, забезпечуючи стабільний вивід енергії."
+      }
     }
     size = 3
     floating = true

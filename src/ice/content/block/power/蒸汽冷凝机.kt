@@ -26,6 +26,10 @@ class 蒸汽冷凝机 :ThermalGenerator("steamCondenser") {
         localizedName = "Steam Condenser"
         description = "Produces a small amount of power and water when built on steam vents."
       }
+      uk_UA {
+        localizedName = "Паровий конденсатор"
+        description = "Виробляє невелику кількість енергії та води при будівництві на парових вентилях."
+      }
     }
     squareSprite = false
     size = 3

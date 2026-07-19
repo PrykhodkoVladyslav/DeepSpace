@@ -16,6 +16,10 @@ class 神经索节点 :PowerNode("neuralNode") {
         localizedName = "Neural Node"
         description = "Transmits power to connected buildings."
       }
+      uk_UA {
+        localizedName = "Нейронний вузол"
+        description = "Передає енергію до підключених будівель."
+      }
     }
     squareSprite = false
     healAmount = 5f

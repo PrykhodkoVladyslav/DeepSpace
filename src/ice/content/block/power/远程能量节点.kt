@@ -15,6 +15,10 @@ class 远程能量节点 :PowerNode("remotePowerNode") {
         localizedName = "Remote Power Node"
         description = "Transmits power to buildings within an extremely large range."
       }
+      uk_UA {
+        localizedName = "Віддалений енергетичний вузол"
+        description = "Передає енергію будівлям у надзвичайно великому діапазоні."
+      }
     }
     size = 3
     armor = 3f

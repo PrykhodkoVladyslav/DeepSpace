@@ -19,6 +19,10 @@ class 铈基热电机组 :NormalCrafter("ceriumBasedThermal") {
         localizedName = "Cerium-Based Thermal Generator"
         description = "Cracks cerium for thermal conversion, capable of producing large amounts of power."
       }
+      uk_UA {
+        localizedName = "Церієвий тепловий генератор"
+        description = "Розщеплює церій для теплового перетворення, здатний виробляти велику кількість енергії."
+      }
     }
     size = 2
     health = 300

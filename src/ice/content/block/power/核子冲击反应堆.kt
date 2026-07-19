@@ -52,6 +52,10 @@ class 核子冲击反应堆 :NormalCrafter("nuclear_impact_reactor") {
         localizedName = "Nuclear Impact Reactor"
         description = "Directionally constrains nuclear explosions and drives piezoelectric rotors to generate power."
       }
+      uk_UA {
+        localizedName = "Ядерний реактор удару"
+        description = "Спрямовано обмежує ядерні вибухи та приводить п'єзоелектричні ротори для генерації енергії."
+      }
     }
     requirementPairs(
       Category.power,

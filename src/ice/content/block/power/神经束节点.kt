@@ -16,6 +16,10 @@ class 神经束节点 :PowerNode("neuralBeamNode") {
         localizedName = "Neural Beam Node"
         description = "Transmits power to buildings within a larger connected range."
       }
+      uk_UA {
+        localizedName = "Нейронний вузол пучка"
+        description = "Передає енергію будівлям у більшому діапазоні підключення."
+      }
     }
     squareSprite = false
     healAmount = 20f
