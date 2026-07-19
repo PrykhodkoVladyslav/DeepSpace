@@ -27,6 +27,11 @@ class 渗透分离槽 :NormalCrafter("osmotic_separation_tank") {
         description = "Separates desired products through material permeation, configurable"
         details = "Built with pressurized controllable particle size reverse osmosis filters, used for reaction processes requiring particle separation"
       }
+      uk_UA {
+        this.localizedName = "Осмотична сепараційна ємність"
+        description = "Розділяє бажані продукти шляхом проникнення матеріалів, налаштовується"
+        details = "Побудована з пресованих контрольованих фільтрів зворотного осмосу за розміром частинок, використовується для реакційних процесів, що потребують розділення частинок"
+      }
     }
     requirements(
       Category.crafting, ItemStack.with(

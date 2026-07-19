@@ -33,6 +33,11 @@ class 激光解离机 :NormalCrafter("laser_resolver") {init {
       description = "Dissociates specific items and recovers them as raw materials, configurable"
       details = "Uses lasers of different frequency bands to directionally separate substances to obtain more useful materials"
     }
+    uk_UA {
+      this.localizedName = "Лазерний резольвер"
+      description = "Дисоціює конкретні предмети та відновлює їх як сировину, налаштовується"
+      details = "Використовує лазери різних частотних діапазонів для спрямованого розділення речовин для отримання більш корисних матеріалів"
+    }
   }
   requirements(
     Category.crafting, ItemStack.with(

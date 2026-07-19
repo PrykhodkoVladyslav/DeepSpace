@@ -19,6 +19,10 @@ class 电弧炉 :NormalCrafter("arcFurnace") {
         this.localizedName = "Arc Furnace"
         description = "Smelts lead ingot, quartz and Amber Gold Sand into quartz glass"
       }
+      uk_UA {
+        this.localizedName = "Дугова піч"
+        description = "Плавить злитки свинцю, кварц та золотий пісок в кварцове скло"
+      }
     }
     size = 3
     itemCapacity = 36

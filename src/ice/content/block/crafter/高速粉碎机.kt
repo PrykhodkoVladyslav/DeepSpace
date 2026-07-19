@@ -20,6 +20,10 @@ class 高速粉碎机 :NormalCrafter("highSpeedCrusher") {
         this.localizedName = "High Speed Crusher"
         description = "Crushes Canary Chalcedony into Amber Gold Sand"
       }
+      uk_UA {
+        this.localizedName = "Високошвидкісна дробарка"
+        description = "Дробить канарейковий халцедон у золотий пісок"
+      }
     }
     health = 320
     size = 2

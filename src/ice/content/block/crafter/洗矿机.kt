@@ -29,6 +29,10 @@ class 洗矿机 :NormalCrafter("ore_washer") {
         this.localizedName = "Ore Washer"
         description = "Uses water to wash asphalt crude ore to remove impurities and extract rare conductive fluids"
       }
+      uk_UA {
+        this.localizedName = "Промивач руди"
+        description = "Використовує воду для промивання асфальтової сирої руди для видалення домішок та екстракції рідкісних провідних рідин"
+      }
     }
     requirements(
       Category.crafting, ItemStack.with(

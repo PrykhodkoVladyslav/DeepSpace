@@ -22,6 +22,11 @@ class 特化冶炼阵列 :NormalCrafter("specializedSmelterArray") {
         description = "Smelts raw ores into chromium, gold, cobalt, and aluminum ingots, configurable"
         details = "Advanced metal processing facility specialized in converting raw ores into high-purity metal ingots. Efficiently processes chromium, gold, cobalt, and other metal materials to provide stable metal supply for subsequent production."
       }
+      uk_UA {
+        this.localizedName = "Спеціалізована плавильна матриця"
+        description = "Плавить сиру руду в злитки хрому, золота, кобальту та алюмінію, налаштовується"
+        details = "Передовий об'єкт обробки металів, спеціалізований на перетворенні сирої руди в злитки високої чистоти. Ефективно обробляє хром, золото, кобальт та інші металеві матеріали для забезпечення стабільного постачання металів для подальшого виробництва."
+      }
     }
     size = 3
     itemCapacity = 35

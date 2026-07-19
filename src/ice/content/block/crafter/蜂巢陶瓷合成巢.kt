@@ -23,6 +23,11 @@ class 蜂巢陶瓷合成巢 :NormalCrafter("ceramicKiln") {
         description = "Converts Amber Gold Sand into composite ceramics, requires water input"
         details = "Utilizes silicon-based bacterial colonies to secrete ceramic matrix, then laser-cured, produces buzzing resonance sounds during production\nResource bees?"
       }
+      uk_UA {
+        this.localizedName = "Гніздо синтезу кераміки"
+        description = "Перетворює золотий пісок у композитну кераміку, потребує введення води"
+        details = "Використовує кремнієві бактеріальні колонії для виділення керамічної матриці, потім лазерне затвердіння, видає гудучі резонансні звуки під час виробництва\nРесурсні бджоли?"
+      }
     }
     size = 4
     health = 520

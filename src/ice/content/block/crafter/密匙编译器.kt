@@ -40,6 +40,12 @@ class 密匙编译器 :NormalCrafter("keyCompiler") {
           "Receives data through quantum communication to compile keys, requires large amounts of coolant to support operation\nTo ensure quantum channel stability and data accuracy, not affected by space-time acceleration\nEquipped with extremely heavy armor to protect internal precision structures and energy pipelines"
         details = "[#FF5845]Data downloading normally, key compilation proceeding stably. “It's time to teach those aliens a lesson!"
       }
+      uk_UA {
+        this.localizedName = "Компілятор ключів"
+        description =
+          "Отримує дані через квантовий зв'язок для компіляції ключів, потребує великої кількості охолоджувальної рідини для роботи\nДля забезпечення стабільності квантового каналу та точності даних не піддається впливу прискорення простору-часу\nОснащений надзвичайно товстою бронею для захисту внутрішніх точних структур та енергетичних каналів"
+        details = "[#FF5845]Дані стабільно надходять, компіляція ключів проходить без збоїв. Час показати цим чужинцям, де їхнє місце!"
+      }
     }
     size = 10
     armor = 48f

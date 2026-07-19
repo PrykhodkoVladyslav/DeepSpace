@@ -42,6 +42,11 @@ class 物质逆化器 :MediumCrafter("substance_inverter") {
         description = "Consumes medium, guides antimatter into degenerate neutron polymer containers"
         details = "Equipment that reversely establishes matter from medium, actively separates positive particles to create antimatter and stores it in containers"
       }
+      uk_UA {
+        this.localizedName = "Інвертор речовини"
+        description = "Споживає середовище, спрямовує антиматерію в контейнери з виродженого нейтронного полімеру"
+        details = "Обладнання, що зворотно встановлює матерію з середовища, активно розділяє позитивні частинки для створення антиматерії та зберігає її в контейнерах"
+      }
     }
     requirements(
       Category.crafting,

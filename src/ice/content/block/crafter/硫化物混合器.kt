@@ -17,6 +17,10 @@ class 硫化物混合器 :NormalCrafter("sulfideMixer") {
         this.localizedName = "Sulfide Mixer"
         description = "Mixes coal, lead, and sand into sulfur compounds"
       }
+      uk_UA {
+        this.localizedName = "Сульфідний змішувач"
+        description = "Змішує вугілля, свинець та пісок у сірчані сполуки"
+      }
     }
     size = 3
     itemCapacity = 30

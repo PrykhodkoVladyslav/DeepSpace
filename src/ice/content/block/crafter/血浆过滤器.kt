@@ -23,6 +23,10 @@ class 血浆过滤器 :NormalCrafter("plasmaFilter") {
         this.localizedName = "Plasma Filter"
         description = "Cools Blood Flesh Slime and extracts biological steel from it"
       }
+      uk_UA {
+        this.localizedName = "Плазмовий фільтр"
+        description = "Охолоджує слиз плоті та екстрагує з нього біосталь"
+      }
     }
     size = 5
     hasLiquids = true

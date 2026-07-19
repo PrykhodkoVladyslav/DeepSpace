@@ -26,6 +26,10 @@ class 析构器 :NormalCrafter("destructor") {
         this.localizedName = "Destructor"
         description = "Accelerates collisions to destroy atomic nuclear structures of matter, analyzing microscopic composition and establishing blueprints of atomic spatial structure"
       }
+      uk_UA {
+        this.localizedName = "Деструктор"
+        description = "Прискорює зіткнення для руйнування атомних ядерних структур матерії, аналізуючи мікроскопічний склад та встановлюючи креслення атомної просторової структури"
+      }
     }
     requirements(
       Category.crafting,

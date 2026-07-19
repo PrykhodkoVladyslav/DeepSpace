@@ -35,6 +35,11 @@ class 热能冶炼炉 :NormalCrafter("thermal_smelter") {
         description = "A high temperature smelter that produces strong alloy and iridium ingots"
         details = "Equipment used for smelting metals, capable of generating airflow for high-temperature calcination of metal compounds"
       }
+      uk_UA {
+        this.localizedName = "Термічна плавильна піч"
+        description = "Високотемпературна плавильна піч, що виробляє посилений сплав та злитки іридію"
+        details = "Обладнання для плавлення металів, здатне генерувати повітряний потік для високотемпературного кальцинування металевих сполук"
+      }
     }
     requirements(
       Category.crafting, ItemStack.with(

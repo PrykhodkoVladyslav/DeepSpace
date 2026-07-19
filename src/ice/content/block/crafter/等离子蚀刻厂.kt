@@ -21,6 +21,11 @@ class 等离子蚀刻厂 :NormalCrafter("integratedFactory") {
         description = "Etches graphene onto monocrystalline silicon through quartz glass to produce electronic components"
         details = "Adopts plasma etching technology to carve micron-level circuits on silicon wafers, infrastructure of the electronics industry"
       }
+      uk_UA {
+        this.localizedName = "Завод плазмового травлення"
+        description = "Травить графен на монокристалічний кремній через кварцове скло для виробництва електронних компонентів"
+        details = "Використовує технологію плазмового травлення для вирізання мікрорівневих схем на кремнієвих пластинах, інфраструктура електронної промисловості"
+      }
     }
     size = 3
     health = 200

@@ -39,6 +39,11 @@ class 中子透镜 :NormalCrafter("neutron_lens") {
         description = "Transforms specific materials into specific products through neutron impact, configurable"
         details = "Focuses neutron streams by refraction through phase objects and deflection by gravitational lenses, allowing direct neutron bombardment of target materials to complete processes requiring high-energy neutron streams within the chamber"
       }
+      uk_UA {
+        this.localizedName = "Нейтронна лінза"
+        description = "Перетворює конкретні матеріали в конкретні продукти шляхом нейтронного впливу, налаштовується"
+        details = "Фокусує нейтронні потоки шляхом заломлення через фазові об'єкти та відхилення гравітаційними лінзами, дозволяючи пряме нейтронне бомбардування цільових матеріалів для завершення процесів, що потребують потоків високоенергетичних нейтронів всередині камери"
+      }
     }
     requirements(
       Category.crafting, ItemStack.with(

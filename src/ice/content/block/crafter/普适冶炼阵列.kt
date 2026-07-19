@@ -22,6 +22,11 @@ class 普适冶炼阵列 :NormalCrafter("universalSmelterArray") {
         description = "Smelts raw ores into copper ingots, zinc ingots and lead ingots, configurable"
         details = "Core-level metal processing facility, specialized in converting raw ores into high-purity metal ingots, efficiently processing copper, zinc, lead and other metal raw materials, providing stable metal supply for subsequent production"
       }
+      uk_UA {
+        this.localizedName = "Універсальна плавильна матриця"
+        description = "Плавить сиру руду в злитки міді, цинку та свинцю, налаштовується"
+        details = "Об'єкт обробки металів основного рівня, спеціалізований на перетворенні сирої руди в злитки високої чистоти, ефективно обробляє мідь, цинк, свинець та інші металеві сировини, забезпечуючи стабільне постачання металів для подальшого виробництва"
+      }
     }
     size = 3
     itemCapacity = 30

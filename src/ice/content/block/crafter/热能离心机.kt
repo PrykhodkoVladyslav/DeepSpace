@@ -35,6 +35,11 @@ class 热能离心机 :NormalCrafter("thermal_centrifuge") {
         description = "Centrifuges raw ore and extracts specific products. Configurable"
         details = "Melts substances into liquid at extremely high temperatures, then separates materials of different masses by differential centrifugation"
       }
+      uk_UA {
+        this.localizedName = "Термічна центрифуга"
+        description = "Центрифугує сиру руду та екстрагує конкретні продукти. Налаштовується"
+        details = "Плавить речовини в рідину при екстремально високих температурах, потім розділяє матеріали різної маси диференційною центрифугою"
+      }
     }
     requirements(
       Category.crafting, IItems.强化合金, 100, IItems.气凝胶, 80, IItems.铜锭, 120, IItems.单晶硅, 70, IItems.钴钢, 75

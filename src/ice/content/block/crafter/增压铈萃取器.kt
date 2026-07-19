@@ -30,6 +30,11 @@ open class 增压铈萃取器 :NormalCrafter("ceriumExtractorLarge") {
         description = "Extracts and forges cerium ingot from cerite, requires water input, produces wastewater. Configurable"
         details = "Extracts cerium through liquid-phase precipitation in specially designed ultra-high pressure sealed reactors\nCompared to the first generation, it has stronger sealing and higher pressure, enabling faster cerium extraction"
       }
+      uk_UA {
+        this.localizedName = "Пресований екстрактор церію"
+        description = "Екстрагує та кує злитки церію з цериту, потребує введення води, виробляє стічні води. Налаштовується"
+        details = "Екстрагує церій шляхом рідинно-фазного осадження в спеціально спроектованих ультрависокотискових герметичних реакторах\nПорівняно з першим поколінням, має міцнішу герметизацію та вищий тиск, що дозволяє швидше екстрагувати церій"
+      }
     }
     health = 950
     size = 4

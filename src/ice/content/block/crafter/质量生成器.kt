@@ -24,6 +24,11 @@ class 质量生成器 :MediumCrafter("quality_generator") {
         description = "Consumes neutron energy to generate medium"
         details = "Equipment for disordered reverse conversion of energy, converting large amounts of neutron energy into material mass, producing pure disordered medium except quark-type medium"
       }
+      uk_UA {
+        this.localizedName = "Генератор маси"
+        description = "Споживає нейтронну енергію для генерації середовища"
+        details = "Обладнання для безладного зворотного перетворення енергії, перетворюючи велику кількість нейтронної енергії в масу матеріалу, виробляючи чисте безладне середовище, за винятком середовища кваркового типу"
+      }
     }
     requirements(Category.crafting, IItems.铱锭, 50, IItems.充能FEX水晶, 80, IItems.絮凝剂, 50, IItems.暮光合金, 20, IItems.矩阵合金, 20)
     health = 2250

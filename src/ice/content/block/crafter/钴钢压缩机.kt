@@ -22,6 +22,10 @@ class 钴钢压缩机 :NormalCrafter("cobaltSteelCompressor") {
         this.localizedName = "Cobalt Steel Compressor"
         description = "Compresses cobalt ingot and chromium ingot into cobalt steel, requires water input"
       }
+      uk_UA {
+        this.localizedName = "Компресор кобальтової сталі"
+        description = "Стискає злитки кобальту та злитки хрому в кобальтову сталь, потребує введення води"
+      }
     }
     health = 480
     size = 3

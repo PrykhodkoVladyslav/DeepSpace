@@ -25,6 +25,11 @@ class 导能回路装配器 :NormalCrafter("conductiveCircuitAssembler") {
         description = "Assembles conductive circuits from monocrystalline silicon and hafnium ingot"
         details = "Continuously maintains phase time field, slowing local time to simultaneously manufacture multiple precision components\n[#9B929D]Why do some people call her the Soul Furnace[]"
       }
+      uk_UA {
+        this.localizedName = "Збиральний пристрій провідних кіл"
+        description = "Збирає провідні кола з монокристалічного кремнію та злитків гафнію"
+        details = "Безперервно підтримує фазове часове поле, сповільнюючи локальний час для одночасного виготовлення кількох прецизійних компонентів\n[#9B929D]Чому деякі люди називають її Піч Душі[]"
+      }
     }
     health = 1250
     size = 5

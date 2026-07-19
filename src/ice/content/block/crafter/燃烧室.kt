@@ -24,6 +24,11 @@ class 燃烧室 :NormalCrafter("combustion_chamber") {
         description =
           "Burns multiple materials to produce specific products and output power, configurable\nSealed high-temperature chamber for executing chemical combustion processes, to maximize utilization of energy released by combustion, combustion occurs in piston chambers to drive coils for power generation"
       }
+      uk_UA {
+        this.localizedName = "Камера згоряння"
+        description =
+          "Спалює кілька матеріалів для виробництва конкретних продуктів та виведення енергії, налаштовується\nГерметична високотемпературна камера для виконання процесів хімічного згоряння, для максимального використання енергії, що виділяється при згорянні, згоряння відбувається в поршневих камерах для приводу котушок для генерації енергії"
+      }
     }
     requirements(
       Category.crafting, ItemStack.with(

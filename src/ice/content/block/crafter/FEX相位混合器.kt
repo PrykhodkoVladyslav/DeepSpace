@@ -23,6 +23,10 @@ class FEX相位混合器 :NormalCrafter("FEX_phase_mixer") {
         this.localizedName = "FEX Phase Mixer"
         description = "Rebuilds the phase of FEX fluid, activating its internal energy"
       }
+      uk_UA {
+        this.localizedName = "FEX Фазовий змішувач"
+        description = "Відновлює фазу FEX рідини, активуючи її внутрішню енергію"
+      }
     }
     requirements(
       Category.crafting, ItemStack.with(

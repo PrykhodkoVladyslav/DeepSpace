@@ -23,6 +23,10 @@ class 蒸馏净化器 :NormalCrafter("distill_purifier") {init {
       this.localizedName = "Distillation Purifier"
       description = "Separates impurities from water using distillation"
     }
+    uk_UA {
+      this.localizedName = "Дистиляційний очищувач"
+      description = "Розділяє домішки з води шляхом дистиляції"
+    }
   }
   requirements(
     Category.crafting, ItemStack.with(

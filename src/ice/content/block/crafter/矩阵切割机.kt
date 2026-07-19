@@ -35,6 +35,11 @@ class 矩阵切割机 :NormalCrafter("matrix_cutter") {
         description = "Carves activated conductive crystals into reinforced alloy to produce matrix alloy"
         details = "Uses a high-energy laser to cut metal into nanocrystals, and then etches microcircuits on top of the nanocrystals, to produce a matrix alloy"
       }
+      uk_UA {
+        this.localizedName = "Матричний різак"
+        description = "Вирізає активовані провідні кристали в посилений сплав для виробництва матричного сплаву"
+        details = "Використовує високоенергетичний лазер для різання металу на нанокристали, потім травить мікросхеми на нанокристалах для виробництва матричного сплаву"
+      }
     }
     requirements(
       Category.crafting, IItems.强化合金, 80, IItems.充能FEX水晶, 75, IItems.石英玻璃, 80, IItems.絮凝剂, 90, IItems.暮光合金, 120

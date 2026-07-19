@@ -26,6 +26,11 @@ class 结晶器 :NormalCrafter("crystallizer") {
         description =
           "Crystallizes conductive fluid onto reinforced alloy to produce conductive crystals\n" + "The earliest conductive crystal technology relied on electromagnetic field fluctuations to gradually form crystals of conductive fluid on a carrier metal"
       }
+      uk_UA {
+        this.localizedName = "Кристалізатор"
+        description =
+          "Кристалізує провідну рідину на посилений сплав для виробництва провідних кристалів\n" + "Найперша технологія провідних кристалів спиралася на коливаннях електромагнітного поля для поступового формування кристалів провідної рідини на металевому носії"
+      }
     }
     requirements(
       Category.crafting, ItemStack.with(

@@ -31,6 +31,10 @@ class 气体相位封装机 :NormalCrafter("gas_phase_packer") {
         this.localizedName = "Gas Phase Packer"
         description = "Encapsulates gases in a container made of adsorbents and adsorbates, configurable\nUsed to encapsulate a fluid with phase objects, to be further transformed into nuclear fusion fuel"
       }
+      uk_UA {
+        this.localizedName = "Газофазний пакувальник"
+        description = "Інкапсулює гази в контейнер, виготовлений з адсорбентів та адсорбатів, налаштовується\nВикористовується для інкапсуляції рідини фазовими об'єктами для подальшого перетворення в паливо для ядерного синтезу"
+      }
     }
     requirements(Category.crafting, IItems.强化合金, 80, IItems.气凝胶, 80, IItems.絮凝剂, 60, IItems.单晶硅, 60, IItems.钴锭, 45)
     size = 3

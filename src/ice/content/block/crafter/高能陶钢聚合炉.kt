@@ -26,6 +26,11 @@ class 高能陶钢聚合炉 :NormalCrafter("highEnergyCeramicSteelFurnace") {
         description = "Efficiently smelts quartz glass, cobalt steel and cerium ingot into ceramic steel, requires water input"
         details = "Relies on high-energy lasers to continuously melt raw materials for rapid ceramic steel smelting\nCompared to ordinary furnaces, both smelting efficiency and product quality are significantly improved"
       }
+      uk_UA {
+        localizedName = "Високоенергетична піч керамічної сталі"
+        description = "Ефективно переплавляє кварцове скло, кобальтову сталь і злитки церію у керамічну сталь, потребує подачі води"
+        details = "Використовує високоенергетичні лазери для безперервного плавлення сировини, що забезпечує швидке виробництво керамічної сталі\nПорівняно зі звичайними печами, має значно вищу ефективність плавлення та якість продукції"
+      }
     }
     health = 2000
     size = 5

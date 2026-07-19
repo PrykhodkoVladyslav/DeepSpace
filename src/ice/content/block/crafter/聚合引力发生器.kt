@@ -43,6 +43,11 @@ class 聚合引力发生器 :NormalCrafter("polymer_gravitational_generator") {
         description = "Produces degenerate neutron polymer by polymerizing charged FEX crystals, matrix alloy, aerogel and iridium ingots"
         details = "Creates a gravitational funnel using a large amount of energy in a vacuum chamber to compress matter together to the neutron degenerate state, and then encapsulates it with a negative gravity field shell to produce a degenerate neutron polymer"
       }
+      uk_UA {
+        localizedName = "Полімерний гравітаційний генератор"
+        description = "Виробляє вироджений нейтронний полімер шляхом полімеризації заряджених FEX кристалів, матричного сплаву, аерогелю та злитків іридію"
+        details = "Створює гравітаційну воронку, використовуючи велику кількість енергії у вакуумній камері для стиснення матерії разом до стану виродженого нейтрона, потім інкапсулює її оболонкою негативного гравітаційного поля для виробництва виродженого нейтронного полімеру"
+      }
     }
     requirements(
       Category.crafting,

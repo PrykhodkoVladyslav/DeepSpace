@@ -27,6 +27,11 @@ class 强子重构仪 :AtomSchematicCrafter("hadron_reconstructor") {
         description = "Consumes medium to generate raw materials, configurable"
         details = "Miniature directional large-scale hadron collider, making matter creation from theory a reality"
       }
+      uk_UA {
+        this.localizedName = "Реконструктор адронів"
+        description = "Споживає середовище для генерації сировини, налаштовується"
+        details = "Мініатюрний спрямований великий адронний колайдер, що робить створення матерії з теорії реальністю"
+      }
     }
     requirements(
       Category.crafting,

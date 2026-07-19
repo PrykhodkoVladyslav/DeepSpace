@@ -23,6 +23,11 @@ class 碳控熔炉 :NormalCrafter("carbonSteelFactory") {
         description = "Smelts hematite into high carbon steel or low carbon steel, configurable"
         details = "By precisely controlling carbon ratio, flexibly produces high carbon steel and low carbon steel on the same production line."
       }
+      uk_UA {
+        this.localizedName = "Вуглецева контрольна піч"
+        description = "Плавить гематит у високовуглецеву або низьковуглецеву сталь, налаштовується"
+        details = "Шляхом точного контролю співвідношення вуглецю гнучко виробляє високовуглецеву та низьковуглецеву сталь на одній виробничій лінії."
+      }
     }
     size = 3
     itemCapacity = 20

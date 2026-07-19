@@ -19,6 +19,10 @@ class 矿石粉碎机 :NormalCrafter("mineralCrusher") {
         this.localizedName = "Mineral Crusher"
         description = "Crushes complex ores and screens them into more easily processable ores, configurable"
       }
+      uk_UA {
+        this.localizedName = "Дробарка мінералів"
+        description = "Дробить складні руди та просіює їх у більш легкооброблювані руди, налаштовується"
+      }
     }
     health = 810
     itemCapacity = 30

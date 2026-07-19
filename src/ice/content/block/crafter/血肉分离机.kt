@@ -23,6 +23,11 @@ class 血肉分离机 :NormalCrafter("bloodExtractor") {
         description = "Heats biological steel into Flesh Slime"
         details = "Flesh Slime is a high-risk fluid with both high temperature and flammability characteristics"
       }
+      uk_UA {
+        this.localizedName = "Сепаратор крові"
+        description = "Нагріває біосталь у слиз плоті"
+        details = "Слиз плоті є високоризиковою рідиною з характеристиками високої температури та займистості"
+      }
     }
     size = 2
     itemCapacity = 24

@@ -22,6 +22,11 @@ class 真空坩埚 :NormalCrafter("vacuum_crucible") {
         description = "Processes multiple materials under low pressure to produce specific products, configurable"
         details = "Equipment used for special processes in low-pressure high-temperature environments"
       }
+      uk_UA {
+        this.localizedName = "Вакуумний тигель"
+        description = "Обробляє кілька матеріалів при низькому тиску для виробництва конкретних продуктів, налаштовується"
+        details = "Обладнання, що використовується для спеціальних процесів у середовищах з низьким тиском та високою температурою"
+      }
     }
     requirements(
       Category.crafting, IItems.铬锭, 90, IItems.单晶硅, 80, IItems.钴钢, 60, IItems.石英玻璃, 75, IItems.钴锭, 80

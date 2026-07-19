@@ -20,6 +20,10 @@ class 铸铜厂 :NormalCrafter("copperFoundry") {
         this.localizedName = "Copper Foundry"
         description = "Casts copper ingots and zinc ingots into brass ingots"
       }
+      uk_UA {
+        this.localizedName = "Мідноливарня"
+        description = "Переплавляє мідні та цинкові злитки у латунні злитки"
+      }
     }
     size = 4
     health = 550

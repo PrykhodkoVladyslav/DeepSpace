@@ -24,6 +24,10 @@ class 冲压锻炉 :NormalCrafter("pressingForge") {
         this.localizedName = "Pressing Forge"
         description = "Smelts and forges iridium-osmium ore into iridium plates, requires water input, produces wastewater"
       }
+      uk_UA {
+        this.localizedName = "Пресовий кузень"
+        description = "Плавить та куе іридієво-осмієву руду в іридієві пластини, потребує введення води, виробляє стічні води"
+      }
     }
     health = 1800
     size = 5

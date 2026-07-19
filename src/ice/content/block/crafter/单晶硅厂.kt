@@ -26,6 +26,10 @@ class 单晶硅厂 :NormalCrafter("monocrystallineSiliconFactory") {
         this.localizedName = "Monocrystalline Silicon Factory"
         description = "Uses sulfur compounds to impact quartz and produce monocrystalline silicon"
       }
+      uk_UA {
+        this.localizedName = "Завод монокристалічного кремнію"
+        description = "Використовує сірчані сполуки для впливу на кварц та виробництва монокристалічного кремнію"
+      }
     }
     size = 4
     health = 600

@@ -21,6 +21,10 @@ class 生物钢重组器 :NormalCrafter("biomassReformer") {
         this.localizedName = "Biomass Reformer"
         description = "Cultivates biological steel from various raw materials"
       }
+      uk_UA {
+        this.localizedName = "Реформер біомаси"
+        description = "Вирощує біосталь з різної сировини"
+      }
     }
     size = 3
     itemCapacity = 36

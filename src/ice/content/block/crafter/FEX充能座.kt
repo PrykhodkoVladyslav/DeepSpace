@@ -28,6 +28,11 @@ class FEX充能座 :NormalCrafter("FEX_crystal_charger") {
         description = "Charges FEX crystals into charged FEX crystals"
         details = "Release high-energy neutron pulses onto conductive crystals. With the appropriate pulse frequency, energy continuously accumulates and amplifies within the lattice, destabilizing the crystal structure and producing some special effects"
       }
+      uk_UA {
+        this.localizedName = "FEX База зарядки"
+        description = "Заряджає FEX кристали в заряджені FEX кристали"
+        details = "Випускає високоенергетичні нейтронні імпульси на провідні кристали. З відповідною частотою імпульсів енергія безперервно накопичується та посилюється всередині решітки, дестабілізуючи кристалічну структуру та створюючи спеціальні ефекти"
+      }
     }
     requirements(
       Category.crafting,

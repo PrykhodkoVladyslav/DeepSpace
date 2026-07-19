@@ -17,6 +17,10 @@ class 爆炸物混合器 :NormalCrafter("explosiveMixer") {
         this.localizedName = "Explosive Mixer"
         description = "Mixes sulfur compounds with combustible crystals to generate explosive compounds"
       }
+      uk_UA {
+        this.localizedName = "Вибуховий змішувач"
+        description = "Змішує сірчані сполуки з горючими кристалами для генерації вибухових сполук"
+      }
     }
     size = 3
     itemCapacity = 36

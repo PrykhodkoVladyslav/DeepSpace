@@ -27,6 +27,10 @@ class 渗透净化器 :NormalCrafter("osmotic_purifier") {
         this.localizedName = "Osmotic Purifier"
         description = "Uses adsorption and reverse osmosis filters to purify water, more effectively separating impurities"
       }
+      uk_UA {
+        this.localizedName = "Осмотичний очищувач"
+        description = "Використовує адсорбцію та фільтри зворотного осмосу для очищення води, більш ефективно розділяючи домішки"
+      }
     }
     health = 450
     size = 3

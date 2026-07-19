@@ -25,6 +25,11 @@ class 干馏塔 :NormalCrafter("retort_column") {
         description = "Carbonizes raw coal into sulfur compounds and coke"
         details = "Separates substances in coal through high-temperature air isolation to produce coke"
       }
+      uk_UA {
+        this.localizedName = "Ретортна колона"
+        description = "Карбонізує сиру вугілля в сірчані сполуки та кокс"
+        details = "Розділяє речовини у вугіллі шляхом високотемпературної ізоляції повітря для виробництва коксу"
+      }
     }
     requirements(Category.crafting, IItems.铬锭, 70, IItems.钴锭, 75, IItems.铜锭, 90, IItems.石英玻璃, 90, IItems.钴钢, 50)
     size = 3

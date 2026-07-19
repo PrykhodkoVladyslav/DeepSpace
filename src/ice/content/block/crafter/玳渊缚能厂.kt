@@ -21,6 +21,11 @@ class 玳渊缚能厂 :NormalCrafter("tortoiseshellFactory") {
         description = "Constructs Tortoiseshell Matrix from hafnium ingot, Dusk Alloy and iridium ingot"
         details = "Energy production facility approved by the Cardinal for producing large-scale energy weapon installations, sealing the violent Tortoiseshell energy in stable matrix structures, each matrix contains immense energy"
       }
+      uk_UA {
+        this.localizedName = "Завод зв'язування енергії черепахи"
+        description = "Конструює матрицю черепахи зі злитків гафнію, сплаву сутінків та злитків іридію"
+        details = "Об'єкт виробництва енергії, схвалений Кардиналом для виробництва великомасштабних установок енергетичної зброї, запечатуючи буйну енергію черепахи в стабільні матричні структури, кожна матриця містить величезну енергію"
+      }
     }
     size = 4
     health = 700

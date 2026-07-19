@@ -26,6 +26,11 @@ class 暮白高炉 :NormalCrafter("duskFactory") {
         description = "Synthesizes Dusk Alloy from low carbon steel, chromium ingot, cobalt ingot, hafnium ingot and Dusk Liquid"
         details = "Metal and faith fuse in pale flames, smelting special alloys imbued with the breath of dusk"
       }
+      uk_UA {
+        this.localizedName = "Доменна піч сутінків"
+        description = "Синтезує сплав сутінків з низьковуглецевої сталі, злитків хрому, злитків кобальту, злитків гафнію та рідини сутінків"
+        details = "Метал і віра зливаються в блідих полум'ях, плавлячи спеціальні сплави, напоєні подихом сутінків"
+      }
     }
     health = 490
     size = 3

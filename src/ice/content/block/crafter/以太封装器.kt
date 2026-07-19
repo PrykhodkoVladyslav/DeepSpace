@@ -25,6 +25,10 @@ class 以太封装器 :NormalCrafter("etherEncapsulator") {
         this.localizedName = "Ether Encapsulator"
         description = "Encapsulates free ether into containers convenient for transportation"
       }
+      uk_UA {
+        this.localizedName = "Інкапсулятор ефіру"
+        description = "Інкапсулює вільний ефір у контейнери, зручні для транспортування"
+      }
     }
     size = 5
     itemCapacity = 120

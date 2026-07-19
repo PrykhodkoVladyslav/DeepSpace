@@ -20,6 +20,10 @@ class 陶钢熔炼炉 :NormalCrafter("ceramicSteelFurnace") {
         this.localizedName = "Ceramic Steel Furnace"
         description = "Smelts quartz glass, cobalt steel and cerium ingot into ceramic steel"
       }
+      uk_UA {
+        this.localizedName = "Керамічна сталеплавильна піч"
+        description = "Плавить кварцове скло, кобальтову сталь та злитки церію в керамічну сталь"
+      }
     }
     health = 600
     size = 3

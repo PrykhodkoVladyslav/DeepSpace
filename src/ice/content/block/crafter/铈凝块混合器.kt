@@ -21,6 +21,11 @@ class 铈凝块混合器 :NormalCrafter("ceriumBlockMixer") {
         description = "Presses cerium ingot and explosive mixture into cerium blocks"
         details = "In specially designed anti-static workshops, grinds cerium and mixes with explosive mixture before pressing into shape"
       }
+      uk_UA {
+        this.localizedName = "Змішувач церієвих блоків"
+        description = "Пресує злитки церію та вибухову суміш у церієві блоки"
+        details = "У спеціально спроектованих антистатичних майстернях подрібнює церій та змішує з вибуховою сумішшю перед пресуванням у форму"
+      }
     }
     size = 2
     itemCapacity = 36

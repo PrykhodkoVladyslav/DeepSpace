@@ -41,6 +41,11 @@ class 晶格构建器 :NormalCrafter("lattice_constructor") {
         description = "Crystallizes energized fluid onto reinforced alloy to efficiently produce conductive crystals"
         details = "Advanced conductive crystal technology. Artificially constructs lattice structures using beam guidance and force-field aggregation, producing conductive crystals more efficiently"
       }
+      uk_UA {
+        this.localizedName = "Конструктор решітки"
+        description = "Кристалізує енергетичну рідину на посиленому сплаві для ефективного виробництва провідних кристалів"
+        details = "Передова технологія провідних кристалів. Штучно конструює решіткові структури, використовуючи керування пучком та агрегацію силових полів, виробляє провідні кристали більш ефективно"
+      }
     }
     requirements(
       Category.crafting, ItemStack.with(
