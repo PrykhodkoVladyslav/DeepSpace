@@ -10,6 +10,7 @@ class LocalizationMap {
 
   fun zh_CN(block: LocalizationData.() -> Unit) = locale("zh_CN", block)
   fun en(block: LocalizationData.() -> Unit) = locale("en", block)
+  fun uk_UA(block: LocalizationData.() -> Unit) = locale("uk_UA", block)
 
   internal fun getData(locale: String): LocalizationData? = locales[locale]
 
