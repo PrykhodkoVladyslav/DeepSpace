@@ -41,6 +41,10 @@ object ILiquids {
         localizedName = "Humus Slurry"
         description = "An organic-rich slurry that can be used for soil improvement."
       }
+      uk_UA {
+        localizedName = "Гумусна суспензія"
+        description = "Суспензія, багата на органічні речовини, що може використовуватися для покращення ґрунту"
+      }
     }
     viscosity = 0.6f
     temperature = 0.3f
@@ -54,6 +58,10 @@ object ILiquids {
       en {
         localizedName = "Warm Spore Fluid"
         description = "A warm spore suspension with biological activity."
+      }
+      uk_UA {
+        localizedName = "Тепла спорова рідина"
+        description = "Тепла суспензія спор із біологічною активністю"
       }
     }
     temperature = 0.8f
@@ -70,6 +78,10 @@ object ILiquids {
         localizedName = "Cress Liquid"
         description = "A gray neutral liquid that can be used in neutralization reactions."
       }
+      uk_UA {
+        localizedName = "Кресова рідина"
+        description = "Сіра нейтральна рідина, яку можна використовувати в реакціях нейтралізації"
+      }
     }
     viscosity = 0.4f
     temperature = 0.5f
@@ -82,8 +94,11 @@ object ILiquids {
       }
       en {
         localizedName = "Wastewater"
-        description =
-          "Highly radioactive wastewater discharged from industrial production. Areas contaminated by it are extremely difficult to reuse."
+        description = "Highly radioactive wastewater discharged from industrial production. Areas contaminated by it are extremely difficult to reuse."
+      }
+      uk_UA {
+        localizedName = "Стічні води"
+        description = "Високорадіоактивні стічні води, що утворюються внаслідок промислового виробництва. Території, забруднені ними, надзвичайно важко повторно використовувати."
       }
     }
     incinerable = false
@@ -101,6 +116,10 @@ object ILiquids {
       en {
         localizedName = "Thick Plasma"
         description = "It spreads from the far north."
+      }
+      uk_UA {
+        localizedName = "Густа плазма"
+        description = "Вона поширюється з далекої півночі."
       }
     }
     nutrientConcentration = 0.2f
@@ -124,6 +143,10 @@ object ILiquids {
         localizedName = "Swift Cryofluid"
         description = "Made by mixing cryogenic compounds with cryofluid. It provides stronger cooling than ordinary cryofluid."
       }
+      uk_UA {
+        localizedName = "Швидка кріорідина"
+        description = "Створена шляхом змішування кріогенних сполук із охолоджувальною рідиною. Має сильніший охолоджувальний ефект, ніж звичайна кріорідина."
+      }
     }
     lightColor = Color.valueOf("E1E9F09A")
     effect = StatusEffects.freezing
@@ -141,6 +164,10 @@ object ILiquids {
         localizedName = "Ichor"
         description = "An extremely acidic solution that can be used to process metals."
       }
+      uk_UA {
+        localizedName = "Іхор"
+        description = "Надзвичайно кислий розчин, який можна використовувати для обробки металів."
+      }
     }
     viscosity = 0.7f
     boilPoint = 1.7f
@@ -156,6 +183,11 @@ object ILiquids {
         localizedName = "Flesh Slime"
         description = "A hot, highly flammable and explosive fluid. Use dedicated conduits when producing or transporting it!"
         details = "[red]Blood shall flow[]"
+      }
+      uk_UA {
+        localizedName = "М'ясний наріст"
+        description = "Гаряча, надзвичайно легкозаймиста та вибухонебезпечна рідина. Під час виробництва або транспортування використовуйте спеціальні трубопроводи!"
+        details = "[red]Кров неодмінно проллється[]"
       }
     }
     incinerable = false
@@ -187,6 +219,11 @@ object ILiquids {
         description =
           "A special fluid extracted through complex industrial processing, with excellent mass transfer, heat transfer and dissolving properties."
       }
+      uk_UA {
+        localizedName = "Надкритична рідина"
+        description =
+          "Особлива рідина, отримана шляхом складної промислової обробки, що має чудові властивості масопереносу, теплопередачі та розчинення."
+      }
     }
     incinerable = false
     lightColor = Color.valueOf("E1776A9A")
@@ -206,6 +243,10 @@ object ILiquids {
         localizedName = "Dusk Liquid"
         description = "Dusk liquid."
       }
+      uk_UA {
+        localizedName = "Сутінкова рідина"
+        description = "Сутінкова рідина."
+      }
     }
     temperature = 0.2f
   }
@@ -222,6 +263,12 @@ object ILiquids {
           description = "Water with impurities removed. It is necessary in many strict production processes."
           details =
             "To avoid introducing impurities, water used as a solvent must be purified to remove other substances that may affect product quality."
+        }
+        uk_UA {
+          localizedName = "Очищена вода"
+          description = "Вода, з якої видалено домішки. Вона необхідна для багатьох суворих виробничих процесів."
+          details =
+            "Щоб уникнути потрапляння домішок, вода, що використовується як розчинник, повинна пройти очищення для видалення інших речовин, які можуть вплинути на якість продукції."
         }
       }
       heatCapacity = 0.45f
@@ -258,6 +305,12 @@ object ILiquids {
         details =
           "Microorganisms can dehydrate and enter dormancy under extremely harsh conditions, greatly improving their stress resistance."
       }
+      uk_UA {
+        localizedName = "Водоростевий мул"
+        description = "Скупчення мікроорганізмів водоростей із широким спектром застосування."
+        details =
+          "За надзвичайно несприятливих умов мікроорганізми можуть втрачати воду та переходити у стан спокою, значно підвищуючи свою стійкість до несприятливого середовища."
+      }
     }
     heatCapacity = 0.4f
     explosiveness = 0f
@@ -292,6 +345,11 @@ object ILiquids {
         description = "A composite acid with broad industrial uses, indispensable for metal smelting and material synthesis."
         details = "\"Corrosive\"\n\"Wear protective equipment\"\n\"Volatile\""
       }
+      uk_UA {
+        localizedName = "Кислота"
+        description = "Складна кислотна суміш із широким промисловим застосуванням, незамінна для виплавки металів та синтезу матеріалів."
+        details = "\"Їдка речовина\"\n\"Використовуйте захисне спорядження\"\n\"Летка\""
+      }
     }
     heatCapacity = 0.5f
     temperature = 0.45f
@@ -316,6 +374,11 @@ object ILiquids {
         description = "A composite alkaline solution with broad industrial uses, indispensable for metal smelting and material synthesis."
         details = "\"Corrosive\"\n\"Wear protective equipment\"\n\"Volatile\""
       }
+      uk_UA {
+        localizedName = "Луг"
+        description = "Складна лужна суміш із широким промисловим застосуванням, незамінна для виплавки металів та синтезу матеріалів."
+        details = "\"Їдка речовина\"\n\"Використовуйте захисне спорядження\"\n\"Летка\""
+      }
     }
     temperature = 0.45f
     flammability = 0f
@@ -337,6 +400,10 @@ object ILiquids {
       en {
         localizedName = "Silicon Chloride Sol"
         description = "A silicon-rich gel compound that readily concentrates silicon and can be used to produce silicon or aerogel."
+      }
+      uk_UA {
+        localizedName = "Силікатний хлоридний золь"
+        description = "Гелеподібна сполука, багата на кремній, здатна накопичувати кремнієві елементи та використовуватися для виробництва кремнію або аерогелю."
       }
     }
     heatCapacity = 0.65f
@@ -364,6 +431,12 @@ object ILiquids {
         details =
           "In general, metallic minerals in the natural crust tend to be enriched to some degree, and associated mineral groups usually do not contain too many metal types. This rule, however, seems not to apply near the upper asthenosphere. Magma flows mix all kinds of minerals together, so ores mined near there can contain almost anything."
       }
+      uk_UA {
+        localizedName = "Суміш мінеральних розчинів"
+        description = "Сольовий розчин, що містить різноманітні мінеральні іони. Електроліз дозволяє отримати з нього різні металеві продукти."
+        details =
+          "Зазвичай металеві мінерали в природній земній корі мають певний ступінь концентрації, а родовища супутніх мінералів зазвичай не містять великої кількості різних металів. Проте поблизу верхньої частини астеносфери це правило, схоже, не діє. Потоки магми змішують різні мінерали між собою, тому в рудах, видобутих поблизу таких зон, можна знайти майже будь-що."
+      }
     }
     heatCapacity = 0.6f
     temperature = 0.65f
@@ -385,6 +458,10 @@ object ILiquids {
       en {
         localizedName = "Uranium Salt Solution"
         description = "A solution rich in uranium metal ions, used as an intermediate in uranium ore processing."
+      }
+      uk_UA {
+        localizedName = "Розчин солі урану"
+        description = "Розчин із високим вмістом іонів урану, що використовується як проміжний продукт під час переробки уранових руд."
       }
     }
     heatCapacity = 0.6f
@@ -409,6 +486,13 @@ object ILiquids {
             "The raw form of FEX after impurities are separated out. It is a semifluid that must crystallize into high-purity crystals to meet industrial requirements."
           details =
             "The faster it flows, the slower it flows... Its flow speed determines its viscosity, and it enriches and weakly crystallizes on any dense medium it contacts."
+        }
+        uk_UA {
+          localizedName = "FEX-рідина"
+          description =
+            "Первинна форма FEX після видалення домішок. Це напіврідка речовина, яку необхідно кристалізувати до високочистих кристалів для промислового використання."
+          details =
+            "Чим швидше вона тече, тим повільніше вона рухається... Швидкість потоку визначає в'язкість FEX, а при контакті з будь-яким щільним середовищем вона накопичується та утворює слабку кристалізацію."
         }
       }
       heatCapacity = 1f
@@ -446,6 +530,12 @@ object ILiquids {
             "Phase-shifted FEX fluid with altered physical properties. Its surface tension fluctuates violently on its own and resonates with media it contacts, making it an excellent fluid energy carrier."
           details = "Do not approach tanks or reservoirs storing phased FEX without resonance protection."
         }
+        uk_UA {
+          localizedName = "Фазова FEX-рідина"
+          description =
+            "FEX-рідина після фазового перетворення зі зміненими фізичними властивостями. Її поверхневий натяг самовільно зазнає сильних коливань, а при контакті з іншими середовищами виникає резонанс, що робить її високоефективним рідинним носієм енергії."
+          details = "Суворо заборонено наближатися до резервуарів або сховищ із фазовою FEX-рідиною без резонансного захисту."
+        }
       }
       heatCapacity = 1.25f
       explosiveness = 0f
@@ -480,6 +570,10 @@ object ILiquids {
         localizedName = "Oxygen"
         description = "The most commonly used gas, serving as an oxidizer in industrial production."
       }
+      uk_UA {
+        localizedName = "Кисень"
+        description = "Найпоширеніший газ, що використовується як окисник у промисловому виробництві."
+      }
     }
     gas = true
     explosiveness = 0f
@@ -498,6 +592,11 @@ object ILiquids {
         description =
           "A greenhouse gas commonly present in the atmosphere. In industry, carbon dioxide is often used as a refrigerant and inert shielding gas."
       }
+      uk_UA {
+        localizedName = "Вуглекислий газ"
+        description =
+          "Поширений в атмосфері парниковий газ. У промисловості вуглекислий газ часто використовується як холодоагент та інертний захисний газ."
+      }
     }
     gas = true
     heatCapacity = 1.2f
@@ -515,6 +614,10 @@ object ILiquids {
       en {
         localizedName = "Sulfur Dioxide"
         description = "An oxidizing gas usually used to produce sulfuric acid."
+      }
+      uk_UA {
+        localizedName = "Діоксид сірки"
+        description = "Окиснювальний газ, який зазвичай використовується для виробництва сірчаної кислоти."
       }
     }
     gas = true
@@ -536,6 +639,10 @@ object ILiquids {
         localizedName = "Methane"
         description = "A natural gas mainly composed of methane, capable of replacing part of a factory's fuel demand."
       }
+      uk_UA {
+        localizedName = "Біогаз"
+        description = "Природний газ, основним компонентом якого є метан, здатний частково замінити потреби заводів у паливі."
+      }
     }
     gas = true
     explosiveness = 0.5f
@@ -550,6 +657,10 @@ object ILiquids {
       }
       en {
         localizedName = "Hydrogen"
+        description = ""
+      }
+      uk_UA {
+        localizedName = "Водень"
         description = ""
       }
     }
@@ -570,6 +681,13 @@ object ILiquids {
         details =
           "Helium is generally abundant in planetary rock layers. Because its atomic mass is too light, it is difficult for large amounts to remain on the surface of planets with atmospheres."
       }
+      uk_UA {
+        localizedName = "Гелій"
+        description =
+          "Відносно поширений інертний газ 0 групи, який часто використовується як промисловий захисний газ або виробляється як паливо для термоядерного синтезу шляхом бомбардування нейтронами."
+        details =
+          "Зазвичай гелій досить поширений у гірських породах планет. Через надто малу атомну масу він рідко може накопичуватися у великих кількостях на поверхні планет з атмосферою."
+      }
     }
     gas = true
     heatCapacity = 0.4f
@@ -588,6 +706,11 @@ object ILiquids {
         localizedName = "Chlorine"
         description =
           "A biologically toxic gas. Water systems often contain a certain amount of chlorine and chloride ions, making it very common in industry."
+      }
+      uk_UA {
+        localizedName = "Хлор"
+        description =
+          "Біологічно токсичний газ. Водні системи часто містять певну кількість хлору та хлорид-іонів, що робить його широко використовуваним у промисловості."
       }
     }
     gas = true
