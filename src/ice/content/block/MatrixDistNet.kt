@@ -37,6 +37,14 @@ object MatrixDistNet {
         localizedName = "矩阵中枢伺服器"
         description = "一个矩阵网络的核心设备,矩阵网络必须有且只有一个中枢伺服器,矩阵桥连接此方块时只能单向连接"
       }
+      en {
+        localizedName = "Matrix Hub Server"
+        description = "The core device of a Matrix network. Each Matrix network must contain exactly one Hub Server. Matrix Bridges may only establish one-way connections when linked to this block."
+      }
+      uk_UA {
+        localizedName = "Сервер вузла матриці"
+        description = "Центральний пристрій мережі Матриці. Кожна мережа Матриці повинна мати рівно один сервер вузла. Матричні мости можуть підключатися до цього блока лише в односторонньому напрямку."
+      }
     }
     requirements(
       SglCategory.matrix,
@@ -76,6 +84,16 @@ object MatrixDistNet {
         description =
           "矩阵建立的物质运输桥,可任意方向链接的物质运输桥,可运输物品和液体\n同时,这也是矩阵网络中用于连接设备的节点,只能呈树状结构建立矩阵网络"
       }
+      en {
+        localizedName = "Matrix Bridge"
+        description =
+          "A Matrix-based transport bridge that can connect in any direction to transfer items and liquids.\nIt also serves as a node for linking devices within a Matrix network. Matrix networks may only be formed in a tree topology."
+      }
+      uk_UA {
+        localizedName = "Матричний міст"
+        description =
+          "Транспортний міст на основі Матриці, який може з'єднуватися в будь-якому напрямку для передачі предметів і рідин.\nТакож слугує вузлом для з'єднання пристроїв у мережі Матриці. Мережа Матриці може бути побудована лише у вигляді деревоподібної структури."
+      }
     }
   }
   var 矩阵塔 = MatrixBridge("matrix_tower").apply {
@@ -98,6 +116,14 @@ object MatrixDistNet {
         localizedName = "矩阵塔"
         description = "大型的矩阵连接柱,比矩阵桥有更远的连接距离,但是只能向四个方向进行连接"
       }
+      en {
+        localizedName = "Matrix Tower"
+        description = "A large Matrix connection tower. It has a much greater connection range than a Matrix Bridge, but can only connect in the four cardinal directions."
+      }
+      uk_UA {
+        localizedName = "Матрична вежа"
+        description = "Велика вежа з'єднання Матриці. Має значно більшу дальність з'єднання, ніж Матричний міст, але може підключатися лише в чотирьох основних напрямках."
+      }
     }
   }
   var 网格控制器 = MatrixGridCore("matrix_controller").apply {
@@ -106,6 +132,16 @@ object MatrixDistNet {
         localizedName = "网格控制器"
         description =
           "矩阵网格的控制中枢,与矩阵网格框架建立矩阵网格,在网格中通过此设备配置网格内io点的的输入输出和存储设备,是一个重要的物流管理模型"
+      }
+      en {
+        localizedName = "Grid Controller"
+        description =
+          "The control center of a Matrix Grid. Establishes a Matrix Grid with Matrix Grid Frameworks, allowing configuration of input/output points and storage devices within the grid. An essential logistics management module."
+      }
+      uk_UA {
+        localizedName = "Контролер сітки"
+        description =
+          "Центральний контролер Матричної сітки. Створює Матричну сітку разом із каркасами Матричної сітки, дозволяючи налаштовувати точки введення/виведення та сховища всередині сітки. Важливий модуль керування логістикою."
       }
     }
     requirements(
@@ -135,6 +171,14 @@ object MatrixDistNet {
         localizedName = "网格框架"
         description = "矩阵网格的构建设备,彼此连接,与一个网络控制器构成闭环后建立其矩阵网格"
       }
+      en {
+        localizedName = "Grid Framework"
+        description = "A construction device for Matrix Grids. Connected with each other and a Grid Controller, they form a closed loop to establish a Matrix Grid."
+      }
+      uk_UA {
+        localizedName = "Каркас сітки"
+        description = "Будівельний пристрій для Матричних сіток. З'єднані між собою та з контролером сітки, вони утворюють замкнений контур для створення Матричної сітки."
+      }
     }
     requirements(
       SglCategory.matrix, ItemStack.with(
@@ -150,6 +194,14 @@ object MatrixDistNet {
         localizedName = "通用IO端口"
         description = "矩阵网格使用的IO设施,物品及液体的通用端口,通过网格控制器进行端口配置"
       }
+      en {
+        localizedName = "Universal IO Port"
+        description = "An IO facility used by Matrix Grids. A universal port for items and liquids, configured through the Grid Controller."
+      }
+      uk_UA {
+        localizedName = "Універсальний порт вводу-виводу"
+        description = "Пристрій вводу-виводу, що використовується Матричними сітками. Універсальний порт для предметів і рідин, який налаштовується через контролер сітки."
+      }
     }
     requirements(
       SglCategory.matrix, ItemStack.with(
@@ -164,6 +216,14 @@ object MatrixDistNet {
       zh_CN {
         localizedName = "能源管理器"
         description = "对能源接受和管理的设备,与相邻的能源设备形成一个能源管理模块,用于接受和缓存能量以供应网络使用"
+      }
+      en {
+        localizedName = "Energy Manager"
+        description = "A device for energy reception and management. Forms an energy management module with adjacent energy devices, used to receive and buffer energy for network consumption."
+      }
+      uk_UA {
+        localizedName = "Енергетичний менеджер"
+        description = "Пристрій для прийому та керування енергією. Разом із сусідніми енергетичними пристроями утворює модуль керування енергією, який приймає та накопичує енергію для живлення мережі."
       }
     }
     requirements(
@@ -187,6 +247,14 @@ object MatrixDistNet {
         localizedName = "能源簇"
         description = "网络缓存能源能的设备,可以存储一定量的矩阵能源以避免停电等情况造成的致命问题"
       }
+      en {
+        localizedName = "Energy Cluster"
+        description = "A network energy buffer device. Stores a certain amount of Matrix Energy to prevent critical failures caused by power outages."
+      }
+      uk_UA {
+        localizedName = "Енергетичний кластер"
+        description = "Пристрій для буферизації енергії мережі. Може зберігати певну кількість Матричної енергії, запобігаючи критичним проблемам через перебої живлення."
+      }
     }
     matrixEnergyCapacity = 16384f
   }
@@ -202,6 +270,14 @@ object MatrixDistNet {
       zh_CN {
         localizedName = "能量接口"
         description = "接收能量供应网络消耗而设备,需要邻近能源管理器放置"
+      }
+      en {
+        localizedName = "Energy Interface"
+        description = "A device that receives energy to supply network consumption. Must be placed adjacent to an Energy Manager."
+      }
+      uk_UA {
+        localizedName = "Енергетичний інтерфейс"
+        description = "Пристрій, що отримує енергію для живлення споживання мережі. Має бути розміщений поруч з енергетичним менеджером."
       }
     }
     consPower = 1000f
@@ -219,6 +295,14 @@ object MatrixDistNet {
       zh_CN {
         localizedName = "中子接口"
         description = "网络接受中子能输入的设备,需要邻近能源管理器放置"
+      }
+      en {
+        localizedName = "Neutron Interface"
+        description = "A device that allows the network to receive neutron energy input. Must be placed adjacent to an Energy Manager."
+      }
+      uk_UA {
+        localizedName = "Нейтронний інтерфейс"
+        description = "Пристрій, що дозволяє мережі отримувати вхідну нейтронну енергію. Має бути розміщений поруч з енергетичним менеджером."
       }
     }
   }
@@ -244,6 +328,14 @@ object MatrixDistNet {
         localizedName = "矩阵组件接口"
         description = "用于将矩阵功能组件接入网络中,需要彼此连接形成连续的接口结构,且与组件设备需要的连接方式匹配才可接入网络"
       }
+      en {
+        localizedName = "Matrix Component Interface"
+        description = "Used to connect Matrix functional components to the network. Interfaces must be connected to form a continuous structure, and their connection type must match the requirements of the component device before integration is possible."
+      }
+      uk_UA {
+        localizedName = "Інтерфейс матричних компонентів"
+        description = "Використовується для підключення функціональних компонентів Матриці до мережі. Інтерфейси мають бути з'єднані в безперервну структуру, а їхній тип підключення повинен відповідати вимогам пристрою компонента для інтеграції в мережу."
+      }
     }
   }
   var 矩阵处理单元 = CoreNeighbourComponent("matrix_process_unit").apply {
@@ -263,6 +355,14 @@ object MatrixDistNet {
         localizedName = "矩阵处理单元"
         description = "需要紧贴矩阵中枢伺服器放置,提供网络核心的运算力,使网络每次刷新可以处理更多的请求任务"
       }
+      en {
+        localizedName = "Matrix Processing Unit"
+        description = "Must be placed adjacent to the Matrix Hub Server. Provides computing power to the network core, allowing the network to process more requests with each refresh cycle."
+      }
+      uk_UA {
+        localizedName = "Матричний обчислювальний блок"
+        description = "Повинен бути розміщений поруч із сервером вузла Матриці. Надає обчислювальну потужність ядру мережі, дозволяючи обробляти більше запитів під час кожного оновлення."
+      }
     }
   }
   var 矩阵拓扑容器 = CoreNeighbourComponent("matrix_topology_container").apply {
@@ -280,6 +380,14 @@ object MatrixDistNet {
       zh_CN {
         localizedName = "矩阵拓扑容器"
         description = "需要紧贴矩阵中枢伺服器放置,提供整个网络的拓扑容量,使网络可以安装更多的设备"
+      }
+      en {
+        localizedName = "Matrix Topology Container"
+        description = "Must be placed adjacent to the Matrix Hub Server. Provides topology capacity for the entire network, allowing more devices to be installed."
+      }
+      uk_UA {
+        localizedName = "Контейнер матричної топології"
+        description = "Повинен бути розміщений поруч із сервером вузла Матриці. Надає топологічну місткість для всієї мережі, дозволяючи встановлювати більше пристроїв."
       }
     }
   }
@@ -300,6 +408,14 @@ object MatrixDistNet {
         localizedName = "通用物质缓存器"
         description = "网络组件,提供网络的物品和流体缓存区容量"
       }
+      en {
+        localizedName = "Universal Material Buffer"
+        description = "A network component that provides storage capacity for items and liquids within the network."
+      }
+      uk_UA {
+        localizedName = "Універсальний матеріальний буфер"
+        description = "Компонент мережі, що забезпечує місткість буфера для предметів і рідин у мережі."
+      }
     }
   }
   var 自动回收组件 = AutoRecyclerComp("automatic_recycler_component").apply {
@@ -317,6 +433,16 @@ object MatrixDistNet {
         localizedName = "自动回收组件"
         description =
           "可以配置缓存的溢出资源回收,在已安装该设备的网络中,若所有网络容器都已满,接收的在配置回收清单中的资源将被自动销毁,以避免网络堵死\n有两种配置模式：\n    [accent]黑名单模式[]: 销毁溢出的已选中资源\n    [accent]白名单模式[]: 配置选中的资源在溢出时被保留"
+      }
+      en {
+        localizedName = "Automatic Recycling Component"
+        description =
+          "Configures automatic recycling of overflowing resources in network storage. In a network equipped with this device, when all network containers are full, received resources listed in the recycling configuration will be automatically destroyed to prevent network blockage.\nTwo configuration modes are available:\n    [accent]Blacklist Mode[]: Destroy selected resources when they overflow\n    [accent]Whitelist Mode[]: Preserve selected resources when they overflow"
+      }
+      uk_UA {
+        localizedName = "Компонент автоматичної утилізації"
+        description =
+          "Налаштовує автоматичну утилізацію ресурсів, що перевищують місткість сховищ мережі. У мережі з цим пристроєм, якщо всі мережеві контейнери заповнені, отримані ресурси зі списку утилізації будуть автоматично знищені, щоб запобігти блокуванню мережі.\nДоступно два режими налаштування:\n    [accent]Режим чорного списку[]: знищує вибрані ресурси при переповненні\n    [accent]Режим білого списку[]: зберігає вибрані ресурси під час переповнення"
       }
     }
     setRecycle(DistBufferType.itemBuffer) { e: Building? -> e!!.items.clear() }
