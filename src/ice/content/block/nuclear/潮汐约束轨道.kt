@@ -17,6 +17,10 @@ class 潮汐约束轨道 :TokamakOrbit("tidal_confinement_orbit") {
         description =
           "A fusion confinement rail that forcibly constrains plasma flow using gravitational fields. Massive in size, but offers a very high power multiplier."
       }
+      uk_UA {
+        localizedName = "Приливна рейка утримання"
+        description = "Рейка утримання синтезу, яка примусово обмежує потік плазми за допомогою гравітаційних полів. Величезна за розміром, але пропонує дуже високий множник потужності."
+      }
     }
     quickRotate = false
     requirements(

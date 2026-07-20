@@ -17,6 +17,10 @@ class 中子能量节点 :NuclearNode("nuclear_pipe_node") {
         description =
           "A neutron energy transmission node used to transport nuclear energy. Connect multiple nodes to build a nuclear energy transport network."
       }
+      uk_UA {
+        localizedName = "Вузол нейтронної енергії"
+        description = "Вузол передачі нейтронної енергії, що використовується для транспортування ядерної енергії. З'єднайте кілька вузлів, щоб створити мережу транспортування ядерної енергії."
+      }
     }
     requirements(SglCategory.nuclear, IItems.强化合金, 8, IItems.FEX水晶, 4)
     size = 2

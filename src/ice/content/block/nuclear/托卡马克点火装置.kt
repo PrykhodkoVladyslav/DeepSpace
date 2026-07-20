@@ -28,6 +28,10 @@ class 托卡马克点火装置 :TokamakCore("tokamak_firer") {
         description =
           "The core component of a tokamak nuclear fusion device, serving as the port for feeding materials and outputting energy. A fusion device must have one and only one such unit. Link this device with fusion confinement rails to form a closed loop (which must have exactly 4 corners) to constitute a complete tokamak fusion reactor. The reactor's power output depends on the scale of the entire structure."
       }
+      uk_UA {
+        localizedName = "Пристрій запалювання токамака"
+        description = "Основний компонент пристрою термоядерного синтезу токамака, що слугує портом для подачі матеріалів та виведення енергії. Пристрій синтезу повинен мати лише один такий блок. З'єднайте цей пристрій з рейками утримання синтезу, щоб утворити замкнуте коло (яке повинно мати рівно 4 кути), щоб скласти повний реактор термоядерного синтезу токамака. Потужність реактора залежить від масштабу всієї структури."
+      }
     }
     requirements(
       SglCategory.nuclear,

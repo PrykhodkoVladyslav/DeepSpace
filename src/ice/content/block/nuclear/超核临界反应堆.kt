@@ -41,6 +41,10 @@ class 超核临界反应堆 :NuclearReactor("overrun_reactor") {
         description =
           "An advanced extra-large reactor where internal force fields further compress fuel to intensify reactions, boasting extremely high power generation efficiency without producing nuclear waste.\nRequires special cooling methods to control core temperature. If the reactor temperature exceeds the limit, core meltdown will occur, triggering a large-scale devastating [red]nuclear explosion[]."
       }
+      uk_UA {
+        localizedName = "Надкритичний ядерний реактор"
+        description = "Просунутий надвеликий реактор, де внутрішні силові поля додатково стискають паливо для посилення реакцій, що має надзвичайно високу ефективність виробництва енергії без утворення ядерних відходів.\nПотребує спеціальних методів охолодження для контролю температури активної зони. Якщо температура реактора перевищує ліміт, відбудеться розплав активної зони, що викличе масштабний руйнівний [red]ядерний вибук[]."
+      }
     }
     requirements(
       SglCategory.nuclear,

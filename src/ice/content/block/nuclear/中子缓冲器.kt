@@ -17,6 +17,10 @@ class 中子缓冲器 :EnergyBuffer("energy_buffer") {
         description =
           "A small energy buffering facility used to stabilize energy levels and regulate voltage rise and fall. Capable of low-energy zone voltage regulation."
       }
+      uk_UA {
+        localizedName = "Нейтронний буфер"
+        description = "Невеликий буферний об'єкт енергії, що використовується для стабілізації рівнів енергії та регулювання підвищення і зниження напруги. Здатний до регулювання напруги в зоні низької енергії."
+      }
     }
     requirements(SglCategory.nuclear, IItems.强化合金, 40, IItems.FEX水晶, 50, IItems.气凝胶, 40, IItems.单晶硅, 60)
     squareSprite = false

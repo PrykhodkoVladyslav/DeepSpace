@@ -17,6 +17,10 @@ class 超导约束轨道 :TokamakOrbit("magnetic_confinement_orbit") {
         description =
           "A fusion confinement rail that constrains plasma flow through electromagnetic fields, requiring large amounts of power to operate."
       }
+      uk_UA {
+        localizedName = "Надпровідна електромагнітна рейка утримання"
+        description = "Рейка утримання синтезу, яка обмежує потік плазми через електромагнітні поля, що потребує великих кількостей енергії для роботи."
+      }
     }
     requirements(
       SglCategory.nuclear,

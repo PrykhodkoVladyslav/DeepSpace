@@ -17,6 +17,10 @@ class 相位核能塔 :NuclearNode("phase_pipe_node") {
         description =
           "A large-scale neutron energy transport device capable of carrying higher energy loads and supporting more connections."
       }
+      uk_UA {
+        localizedName = "Фазова енергетична вежа"
+        description = "Пристрій транспортування нейтронної енергії великого масштабу, здатний нести вищі енергетичні навантаження та підтримувати більше з'єднань."
+      }
     }
     requirements(SglCategory.nuclear, IItems.强化合金, 24, IItems.FEX水晶, 16, IItems.絮凝剂, 15)
     size = 3

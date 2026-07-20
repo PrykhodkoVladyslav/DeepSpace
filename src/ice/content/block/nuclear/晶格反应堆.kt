@@ -24,6 +24,10 @@ class 晶格反应堆 :NuclearReactor("lattice_reactor") {
         description =
           "A specially designed slow-speed reactor that does not use compressed fuel. Instead, it performs controlled fission on fuel lattice structures, yielding lower output but extremely high utilization.\nRequires cooling. If the reactor temperature exceeds the limit, core meltdown will occur, triggering a small-range [accent]explosion[]."
       }
+      uk_UA {
+        localizedName = "Кристалічний реактор"
+        description = "Спеціально розроблений повільний реактор, який не використовує стиснене паливо. Натомість він виконує контрольоване ділення на кристалічних структурах палива, що дає нижчу вихідну потужність, але надзвичайно високе використання.\nПотребує охолодження. Якщо температура реактора перевищує ліміт, відбудеться розплав активної зони, що викличе вибух малого радіусу [accent]вибух[]."
+      }
     }
     requirements(
       SglCategory.nuclear,

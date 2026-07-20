@@ -23,6 +23,10 @@ class 核反应堆 :NuclearReactor("nuclear_reactor") {init {
       description =
         "A standard nuclear fission reactor that uses compressed nuclear fuel to produce nuclear energy with high efficiency. The more compact the fuel, the higher the efficiency. Requires cooling. If the reactor temperature exceeds the limit, core meltdown will occur, triggering a violent [accent]explosion[]."
     }
+    uk_UA {
+      localizedName = "Ядерний реактор"
+      description = "Стандартний реактор ядерного ділення, який використовує стиснене ядерне паливо для виробництва ядерної енергії з високою ефективністю. Чим компактніше паливо, тим вища ефективність. Потребує охолодження. Якщо температура реактора перевищує ліміт, відбудеться розплав активної зони, що викличе сильний [accent]вибух[]."
+    }
   }
   requirements(
     SglCategory.nuclear,

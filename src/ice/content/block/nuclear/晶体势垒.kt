@@ -16,6 +16,10 @@ class 晶体势垒 :EnergyBuffer("crystal_buffer") {
         localizedName = "Crystal Barrier"
         description = "A medium energy buffering facility with larger energy buffer space, capable of medium-voltage zone regulation."
       }
+      uk_UA {
+        localizedName = "Кристалічний бар'єр"
+        description = "Середній буферний об'єкт енергії з більшим буферним простором енергії, здатний до регулювання напруги в зоні середнього тиску."
+      }
     }
     squareSprite = false
     requirements(

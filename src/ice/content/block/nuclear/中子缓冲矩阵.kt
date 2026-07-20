@@ -17,6 +17,10 @@ class 中子缓冲矩阵 :EnergyBuffer("neutron_matrix_buffer") {
         description =
           "An ultra-large energy buffering array with composite buffering and maximum buffer capacity, featuring full-range voltage regulation from low to ultra-high pressure."
       }
+      uk_UA {
+        localizedName = "Нейтронна буферна матриця"
+        description = "Ультравеликий буферний масив енергії зі складним буферуванням та максимальною буферною ємністю, що має повний діапазон регулювання напруги від низького до ультрависокого тиску."
+      }
     }
     squareSprite = false
     requirements(

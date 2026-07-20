@@ -25,6 +25,10 @@ class 晶体储能簇 :EnergyContainer("crystal_container") {
         localizedName = "Crystal Energy Storage Cluster"
         description = "A crystal-style neutron energy storage device used for storing neutron energy."
       }
+      uk_UA {
+        localizedName = "Кристалічний кластер зберігання енергії"
+        description = "Пристрій зберігання нейтронної енергії кристалічного типу, що використовується для зберігання нейтронної енергії."
+      }
     }
     squareSprite = false
     requirements(

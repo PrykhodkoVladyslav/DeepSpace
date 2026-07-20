@@ -27,6 +27,10 @@ class 衰变仓 :NormalCrafter("decay_bin") {init {
       localizedName = "Decay Bin"
       description = "Radioactive materials undergo decay to produce small amounts of nuclear energy. Byproducts may be generated."
     }
+    uk_UA {
+      localizedName = "Камера розпаду"
+      description = "Радіоактивні матеріали піддаються розпаду для виробництва невеликих кількостей ядерної енергії. Можуть утворюватися побічні продукти."
+    }
   }
   requirements(
     SglCategory.nuclear, IItems.强化合金, 60, IItems.FEX水晶, 40, IItems.单晶硅, 50, IItems.铅锭, 80, IItems.石英玻璃, 40

@@ -17,6 +17,10 @@ class 高压缓冲器 :EnergyBuffer("high_voltage_buffer") {
         description =
           "A large energy buffering facility with ample buffer space to meet almost any energy buffering need. Can be used for high-voltage zone regulation."
       }
+      uk_UA {
+        localizedName = "Високовольтний буфер"
+        description = "Великий буферний об'єкт енергії з достатнім буферним простором для задоволення майже будь-яких потреб у буферуванні енергії. Може використовуватися для регулювання напруги в зоні високого тиску."
+      }
     }
     squareSprite = false
     requirements(

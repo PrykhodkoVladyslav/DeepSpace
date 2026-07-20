@@ -45,6 +45,10 @@ class 环形电磁储能簇 :EnergyContainer("magnetic_energy_container") {
         description =
           "A confinement-type active neutron energy storage device capable of storing extremely large amounts of energy, but requires power consumption. Leakage will occur if power supply is insufficient."
       }
+      uk_UA {
+        localizedName = "Кільцевий електромагнітний кластер зберігання енергії"
+        description = "Пристрій активного зберігання нейтронної енергії типу утримання, здатний зберігати надзвичайно великі кількості енергії, але потребує споживання енергії. Витік відбудеться, якщо постачання енергії недостатнє."
+      }
     }
     requirements(
       SglCategory.nuclear,

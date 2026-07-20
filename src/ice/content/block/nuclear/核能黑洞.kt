@@ -16,6 +16,10 @@ class 核能黑洞 :EnergyVoid("nuclear_energy_void") {
         localizedName = "Nuclear Energy Void"
         description = "Absorbs neutron energy."
       }
+      uk_UA {
+        localizedName = "Ядерна енергетична діра"
+        description = "Поглинає нейтронну енергію."
+      }
     }
     squareSprite = false
     requirements(SglCategory.nuclear, BuildVisibility.sandboxOnly, ItemStack.empty)
