@@ -17,6 +17,10 @@ class 大型逻辑显示屏 :LogicDisplay("large-logic-display") {
         localizedName = "Large Logic Display"
         description = "Displays various images drawn by processors."
       }
+      uk_UA {
+        localizedName = "Великий логічний дисплей"
+        description = "Відображає різні зображення, намальовані процесорами."
+      }
     }
     requirements(Category.logic, IItems.石英玻璃, 60, IItems.单晶硅, 60, IItems.金锭, 40, IItems.铬锭, 30, IItems.电子元件, 30)
     size = 6

@@ -17,6 +17,10 @@ class 开关 :SwitchBlock("switch") {
         localizedName = "Switch"
         description = "A toggleable switch. Its state can be read and controlled by a logic processor."
       }
+      uk_UA {
+        localizedName = "Перемикач"
+        description = "Перемикач, який можна вмикати/вимикати. Його стан можна зчитувати та керувати логічним процесором."
+      }
     }
     health = 40
     requirements(Category.logic, IItems.低碳钢, 5, IItems.高碳钢, 5, IItems.铅锭, 3)

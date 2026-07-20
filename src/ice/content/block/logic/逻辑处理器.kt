@@ -18,6 +18,10 @@ class 逻辑处理器 :LogicBlock("logic-processor") {
         description =
           "Runs a series of logic instructions in a loop. Can be used to control units and buildings. Faster than the micro processor."
       }
+      uk_UA {
+        localizedName = "Логічний процесор"
+        description = "Циклічно виконує серію логічних інструкцій. Може використовуватися для керування одиницями та спорудами. Швидший за мікропроцесор."
+      }
     }
     requirements(Category.logic, IItems.铝锭, 50, IItems.石墨烯, 50, IItems.金锭, 30, IItems.钴钢, 110, IItems.导能回路, 50)
     health = 200

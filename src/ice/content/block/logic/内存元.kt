@@ -17,6 +17,10 @@ class 内存元 :MemoryBlock("memory-cell") {
         localizedName = "Memory Cell"
         description = "Stores information for processors."
       }
+      uk_UA {
+        localizedName = "Комірка пам'яті"
+        description = "Зберігає інформацію для процесорів."
+      }
     }
     requirements(Category.logic, IItems.高碳钢, 50, IItems.铜锭, 30, IItems.单晶硅, 30)
     health = 40

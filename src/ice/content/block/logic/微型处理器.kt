@@ -17,6 +17,10 @@ class 微型处理器 :LogicBlock("micro-processor") {
         localizedName = "Micro Processor"
         description = "Runs a series of logic instructions in a loop. Can be used to control units and buildings."
       }
+      uk_UA {
+        localizedName = "Мікропроцесор"
+        description = "Циклічно виконує серію логічних інструкцій. Може використовуватися для керування одиницями та спорудами."
+      }
     }
     requirements(Category.logic, IItems.低碳钢, 50, IItems.高碳钢, 50, IItems.铜锭, 20, IItems.单晶硅, 20)
     health = 40

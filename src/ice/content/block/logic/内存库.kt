@@ -17,6 +17,10 @@ class 内存库 :MemoryBlock("memory-bank") {
         localizedName = "Memory Bank"
         description = "Stores information for processors. Has a larger capacity."
       }
+      uk_UA {
+        localizedName = "Банк пам'яті"
+        description = "Зберігає інформацію для процесорів. Має більшу ємність."
+      }
     }
     requirements(Category.logic, IItems.钴钢, 90, IItems.陶钢, 30, IItems.导能回路, 40, IItems.铪锭, 30)
     health = 200

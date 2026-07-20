@@ -17,6 +17,10 @@ class 信息板 :MessageBlock("message") {
         localizedName = "Message Board"
         description = "Saves text information for communication between teammates."
       }
+      uk_UA {
+        localizedName = "Інформаційна панель"
+        description = "Зберігає текстову інформацію для спілкування між товаришами по команді."
+      }
     }
     health = 40
     requirements(Category.logic, IItems.低碳钢, 5, IItems.高碳钢, 5, IItems.铜锭, 3)

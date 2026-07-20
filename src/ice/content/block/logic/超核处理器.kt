@@ -19,6 +19,10 @@ class 超核处理器 :LogicBlock("hyper-processor") {
         description =
           "Runs a series of logic instructions in a loop. Can be used to control units and buildings. Faster than the logic processor."
       }
+      uk_UA {
+        localizedName = "Гіперпроцесор"
+        description = "Циклічно виконує серію логічних інструкцій. Може використовуватися для керування одиницями та спорудами. Швидший за логічний процесор."
+      }
     }
     requirements(
       Category.logic,
