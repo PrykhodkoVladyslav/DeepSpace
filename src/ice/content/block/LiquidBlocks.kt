@@ -17,6 +17,14 @@ object LiquidBlocks {
         localizedName = "泵腔"
         description = "一边跳动...一边泵出流体..."
       }
+      en {
+        localizedName = "Pump Chamber"
+        description = "Pulsing softly... while pumping out fluid..."
+      }
+      uk_UA {
+        localizedName = "Насосна камера"
+        description = "Пульсує... одночасно викачуючи рідину..."
+      }
     }
   }
   val 动力泵 = 动力泵()
