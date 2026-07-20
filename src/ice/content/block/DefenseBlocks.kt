@@ -65,7 +65,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Carbon Steel Wall"
-        description = "Protects allied structures and blocks enemy projectiles"
+        description = "Protects allied structures and blocks enemy projectiles."
+      }
+      uk_UA {
+        localizedName = "Вуглецева сталева стіна"
+        description = "Захищає союзні споруди та блокує ворожі снаряди."
       }
     }
   }
@@ -82,7 +86,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Large Carbon Steel Wall"
-        description = "Protects allied structures and blocks enemy projectiles"
+        description = "Protects allied structures and blocks enemy projectiles."
+      }
+      uk_UA {
+        localizedName = "Велика вуглецева сталева стіна"
+        description = "Захищає союзні споруди та блокує ворожі снаряди."
       }
     }
   }
@@ -100,8 +108,13 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Flux Gold Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and slowly repairs itself over time"
+        description = "Protects allied structures, blocks enemy projectiles, and slowly repairs itself over time."
         details = "A barrier built from molten gold ingots\nWealth +"
+      }
+      uk_UA {
+        localizedName = "Стіна з текучого золота"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та повільно відновлюється з часом."
+        details = "Бар'єр, створений із розплавлених золотих злитків\nБагатство +"
       }
     }
   }
@@ -119,8 +132,13 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Large Flux Gold Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and slowly repairs itself over time"
+        description = "Protects allied structures, blocks enemy projectiles, and slowly repairs itself over time."
         details = "A barrier built from molten gold ingots\nWealth ++"
+      }
+      uk_UA {
+        localizedName = "Велика стіна з текучого золота"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та повільно відновлюється з часом."
+        details = "Бар'єр, створений із розплавлених золотих злитків\nБагатство ++"
       }
     }
   }
@@ -132,7 +150,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Chrome Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and is sturdier and more durable"
+        description = "Protects allied structures, blocks enemy projectiles, and is stronger and more durable."
+      }
+      uk_UA {
+        localizedName = "Хромова стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має більшу міцність і довговічність."
       }
     }
     health = 450
@@ -150,7 +172,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Large Chrome Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and is sturdier and more durable"
+        description = "Protects allied structures, blocks enemy projectiles, and is stronger and more durable."
+      }
+      uk_UA {
+        localizedName = "Велика хромова стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має більшу міцність і довговічність."
       }
     }
   }
@@ -165,7 +191,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Cobalt Steel Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and is sturdier and more durable"
+        description = "Protects allied structures, blocks enemy projectiles, and is stronger and more durable."
+      }
+      uk_UA {
+        localizedName = "Кобальтова сталева стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має більшу міцність і довговічність."
       }
     }
   }
@@ -180,7 +210,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Large Cobalt Steel Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and is sturdier and more durable"
+        description = "Protects allied structures, blocks enemy projectiles, and is stronger and more durable."
+      }
+      uk_UA {
+        localizedName = "Велика кобальтова сталева стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має більшу міцність і довговічність."
       }
     }
   }
@@ -197,8 +231,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Ceramic Steel Wall"
-        description =
-          "Protects allied structures, blocks enemy projectiles, and is sturdier and more durable. Absorbs lasers and electric arcs, prevents power nodes from connecting automatically, and can be placed on shorelines"
+        description = "Protects allied structures, blocks enemy projectiles, and is stronger and more durable. Absorbs lasers and electric arcs, prevents automatic power node connections, and can be placed on shorelines."
+      }
+      uk_UA {
+        localizedName = "Керамічна сталева стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має більшу міцність і довговічність. Поглинає лазери й електричні дуги, запобігає автоматичному з'єднанню енергетичних вузлів і може бути розміщена біля берегової лінії."
       }
     }
     requirements(Category.defense, IItems.陶钢, 6)
@@ -217,8 +254,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Large Ceramic Steel Wall"
-        description =
-          "Protects allied structures, blocks enemy projectiles, and is sturdier and more durable. Absorbs lasers and electric arcs, prevents power nodes from connecting automatically, and can be placed on shorelines"
+        description = "Protects allied structures, blocks enemy projectiles, and is stronger and more durable. Absorbs lasers and electric arcs, prevents automatic power node connections, and can be placed on shorelines."
+      }
+      uk_UA {
+        localizedName = "Велика керамічна сталева стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має більшу міцність і довговічність. Поглинає лазери й електричні дуги, запобігає автоматичному з'єднанню енергетичних вузлів і може бути розміщена біля берегової лінії."
       }
     }
     requirements(Category.defense, IItems.陶钢, 24)
@@ -234,7 +274,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Iridium Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and is sturdier and more durable"
+        description = "Protects allied structures, blocks enemy projectiles, and is stronger and more durable."
+      }
+      uk_UA {
+        localizedName = "Іридієва стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має більшу міцність і довговічність."
       }
     }
     requirements(Category.defense, IItems.铱板, 6)
@@ -251,7 +295,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Large Iridium Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and is sturdier and more durable"
+        description = "Protects allied structures, blocks enemy projectiles, and is stronger and more durable."
+      }
+      uk_UA {
+        localizedName = "Велика іридієва стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має більшу міцність і довговічність."
       }
     }
     requirements(Category.defense, IItems.铱板, 24)
@@ -264,7 +312,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Reinforced Alloy Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and is extremely sturdy and durable"
+        description = "Protects allied structures, blocks enemy projectiles, and is extremely strong and durable."
+      }
+      uk_UA {
+        localizedName = "Посилена сплавна стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має надзвичайну міцність і довговічність."
       }
     }
     health = 900
@@ -278,7 +330,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Large Reinforced Alloy Wall"
-        description = "Protects allied structures, blocks enemy projectiles, and is extremely sturdy and durable"
+        description = "Protects allied structures, blocks enemy projectiles, and is extremely strong and durable."
+      }
+      uk_UA {
+        localizedName = "Велика посилена сплавна стіна"
+        description = "Захищає союзні споруди, блокує ворожі снаряди та має надзвичайну міцність і довговічність."
       }
     }
     size = 2
@@ -304,7 +360,12 @@ object DefenseBlocks {
       en {
         localizedName = "Biological Steel Wall"
         description =
-          "Protects allied structures, blocks enemy projectiles, and is extremely sturdy and durable. Reduces part of incoming damage and slowly repairs itself over time.\nAbsorbs lasers and electric arcs, prevents power nodes from connecting automatically, and can be placed in deep water"
+          "Protects allied structures, blocks enemy projectiles, and is extremely strong and durable. Reduces part of incoming damage and slowly repairs itself over time.\nAbsorbs lasers and electric arcs, prevents automatic power node connections, and can be placed in deep water."
+      }
+      uk_UA {
+        localizedName = "Біосталева стіна"
+        description =
+          "Захищає союзні споруди, блокує ворожі снаряди та має надзвичайну міцність і довговічність. Зменшує частину отриманої шкоди та повільно відновлюється з часом.\nПоглинає лазери й електричні дуги, запобігає автоматичному з'єднанню енергетичних вузлів і може бути розміщена у глибокій воді."
       }
     }
   }
@@ -328,7 +389,12 @@ object DefenseBlocks {
       en {
         localizedName = "Large Biological Steel Wall"
         description =
-          "Protects allied structures, blocks enemy projectiles, and is extremely sturdy and durable. Reduces part of incoming damage and slowly repairs itself over time.\nAbsorbs lasers and electric arcs, prevents power nodes from connecting automatically, and can be placed in deep water"
+          "Protects allied structures, blocks enemy projectiles, and is extremely strong and durable. Reduces part of incoming damage and slowly repairs itself over time.\nAbsorbs lasers and electric arcs, prevents automatic power node connections, and can be placed in deep water."
+      }
+      uk_UA {
+        localizedName = "Велика біосталева стіна"
+        description =
+          "Захищає союзні споруди, блокує ворожі снаряди та має надзвичайну міцність і довговічність. Зменшує частину отриманої шкоди та повільно відновлюється з часом.\nПоглинає лазери й електричні дуги, запобігає автоматичному з'єднанню енергетичних вузлів і може бути розміщена у глибокій воді."
       }
     }
   }
@@ -341,7 +407,12 @@ object DefenseBlocks {
       en {
         localizedName = "Phase Alloy Wall"
         description =
-          "Protects allied structures, blocks enemy projectiles, and is extremely sturdy and durable. Projects a small force shield centered on itself"
+          "Protects allied structures, blocks enemy projectiles, and is extremely strong and durable. Projects a small force-field shield centered on itself."
+      }
+      uk_UA {
+        localizedName = "Фазова сплавна стіна"
+        description =
+          "Захищає союзні споруди, блокує ворожі снаряди та має надзвичайну міцність і довговічність. Створює невеликий силовий щит із центром у самій стіні."
       }
     }
     health = 1000
@@ -379,7 +450,12 @@ object DefenseBlocks {
       en {
         localizedName = "Large Phase Alloy Wall"
         description =
-          "Protects allied structures, blocks enemy projectiles, and is extremely sturdy and durable. Projects a small force shield centered on itself"
+          "Protects allied structures, blocks enemy projectiles, and is extremely strong and durable. Projects a small force-field shield centered on itself."
+      }
+      uk_UA {
+        localizedName = "Велика фазова сплавна стіна"
+        description =
+          "Захищає союзні споруди, блокує ворожі снаряди та має надзвичайну міцність і довговічність. Створює невеликий силовий щит із центром у самій стіні."
       }
     }
   }
@@ -391,7 +467,11 @@ object DefenseBlocks {
       }
       en {
         localizedName = "Armored Gate"
-        description = "An armored door that allows units to pass through and opens or closes automatically"
+        description = "An armored door that allows units to pass through and opens or closes automatically."
+      }
+      uk_UA {
+        localizedName = "Броньовані ворота"
+        description = "Броньовані двері, через які можуть проходити юніти. Автоматично відкриваються та закриваються."
       }
     }
     size = 2
@@ -411,7 +491,12 @@ object DefenseBlocks {
       en {
         localizedName = "Phased Radar"
         description =
-          "Locks onto enemy air units within range. Attacks against locked targets have a chance to deal massive bonus damage. Both the damage multiplier and chance depend on array size"
+          "Locks onto enemy air units within range. Attacks against locked targets have a chance to deal massive bonus damage. Both the damage multiplier and chance depend on array size."
+      }
+      uk_UA {
+        localizedName = "Фазована РЛС"
+        description =
+          "Фіксує ворожі повітряні цілі в межах дії. Атаки по зафіксованих цілях мають шанс завдати значно більшої додаткової шкоди. Множник шкоди та ймовірність спрацювання залежать від розміру антенної решітки."
       }
     }
     squareSprite = false
@@ -442,7 +527,12 @@ object DefenseBlocks {
       en {
         localizedName = "Degenerate Neutron Wall"
         description =
-          "Protects allied structures, blocks enemy projectiles, and is extremely sturdy and durable. Generates immense gravity to attract bullets and absorbs weaker bullets to repair itself"
+          "Protects allied structures, blocks enemy projectiles, and is extremely strong and durable. Generates immense gravity to attract projectiles and absorbs weaker bullets to repair itself."
+      }
+      uk_UA {
+        localizedName = "Стіна з виродженого нейтронію"
+        description =
+          "Захищає союзні споруди, блокує ворожі снаряди та має надзвичайну міцність і довговічність. Створює потужне гравітаційне поле, що притягує снаряди, і поглинає слабші снаряди для відновлення власної міцності."
       }
     }
     health = 2400
@@ -460,7 +550,12 @@ object DefenseBlocks {
       en {
         localizedName = "Large Degenerate Neutron Wall"
         description =
-          "Protects allied structures, blocks enemy projectiles, and is extremely sturdy and durable. Generates immense gravity to attract bullets and absorbs weaker bullets to repair itself"
+          "Protects allied structures, blocks enemy projectiles, and is extremely strong and durable. Generates immense gravity to attract projectiles and absorbs weaker bullets to repair itself."
+      }
+      uk_UA {
+        localizedName = "Велика стіна з виродженого нейтронію"
+        description =
+          "Захищає союзні споруди, блокує ворожі снаряди та має надзвичайну міцність і довговічність. Створює потужне гравітаційне поле, що притягує снаряди, і поглинає слабші снаряди для відновлення власної міцності."
       }
     }
     size = 2
@@ -478,14 +573,21 @@ object DefenseBlocks {
         description =
           "集成防御系统,反物质在力场的引导下,会按照生命游戏的规则在网格中不断演化\n具体来说,生命游戏所在的网格上,每一个单元格都是一个细胞,细胞只有两种状态,生与死,每一个细胞在一次刷新后的状态由它周围8个细胞决定,会遵循如下规则进行演化:\n[accent]当这个细胞处于死亡状态时[]\n[green]1.若周围的存活细胞数量为3则在下一刻转变为存活状态[]\n[gray]2.任何其他情况,细胞状态不变[]\n[accent]当这个细胞处于存活状态时[]\n[red]  1.若周围的存活细胞数量多于4(含4)则下一刻细胞死亡[]\n[red]2.若周围存活细胞数量少于2(不含2)则下一刻细胞死亡[] \n[gray]3.任何其他情况,细胞状态不变[]\n每一次刷新,所有存活的细胞寿命会增加1,在细胞死亡时,根据细胞的年龄会触发相应的效果,随细胞寿命的增加,强度会大幅度增强"
         details =
-          "生命游戏这一概念原本是由数学家康威设计的一个计算机程序,早期,人们仅仅研究与探索了生命游戏在计算机程序程序级别的规律,其与自然科学的重叠几乎完全被忽视了,直到二十一世纪60年代,科学家发现在真空仓内的粒子涨落规律与生命游戏在形式上高度重合,生命游戏规则成为了一项科学规律\n在这一规则下进行受控的反物质湮灭可以得到最接近理论数据的能量利用效率,因此这一规则广泛被应用于能源与武装,不过,像混沌矩阵这样彻底的巨型网格本身还是一个过于大胆的尝试,所幸在巨大的学术压力下中止数次数次后该项目还是收获了非常突出的成果"
+          "生命游戏这一概念原本是由数学家康威设计的一个计算机程序,早期,人们仅仅研究与探索了生命游戏在计算机程序级别的规律,其与自然科学的重叠几乎完全被忽视了,直到二十一世纪60年代,科学家发现在真空仓内的粒子涨落规律与生命游戏在形式上高度重合,生命游戏规则成为了一项科学规律\n在这一规则下进行受控的反物质湮灭可以得到最接近理论数据的能量利用效率,因此这一规则广泛被应用于能源与武装,不过,像混沌矩阵这样彻底的巨型网格本身还是一个过于大胆的尝试,所幸在巨大的学术压力下中止数次后该项目还是收获了非常突出的成果"
       }
       en {
         localizedName = "Chaos Matrix"
         description =
-          "An integrated defense system. Guided by a force field, antimatter continuously evolves across a grid according to the rules of Conway's Game of Life\nSpecifically, on the Game of Life grid, each cell has only two states: alive or dead. After each refresh, the state of every cell is determined by its eight surrounding cells and follows these rules:\n[accent]When a cell is dead[]\n[green]1. If exactly 3 surrounding cells are alive, it becomes alive in the next step[]\n[gray]2. In any other case, its state remains unchanged[]\n[accent]When a cell is alive[]\n[red]  1. If 4 or more surrounding cells are alive, it dies in the next step[]\n[red]2. If fewer than 2 surrounding cells are alive, it dies in the next step[] \n[gray]3. In any other case, its state remains unchanged[]\nAt each refresh, all living cells increase their age by 1. When a cell dies, effects are triggered based on its age; as cell age increases, their strength rises dramatically"
+          "An integrated defense system. Guided by a force field, antimatter continuously evolves across a grid according to the rules of Conway's Game of Life.\nSpecifically, within the Game of Life grid, each cell has only two states: alive or dead. After each update, the state of every cell is determined by its eight neighboring cells and evolves according to these rules:\n[accent]When a cell is dead[]\n[green]1. If exactly 3 surrounding cells are alive, it becomes alive in the next generation[]\n[gray]2. In all other cases, the cell state remains unchanged[]\n[accent]When a cell is alive[]\n[red]1. If 4 or more surrounding cells are alive, the cell dies in the next generation[]\n[red]2. If fewer than 2 surrounding cells are alive, the cell dies in the next generation[]\n[gray]3. In all other cases, the cell state remains unchanged[]\nWith every update, all living cells increase their age by 1. When a cell dies, effects are triggered according to its age; as cell age increases, the strength of these effects rises dramatically."
         details =
-          "The concept of the Game of Life was originally designed by mathematician Conway as a computer program. In the early days, people only studied and explored its patterns at the level of computer programs, while its overlap with natural science was almost completely ignored. It was not until the 2060s that scientists discovered that particle fluctuation patterns inside vacuum chambers were highly consistent in form with the Game of Life, turning its rules into a scientific law\nControlled antimatter annihilation under these rules can achieve energy utilization efficiency closest to theoretical data, so the rule has been widely applied in energy systems and weaponry. However, a full giant grid such as the Chaos Matrix remains an excessively bold attempt. Fortunately, despite being paused several times under enormous academic pressure, the project ultimately produced outstanding results"
+          "The concept of the Game of Life was originally designed by mathematician John Conway as a computer program. In its early days, researchers mainly studied and explored its patterns at the computational level, while its connection with natural sciences was almost completely overlooked. It was not until the 2060s that scientists discovered that particle fluctuation patterns inside vacuum chambers showed a high formal similarity to the Game of Life, turning its rules into a recognized scientific law.\nControlled antimatter annihilation under these rules can achieve energy utilization efficiency closest to theoretical predictions, causing the principle to be widely applied in energy systems and weaponry. However, a fully realized giant grid such as the Chaos Matrix remained an extremely ambitious attempt. Fortunately, after being halted several times under immense academic pressure, the project ultimately achieved remarkable results."
+      }
+      uk_UA {
+        localizedName = "Матриця хаосу"
+        description =
+          "Комплексна оборонна система. Під керуванням силового поля антиматерія постійно еволюціонує в сітці відповідно до правил гри «Життя» Конвея.\nУ сітці гри «Життя» кожна клітинка має лише два стани: жива або мертва. Після кожного оновлення стан кожної клітинки визначається її вісьмома сусідніми клітинками та змінюється за такими правилами:\n[accent]Коли клітинка мертва[]\n[green]1. Якщо навколо неї є рівно 3 живі клітинки, вона стає живою в наступному поколінні[]\n[gray]2. В інших випадках її стан не змінюється[]\n[accent]Коли клітинка жива[]\n[red]1. Якщо навколо неї 4 або більше живих клітинок, вона помирає в наступному поколінні[]\n[red]2. Якщо навколо неї менше 2 живих клітинок, вона помирає в наступному поколінні[]\n[gray]3. В інших випадках її стан не змінюється[]\nПід час кожного оновлення вік усіх живих клітин збільшується на 1. Коли клітинка гине, активуються ефекти залежно від її віку; зі збільшенням віку клітин сила ефектів різко зростає."
+        details =
+          "Концепцію гри «Життя» спочатку створив математик Джон Конвей як комп'ютерну програму. На ранньому етапі дослідження вивчали лише закономірності гри на рівні програм, а її зв'язок із природничими науками майже повністю ігнорувався. Лише у 2060-х роках вчені виявили, що закономірності коливань частинок у вакуумних камерах мають значну формальну схожість із грою «Життя», і її правила стали науковою закономірністю.\nКонтрольоване знищення антиматерії за цими правилами дозволяє отримати ефективність використання енергії, найближчу до теоретичних розрахунків, тому цей принцип широко застосовується в енергетичних системах і озброєнні. Проте повністю реалізована гігантська сітка на кшталт Матриці хаосу залишалася надзвичайно сміливим експериментом. На щастя, після кількох зупинок під величезним академічним тиском проєкт зрештою досяг видатних результатів."
       }
     }
     requirements(
