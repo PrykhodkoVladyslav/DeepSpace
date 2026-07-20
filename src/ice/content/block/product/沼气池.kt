@@ -28,6 +28,10 @@ class 沼气池 :FloorCrafter("incubator") {
         description =
           "An anaerobic digestion methane production coupled with activation energy supply device.\nIn plain words: an outhouse."
       }
+      uk_UA {
+        localizedName = "Біогазовий басейн"
+        description = "Пристрій виробництва метану шляхом анаеробного травлення, спряжений з подачею енергії активації.\nПростими словами: туалет."
+      }
     }
     requirements(Category.production, IItems.钴钢, 85, IItems.铬锭, 90, IItems.气凝胶, 40, IItems.铜锭, 90)
     size = 3

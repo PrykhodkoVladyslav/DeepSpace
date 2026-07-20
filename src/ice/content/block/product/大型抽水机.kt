@@ -15,6 +15,10 @@ class 大型抽水机 :SolidPump("largeWaterPump") {
         localizedName = "Large Water Pump"
         description = "Efficiently extracts underground water resources, but cannot extract surface water."
       }
+      uk_UA {
+        localizedName = "Великий водяний насос"
+        description = "Ефективно видобуває підземні водні ресурси, але не може видобувати поверхневу воду."
+      }
     }
     size = 3
     baseEfficiency = 1f

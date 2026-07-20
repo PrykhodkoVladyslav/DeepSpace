@@ -36,6 +36,10 @@ class 晶簇粉碎器 :NormalCrafter("crystal_miner") {
         localizedName = "Crystal Cluster Crusher"
         description = "Destroys phlogiston crystal clusters to obtain phlogiston crystals."
       }
+      uk_UA {
+        localizedName = "Дробилка кристалічних скупчень"
+        description = "Руйнує скупчення флогістонових кристалів для отримання флогістонових кристалів."
+      }
     }
     hasItems = true
     size = 2

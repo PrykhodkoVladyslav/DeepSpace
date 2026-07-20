@@ -30,6 +30,10 @@ class 谐振增压组件 :MatrixMinerComponent("matrix_miner_extend") {
         description =
           "An amplification component for the Matrix Miner that increases its collection range and can significantly improve the drill's mining efficiency."
       }
+      uk_UA {
+        localizedName = "Компонент резонансного підсилення"
+        description = "Компонент підсилення для Матричного шахтаря, який збільшує його радіус збору і може значно покращити гірничу ефективність бура."
+      }
     }
     requirements(
       Category.production,

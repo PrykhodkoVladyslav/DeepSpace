@@ -44,6 +44,10 @@ class 绿藻池 :SpliceCrafter("culturing_barn") {
         description =
           "Uses light and water to cultivate low-grade algae. Besides oxygen, a considerable amount of algae mud can also be harvested."
       }
+      uk_UA {
+        localizedName = "Басейн хлорели"
+        description = "Використовує світло та воду для вирощування низькорівневих водоростей. Окрім кисню, також можна зібрати значну кількість водоростевого мулу."
+      }
     }
     requirements(Category.production, IItems.铜锭, 10, IItems.石英玻璃, 12, IItems.钴锭, 8)
     hasLiquids = true

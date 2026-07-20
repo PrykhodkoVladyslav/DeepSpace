@@ -17,6 +17,10 @@ class 采掘扇区 :MatrixMinerSector("matrix_miner_node") {
         localizedName = "Mining Sector"
         description = "A mining working component for the Matrix Miner, providing a basic mining angle interval."
       }
+      uk_UA {
+        localizedName = "Гірничий сектор"
+        description = "Гірничий робочий компонент для Матричного шахтаря, що забезпечує базовий інтервал кута видобутку."
+      }
     }
     requirements(
       Category.production, ItemStack.with(

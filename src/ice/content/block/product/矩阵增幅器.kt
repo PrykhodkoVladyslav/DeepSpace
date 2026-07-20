@@ -28,6 +28,10 @@ class 矩阵增幅器 :MatrixMinerComponent("matrix_miner_overdrive") {
         description =
           "An amplification component for the Matrix Miner that increases its maximum range and consumes liquid to boost the Matrix Miner's working efficiency."
       }
+      uk_UA {
+        localizedName = "Матричний прискорювач"
+        description = "Компонент підсилення для Матричного шахтаря, який збільшує його максимальний радіус дії та споживає рідину для підвищення робочої ефективності Матричного шахтаря."
+      }
     }
     requirementPairs(
       Category.production,

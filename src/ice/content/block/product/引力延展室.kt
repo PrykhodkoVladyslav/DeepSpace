@@ -33,6 +33,10 @@ class 引力延展室 :ExtendMiner("force_field_extender") {
         description =
           "A device used to extend the Tidal Drill. Place it close to the drill and connect it face-to-face with other extenders to expand the drill's coverage range."
       }
+      uk_UA {
+        localizedName = "Гравітаційний розширювач"
+        description = "Пристрій, що використовується для розширення Приливного бура. Розмістіть його поруч з буром і з'єднайте його лицьовою стороною з іншими розширювачами, щоб збільшити радіус дії бура."
+      }
     }
     requirements(
       Category.production, ItemStack.with(

@@ -31,6 +31,10 @@ class 量子隧穿仪 :MatrixMinerComponent("matrix_miner_pierce") {
         description =
           "An amplification component for the Matrix Miner. After installing this component, the Matrix Miner will be able to mine ore covered by buildings by penetrating through them."
       }
+      uk_UA {
+        localizedName = "Пристрій квантового тунелювання"
+        description = "Компонент підсилення для Матричного шахтаря. Після встановлення цього компонента Матричний шахтар зможе видобувати руду, покриту спорудами, проникаючи крізь них."
+      }
     }
     requirements(
       Category.production,

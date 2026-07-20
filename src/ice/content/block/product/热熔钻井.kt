@@ -19,6 +19,10 @@ class 热熔钻井 :BaseDrill("hotMeltDrill") {
         description =
           "An advanced drill that melts through rock formations using a multi-alloy bit heated to high temperatures, enabling efficient resource extraction."
       }
+      uk_UA {
+        localizedName = "Термоплавний бур"
+        description = "Просунутий бур, який розплавляє гірські породи за допомогою багатосплавного бурового наконечника, нагрітого до високих температур, що дозволяє ефективно видобувати ресурси."
+      }
     }
     size = 5
     bitHardness = 6

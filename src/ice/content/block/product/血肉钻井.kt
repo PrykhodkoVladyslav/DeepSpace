@@ -23,6 +23,10 @@ class 血肉钻井 :BurstDrill("fleshBloodDrill") {
         description =
           "An advanced drill capable of self-driven drilling. Requires a continuous supply of flesh parasites. Can be placed on water."
       }
+      uk_UA {
+        localizedName = "Плотський кров'яний бур"
+        description = "Просунутий бур, здатний до самостійного буріння. Потребує безперервного постачання плотських паразитів. Може бути розміщений на воді."
+      }
     }
     size = 5
     tier = 11

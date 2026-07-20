@@ -17,6 +17,10 @@ class 蛮荒钻井 :BaseDrill("uncivilizedDrill") {
         description =
           "A secondary drill iterated from the Derive Drill with improved drill core materials, usable for mining more advanced resources."
       }
+      uk_UA {
+        localizedName = "Дикій бур"
+        description = "Вторинний бур, ітерований від Базового бура з покращеними матеріалами бурового ядра, придатний для видобутку більш просунутих ресурсів."
+      }
     }
     newBooster(3.6f).apply {
       liquid(Liquids.water, 12f / 60f)

@@ -15,6 +15,10 @@ class 抽水机 :SolidPump("waterPump") {
         localizedName = "Water Pump"
         description = "Extracts underground water resources, but cannot extract surface water."
       }
+      uk_UA {
+        localizedName = "Водяний насос"
+        description = "Видобуває підземні водні ресурси, але не може видобувати поверхневу воду."
+      }
     }
     size = 2
     baseEfficiency = 1f

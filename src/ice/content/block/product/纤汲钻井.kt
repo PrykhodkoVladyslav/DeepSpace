@@ -16,6 +16,10 @@ class 纤汲钻井 :BaseDrill("deriveDrill") {
         localizedName = "Derive Drill"
         description = "A basic drill equipped with the most fundamental drill core, usable for mining basic resources."
       }
+      uk_UA {
+        localizedName = "Базовий бур"
+        description = "Базовий бур, оснащений найфундаментальнішим буровим ядром, придатний для видобутку базових ресурсів."
+      }
     }
     bitHardness = 3
     size = 2

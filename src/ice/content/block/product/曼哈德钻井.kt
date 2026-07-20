@@ -17,6 +17,10 @@ class 曼哈德钻井 :BaseDrill("manhardDrill") {
         description =
           "An advanced drill that completely abandons traditional drilling methods, instead applying the Manhard effect to achieve relatively efficient resource extraction."
       }
+      uk_UA {
+        localizedName = "Бур Манхарда"
+        description = "Просунутий бур, який повністю відмовляється від традиційних методів буріння, натомість застосовуючи ефект Манхарда для досягнення відносно ефективного видобутку ресурсів."
+      }
     }
     bitHardness = 5
     size = 3

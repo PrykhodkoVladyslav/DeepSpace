@@ -16,6 +16,10 @@ class 矩阵矿床 :MatrixMiner("matrix_miner") {
         description =
           "The control center of the matrix miner. Working components can be installed on all four sides to perform mining operations."
       }
+      uk_UA {
+        localizedName = "Матричний шахтар"
+        description = "Центр управління матричного шахтаря. Робочі компоненти можуть бути встановлені на всіх чотирьох сторонах для виконання гірничих робіт."
+      }
     }
     size = 5
     matrixEnergyUse = 0.6f

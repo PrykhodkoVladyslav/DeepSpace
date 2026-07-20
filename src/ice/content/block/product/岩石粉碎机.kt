@@ -40,6 +40,11 @@ class 岩石粉碎机 :FloorCrafter("rock_crusher") {
         details =
           "In fact, this machine is not very efficient, or rather, it wastes too much material. To produce silicon-rich gravel for industrial use, almost dozens of tons of raw stone are consumed for every ton of quartz sand produced, not to mention rocks with even lower silicon purity."
       }
+      uk_UA {
+        localizedName = "Камнедробилка"
+        description = "Подрібнює каміння на дрібні частинки. Дуже корисно в районах без піску. Деякі породи мають високий вміст солі, тому з них також можна отримати корисні побічні продукти."
+        details = "Насправді ця машина не дуже ефективна, або скоріше, вона витрачає забагато матеріалів. Щоб виробити кремнієвий гравій для промислового використання, майже десятки тонн сировинного каміння споживаються на кожну тонну кварцового піску, не згадуючи породи з ще нижчою чистотою кремнію."
+      }
     }
     requirements(
       Category.production, IItems.强化合金, 40, IItems.气凝胶, 55, IItems.单晶硅, 60, IItems.铬锭, 50, IItems.黄铜锭, 60

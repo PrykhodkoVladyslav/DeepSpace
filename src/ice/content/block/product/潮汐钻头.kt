@@ -31,6 +31,10 @@ class 潮汐钻头 :ExtendableDrill("tidal_drill") {
         description =
           "An advanced drill manufactured using cutting-edge force field control technology. It uses particle beam impacts to destroy the material structure of the target, then completes ore disintegration and collection through controlled gravitational field oscillation."
       }
+      uk_UA {
+        localizedName = "Приливний бур"
+        description = "Просунутий бур, виготовлений з використанням передової технології контролю силового поля. Він використовує удари пучка частинок для руйнування матеріальної структури цілі, а потім завершує розпад руди та збір через контрольовану коливання гравітаційного поля."
+      }
     }
     requirements(
       Category.production, IItems.简并态中子聚合物, 50, IItems.强化合金, 120,

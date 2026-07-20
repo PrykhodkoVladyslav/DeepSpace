@@ -26,6 +26,10 @@ class 岩层钻井机 :FloorCrafter("rock_drill") {
         localizedName = "Rock Drill"
         description = "A special drill that probes deep into the crust, delivering higher-quality minerals buried deep beneath the surface."
       }
+      uk_UA {
+        localizedName = "Гірничий бур"
+        description = "Спеціальний бур, який глибоко проникає в земну кору, доставляючи корисні копалини високої якості, глибоко заховані під поверхнею."
+      }
     }
     requirements(Category.production, IItems.铬锭, 45, IItems.铅锭, 30, IItems.铜锭, 30)
     size = 2
