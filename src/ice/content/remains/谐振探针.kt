@@ -12,6 +12,16 @@ class 谐振探针 :Remains("remains_resonance_probe") {
         description = "一种用于探测矿物谐振频率的装置"
         effect = "矿物地板不再[隐藏]"
       }
+      en {
+        localizedName = "Resonance Probe"
+        description = "A device used to detect the resonant frequencies of minerals."
+        effect = "Mineral terrain is no longer [hidden]."
+      }
+      uk_UA {
+        localizedName = "Резонансний зонд"
+        description = "Пристрій для виявлення резонансних частот мінералів."
+        effect = "Мінеральна поверхня більше не [прихована]."
+      }
     }
 
     install = {

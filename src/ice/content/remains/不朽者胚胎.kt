@@ -18,6 +18,14 @@ class 不朽者胚胎 :Remains("remains_immortal_embryo") {
         localizedName = "不朽者胚胎"
         effect = "遗物槽位+[$pos]"
       }
+      en {
+        localizedName = "Immortal Embryo"
+        effect = "Relic slots +[$pos]."
+      }
+      uk_UA {
+        localizedName = "Зародок Безсмертного"
+        effect = "Кількість комірок для реліквій +[$pos]."
+      }
     }
 
     icon = DynamicTextureDrawable(name.appendModName()) {

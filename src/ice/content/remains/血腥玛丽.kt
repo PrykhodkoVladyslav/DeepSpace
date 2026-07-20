@@ -18,6 +18,16 @@ class 血腥玛丽 :Remains("remains_bloody_mary") {
         description = "血液与酒在杯中摇匀,辛辣之后,只余缓慢扩散的猩红"
         effect = "为核心机攻击附加[流血]效果"
       }
+      en {
+        localizedName = "Bloody Mary"
+        description = "Blood and liquor shaken together in a glass. After the burning spice, only a slowly spreading crimson remains."
+        effect = "Core unit attacks inflict [Bleeding]."
+      }
+      uk_UA {
+        localizedName = "Кривава Мері"
+        description = "Кров і міцний напій збовтані в келиху. Після пекучої гостроти залишається лише повільно розповзний багрянець."
+        effect = "Атаки ядра накладають ефект [Кровотеча]."
+      }
     }
     icon = DynamicTextureDrawable(name.appendModName()) {
       it.frameCount = 13

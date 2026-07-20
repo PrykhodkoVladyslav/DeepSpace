@@ -15,6 +15,16 @@ class 玄岩板 :Remains("remains_basalt_plate") {
         description = "由奇异,沉重的玄武岩打磨而成"
         effect = "[${CrafterBlocks.碳控熔炉.localizedName}]所需燃料减少[1]"
       }
+      en {
+        localizedName = "Basalt Slab"
+        description = "Carved from a strange, unusually dense block of basalt."
+        effect = "[${CrafterBlocks.碳控熔炉.localizedName}] requires [1] less fuel."
+      }
+      uk_UA {
+        localizedName = "Базальтова плита"
+        description = "Витесана з дивного, надзвичайно важкого базальту."
+        effect = "[${CrafterBlocks.碳控熔炉.localizedName}] потребує на [1] менше палива."
+      }
     }
 
     var itemStack = ItemStack()

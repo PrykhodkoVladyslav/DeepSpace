@@ -16,6 +16,16 @@ class 心跳鼓 :Remains("remains_heartbeat_drum") {
         description = "弹性心肌隔膜,回响着怀念之音"
         effect = "使状态[${IStatus.回响.localizedName}]的影响提升[20%]"
       }
+      en {
+        localizedName = "Heartbeat Drum"
+        description = "An elastic cardiac membrane that echoes with the sound of remembrance."
+        effect = "Increases the effectiveness of [${IStatus.回响.localizedName}] by [20%]."
+      }
+      uk_UA {
+        localizedName = "Барабан серцебиття"
+        description = "Пружна серцева мембрана, що відлунює звуком спогадів."
+        effect = "Підсилює ефект [${IStatus.回响.localizedName}] на [20%]."
+      }
     }
 
     icon = DynamicTextureDrawable(name.appendModName()) {

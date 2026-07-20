@@ -49,6 +49,16 @@ val particleMode = MultiParticleModel(
         description = "柔软的花瓣包裹着废墟的秘密,在寂静中轻轻摇曳"
         effect = "当方块被破坏时,将方块的[10%]的资源返还核心"
       }
+      en {
+        localizedName = "Viviparous Lily"
+        description = "Soft petals cradle the secrets of forgotten ruins, swaying gently in the silence."
+        effect = "When a block is destroyed, [10%] of its resource cost is refunded to the Core."
+      }
+      uk_UA {
+        localizedName = "Живородна лілія"
+        description = "Ніжні пелюстки приховують таємниці забутих руїн, ледь помітно коливаючись у тиші."
+        effect = "Коли блок зруйновано, [10%] його вартості в ресурсах повертається до Ядра."
+      }
     }
     remainsColor = IceColor.r2
     icon = DynamicTextureDrawable(name.appendModName()) {

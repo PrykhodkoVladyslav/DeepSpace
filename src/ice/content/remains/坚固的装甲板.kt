@@ -13,6 +13,16 @@ class 坚固的装甲板 :Remains("remains_armor_plates") {
         description = "多层淬火钢板铆接而成,表面布满划痕与凹坑"
         effect = "单位[${IUnitTypes.断业.localizedName}]的生命值提升[$hea]"
       }
+      en {
+        localizedName = "Reinforced Armor Plate"
+        description = "Constructed from multiple layers of riveted hardened steel plates, its surface is scarred with countless scratches and dents."
+        effect = "[${IUnitTypes.断业.localizedName}] gains [$hea] maximum health."
+      }
+      uk_UA {
+        localizedName = "Посилена бронеплита"
+        description = "Складається з кількох шарів загартованих сталевих плит, скріплених заклепками. Її поверхня вкрита подряпинами та вм'ятинами."
+        effect = "Максимальне здоров'я [${IUnitTypes.断业.localizedName}] збільшується на [$hea]."
+      }
     }
 
     install = {

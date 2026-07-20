@@ -19,6 +19,16 @@ class 脊骨寄生虫 :Remains("remains_spine_parasite") {
         description = "一种具有高度神经亲和性的节状生物,渴望与血肉生物的中枢神经系统结合"
         effect = "[爬行类]血肉畸变体速度提升[${((fg - 1) * 100).toInt()}%]"
       }
+      en {
+        localizedName = "Spinal Parasite"
+        description = "A segmented organism with an exceptional affinity for neural tissue, driven by an instinctive desire to bond with the central nervous system of flesh-based lifeforms."
+        effect = "[Crawler] flesh aberrations gain [${((fg - 1) * 100).toInt()}%] movement speed."
+      }
+      uk_UA {
+        localizedName = "Хребетний паразит"
+        description = "Сегментований організм із винятковою спорідненістю до нервової тканини, що прагне злитися з центральною нервовою системою живих істот із плоті."
+        effect = "[Повзун] плотяні мутанти отримують [${((fg - 1) * 100).toInt()}%] до швидкості руху."
+      }
     }
     remainsColor = IceColor.r2
 

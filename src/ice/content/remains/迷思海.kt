@@ -46,6 +46,16 @@ class 迷思海 :Remains("remains_mystic_sea") {
         description = "你可悲的一部分正期望着回到你的身上"
         effect = "未完成"
       }
+      en {
+        localizedName = "Sea of Delusion"
+        description = "A pitiful part of you longs to return to your being."
+        effect = "Unfinished"
+      }
+      uk_UA {
+        localizedName = "Море омани"
+        description = "Жалюгідна частина тебе прагне повернутися до тебе."
+        effect = "Не завершено"
+      }
     }
     remainsColor = IceColor.r2
 

@@ -12,6 +12,14 @@ class 现彼岸 :Remains("remains_higanbana") {
         localizedName = "现彼岸"
         description = "随风飘散的种子编制着你想要的模板"
       }
+      en {
+        localizedName = "Farshore"
+        description = "Seeds carried by the wind weave the pattern you seek."
+      }
+      uk_UA {
+        localizedName = "Потойбіччя"
+        description = "Насіння, що пливе за вітром, сплітає візерунок, якого ти прагнеш."
+      }
     }
     remainsColor = IceColor.r2
     icon = DynamicTextureDrawable(name.appendModName()) {
