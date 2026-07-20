@@ -16,6 +16,10 @@ class 装甲导管桥 :TransferNode("bridgeConduitArmored") {
         description =
           "Transports fluids to connected output nodes. The side facing the connection cannot receive fluids. Has thicker armor."
       }
+      uk_UA {
+        localizedName = "Броньований міст-трубопровід"
+        description = "Транспортує рідини до підключених вузлів виводу. Сторона, що звернена до з'єднання, не може приймати рідини. Має товстіше бронювання."
+      }
     }
     health = 220
     directionAny = false

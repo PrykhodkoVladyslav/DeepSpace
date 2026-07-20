@@ -17,6 +17,10 @@ class 动脉导管 :Conduit("arteryConduit") {
         localizedName = "Artery Conduit"
         description = "Quickly forwards fluids without accepting side outputs, while preventing fluid leaks."
       }
+      uk_UA {
+        localizedName = "Артеріальний трубопровід"
+        description = "Швидко передає рідини вперед без прийому бічного виводу, запобігаючи витоку рідини."
+      }
     }
     healAmount = 30f
     health = 600

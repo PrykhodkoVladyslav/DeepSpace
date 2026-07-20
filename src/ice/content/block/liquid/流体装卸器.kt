@@ -17,6 +17,10 @@ class 流体装卸器 :LiquidUnloader("liquid_unloader") {
         localizedName = "Liquid Unloader"
         description = "Extracts fluids from buildings, just like an unloader extracts items."
       }
+      uk_UA {
+        localizedName = "Розвантажувач рідин"
+        description = "Витягує рідини зі споруд, так само, як розвантажувач витягує предмети."
+      }
     }
     requirements(Category.liquid, IItems.单晶硅, 20, IItems.铝锭, 15, IItems.铬锭, 15)
     size = 1

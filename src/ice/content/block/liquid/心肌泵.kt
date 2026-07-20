@@ -17,6 +17,10 @@ class 心肌泵 :Pump("myocardialPump") {
         localizedName = "Myocardial Pump"
         description = "Quickly pumps fluids. Requires power."
       }
+      uk_UA {
+        localizedName = "Міокардіальний насос"
+        description = "Швидко перекачує рідини. Потребує енергії."
+      }
     }
     size = 4
     squareSprite = false

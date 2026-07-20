@@ -15,6 +15,10 @@ class 长距导管桥 :TransferNode("bridgeConduitLarge") {
         localizedName = "Long-Range Bridge Conduit"
         description = "Consumes power to transport fluids over long distances in any direction. All 4 directions can input and output."
       }
+      uk_UA {
+        localizedName = "Дальній міст-трубопровід"
+        description = "Споживає енергію для транспортування рілин на великі відстані в будь-якому напрямку. Усі 4 напрямки можуть вводити і виводити."
+      }
     }
     range = 10
     hasItems = false

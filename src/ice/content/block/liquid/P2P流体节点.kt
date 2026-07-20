@@ -15,6 +15,10 @@ class P2P流体节点 :P2PLiquidNode() {
         localizedName = "P2P Liquid Node"
         description = "Decentralized fluid exchange communication method."
       }
+      uk_UA {
+        localizedName = "P2P вузол рідин"
+        description = "Децентралізований метод обміну рідинами."
+      }
     }
     size = 2
     health = 500

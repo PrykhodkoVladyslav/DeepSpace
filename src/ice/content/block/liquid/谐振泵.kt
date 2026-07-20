@@ -17,6 +17,10 @@ class 谐振泵 :Pump("resonancePump") {
         localizedName = "Resonance Pump"
         description = "Rapidly pumps fluids."
       }
+      uk_UA {
+        localizedName = "Резонансний насос"
+        description = "Швидко перекачує рідини."
+      }
     }
     size = 2
     squareSprite = false

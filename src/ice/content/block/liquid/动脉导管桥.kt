@@ -16,6 +16,10 @@ class 动脉导管桥 :TransferNode("bridgeConduitArtery") {
         description =
           "Consumes power to transport fluids over long distances to connected output nodes. The side facing the connection cannot receive fluids."
       }
+      uk_UA {
+        localizedName = "Артеріальний міст-трубопровід"
+        description = "Споживає енергію для транспортування рідин на великі відстані до підключених вузлів виводу. Сторона, що звернена до з'єднання, не може приймати рідини."
+      }
     }
     healAmount = 60f
     allowDiagonal = false

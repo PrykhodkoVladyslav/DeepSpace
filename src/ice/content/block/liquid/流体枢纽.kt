@@ -18,6 +18,11 @@ class 流体枢纽 :MultipleLiquidBlock("fluidJunction") {
         details =
           "A formal fluid storage facility that can independently store multiple fluids in a single unit, effectively solving space occupancy issues in complex pipelines. An essential facility for advanced production."
       }
+      uk_UA {
+        localizedName = "Вузол рідин"
+        description = "Зберігає великі кількості різних типів рідин. Може бути витягнуто за допомогою витягувача рідин."
+        details = "Формальна споруда для зберігання рідин, яка може незалежно зберігати кілька рідин в одному блоці, ефективно вирішуючи проблеми зайнятості простору в складних трубопроводах. Необхідна споруда для передового виробництва."
+      }
     }
     size = 3
     liquidCapacity = 1000f

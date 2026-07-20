@@ -17,6 +17,10 @@ class 流金导管 :Conduit("fluxGoldConduit") {
         localizedName = "Flux Gold Conduit"
         description = "Rapidly forwards fluids."
       }
+      uk_UA {
+        localizedName = "Золотий трубопровід потоку"
+        description = "Швидко передає рідини вперед."
+      }
     }
     health = 100
     liquidCapacity = 40f

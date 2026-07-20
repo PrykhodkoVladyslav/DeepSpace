@@ -15,6 +15,10 @@ class 导管桥 :TransferNode("bridgeConduit") {
         localizedName = "Bridge Conduit"
         description = "Transports fluids in any direction. All 4 directions can input and output."
       }
+      uk_UA {
+        localizedName = "Міст-трубопровід"
+        description = "Транспортує рідини в будь-якому напрямку. Усі 4 напрямки можуть вводити і виводити."
+      }
     }
     health = 30
     range = 6

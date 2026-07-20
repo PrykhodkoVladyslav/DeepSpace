@@ -15,6 +15,10 @@ class 流体容器 :LiquidRouter("liquidContainer") {
         localizedName = "Liquid Container"
         description = "Can store a small amount of a single fluid."
       }
+      uk_UA {
+        localizedName = "Контейнер для рідин"
+        description = "Може зберігати невелику кількість однієї рідини."
+      }
     }
     size = 2
     solid = true

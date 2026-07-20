@@ -15,6 +15,10 @@ class 流体仓库 :LiquidRouter("liquidStorage") {
         localizedName = "Liquid Storage"
         description = "Can store a large amount of a single fluid."
       }
+      uk_UA {
+        localizedName = "Сховище рідин"
+        description = "Може зберігати велику кількість однієї рідини."
+      }
     }
     size = 3
     solid = true

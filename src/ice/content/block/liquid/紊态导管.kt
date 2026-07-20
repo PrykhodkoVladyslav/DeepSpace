@@ -17,6 +17,10 @@ class 紊态导管 :ArmoredConduit("disorderedConduit") {
         localizedName = "Disordered Conduit"
         description = "Rapidly forwards fluids without accepting side outputs, while preventing fluid leaks."
       }
+      uk_UA {
+        localizedName = "Турбулентний трубопровід"
+        description = "Швидко передає рідини вперед без прийому бічного виводу, запобігаючи витоку рідини."
+      }
     }
     leaks = false
     liquidCapacity = 40f

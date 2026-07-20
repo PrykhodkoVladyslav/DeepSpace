@@ -15,6 +15,10 @@ class 基础流体路由器 :LiquidRouter("baseLiquidRouter") {
         localizedName = "Base Liquid Router"
         description = "Evenly distributes fluids from one direction to the other 3 directions. Can store a certain amount of fluid."
       }
+      uk_UA {
+        localizedName = "Базовий маршрутизатор рідин"
+        description = "Рівномірно розподіляє рідини з одного напрямку в інші 3 напрямки. Може зберігати певну кількість рідини."
+      }
     }
     liquidCapacity = 50f
     size = 1

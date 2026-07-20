@@ -21,6 +21,10 @@ class 涡流泵 :Pump("vortexPump") {
         localizedName = "Vortex Pump"
         description = "Quickly pumps fluids."
       }
+      uk_UA {
+        localizedName = "Вихровий насос"
+        description = "Швидко перекачує рідини."
+      }
     }
     health = 450
     size = 3

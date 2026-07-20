@@ -15,6 +15,10 @@ class 基础流体交叉器 :LiquidJunction("baseLiquidJunction") {
         localizedName = "Base Liquid Junction"
         description = "Allows two fluid pipelines to cross without interfering with each other."
       }
+      uk_UA {
+        localizedName = "Базовий перехрестя рідин"
+        description = "Дозволяє двом трубопроводах рідин перетинатися без взаємного заважання."
+      }
     }
     size = 1
     health = 80

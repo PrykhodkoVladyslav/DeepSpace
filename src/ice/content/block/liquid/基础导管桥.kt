@@ -16,6 +16,10 @@ class 基础导管桥 :TransferNode("baseBridgeConduit") {
         description =
           "Transports fluids to connected output nodes. The side of the transmission node facing the connection cannot receive fluids."
       }
+      uk_UA {
+        localizedName = "Базовий міст-трубопровід"
+        description = "Транспортує рідини до підключених вузлів виводу. Сторона вузла передачі, що звернена до з'єднання, не може приймати рідини."
+      }
     }
     directionAny = false
     range = 5

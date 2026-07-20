@@ -16,6 +16,10 @@ class 装甲流体路由器 :LiquidRouter("armoredLiquidRouter") {
         description =
           "Evenly distributes fluids from one direction to the other 3 directions. Can store a certain amount of fluid. Has thicker armor."
       }
+      uk_UA {
+        localizedName = "Броньований маршрутизатор рідин"
+        description = "Рівномірно розподіляє рідини з одного напрямку в інші 3 напрямки. Може зберігати певну кількість рідини. Має товстіше бронювання."
+      }
     }
     health = 220
     armor = 4f

@@ -17,6 +17,10 @@ class 动力泵 :Pump("kineticPump") {
         localizedName = "Kinetic Pump"
         description = "Pumps fluids."
       }
+      uk_UA {
+        localizedName = "Кінетичний насос"
+        description = "Перекачує рідини."
+      }
     }
     health = 50
     size = 1

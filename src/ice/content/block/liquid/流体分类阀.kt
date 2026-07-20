@@ -30,6 +30,10 @@ class 流体分类阀 :LiquidUnloader("liquid_classifier") {
         localizedName = "Liquid Classifier Valve"
         description = "Allows unloading output fluids from nearby factory recipes."
       }
+      uk_UA {
+        localizedName = "Клапан класифікації рідин"
+        description = "Дозволяє вивантажувати вихідні рідини з рецептів сусідніх фабрик."
+      }
     }
     size = 1
     buildType = Prov(::流体分类阀Build)
