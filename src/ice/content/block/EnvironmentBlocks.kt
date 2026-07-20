@@ -37,6 +37,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Leafy Grass"
       }
+      uk_UA {
+        localizedName = "Багатолиста трава"
+      }
     }
   }
   val 地笼草 = Prop("cageGrass").apply {
@@ -46,6 +49,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Cage Grass"
+      }
+      uk_UA {
+        localizedName = "Кліткова трава"
       }
     }
   }
@@ -57,6 +63,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Deadwood Grass"
       }
+      uk_UA {
+        localizedName = "Суха деревна трава"
+      }
     }
   }
   val 绿羽 = Prop("featherGrass").apply {
@@ -66,6 +75,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Feather Grass"
+      }
+      uk_UA {
+        localizedName = "Пір'яна трава"
       }
     }
   }
@@ -77,6 +89,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Spring Grass Red"
       }
+      uk_UA {
+        localizedName = "Весняна червона трава"
+      }
     }
   }
   val 绯叶绮 = Prop("scarletLeaf").apply {
@@ -86,6 +101,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Scarlet Leaf"
+      }
+      uk_UA {
+        localizedName = "Багряне листя"
       }
     }
   }
@@ -97,6 +115,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Leaf Blush"
       }
+      uk_UA {
+        localizedName = "Листяний рум'янець"
+      }
     }
   }
   val 血孢子丛 = Prop("bloodNeoplasmSporophore", Sounds.plantBreak).apply {
@@ -107,6 +128,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Neoplasm Sporophore"
       }
+      uk_UA {
+        localizedName = "Спороносій кров'яної пухлини"
+      }
     }
   }
   val 血晶尖刺 = TallBlock("bloodCrystalSpikes").apply {
@@ -116,6 +140,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Blood Crystal Spikes"
+      }
+      uk_UA {
+        localizedName = "Шипи кровавого кристала"
       }
     }
   }
@@ -139,6 +166,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Crimson Sporophore Tree"
       }
+      uk_UA {
+        localizedName = "Багряне спороносійне дерево"
+      }
     }
   }
   val 利芽 = TallBlock("edgeBud").apply {
@@ -150,6 +180,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Edge Bud"
       }
+      uk_UA {
+        localizedName = "Крайній бутон"
+      }
     }
   }
   val 红冰石 = Prop("redIceStone").apply {
@@ -159,6 +192,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Red Ice Stone"
+      }
+      uk_UA {
+        localizedName = "Червоний лід"
       }
     }
   }
@@ -175,6 +211,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Ichor"
       }
+      uk_UA {
+        localizedName = "Іхор"
+      }
     }
   }
   val 软红冰 = Floor("softRedIce").apply {
@@ -187,6 +226,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Soft Red Ice"
       }
+      uk_UA {
+        localizedName = "М'який червоний лід"
+      }
     }
   }
   val 绿羽地 = Floor("sod").apply {
@@ -196,6 +238,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Sod"
+      }
+      uk_UA {
+        localizedName = "Дернина"
       }
     }
   }
@@ -207,6 +252,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Sod Wall"
       }
+      uk_UA {
+        localizedName = "Стіна з дернини"
+      }
     }
   }
   val 金珀沙 = Floor("goldPearlGrit").apply {
@@ -216,6 +264,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Gold Pearl Grit"
+      }
+      uk_UA {
+        localizedName = "Золотий перлинний пісок"
       }
     }
     itemDrop = IItems.金珀沙
@@ -228,6 +279,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Gold Pearl Grit Water"
       }
+      uk_UA {
+        localizedName = "Вода золотого перлинного піску"
+      }
     }
     itemDrop = IItems.金珀沙
   }
@@ -239,6 +293,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Gold Pearl Grit Wall"
       }
+      uk_UA {
+        localizedName = "Стіна із золотого перлинного піску"
+      }
     }
   }
   val 皎月银沙石块 = Prop("silverSandStone").apply {
@@ -248,6 +305,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Silver Sand Stone"
+      }
+      uk_UA {
+        localizedName = "Срібний місячний пісковик"
       }
     }
   }
@@ -259,6 +319,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Silver Sand"
       }
+      uk_UA {
+        localizedName = "Срібний пісок"
+      }
     }
   }
   val 皎月银沙水 = ShallowLiquid("silverSandWater", 皎月银沙).apply {
@@ -268,6 +331,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Silver Sand Water"
+      }
+      uk_UA {
+        localizedName = "Вода срібного місячного піску"
       }
     }
   }
@@ -279,6 +345,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Silver Sand Wall"
       }
+      uk_UA {
+        localizedName = "Стіна зі срібного місячного піску"
+      }
     }
   }
   val 风蚀沙柱 = TallBlock("windErodedSandPillar").apply {
@@ -289,6 +358,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Wind Eroded Sand Pillar"
       }
+      uk_UA {
+        localizedName = "Вітровий піщаний стовп"
+      }
     }
   }
   val 风蚀砂地 = Floor("windErodedGrit").apply {
@@ -298,6 +370,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Wind Eroded Grit"
+      }
+      uk_UA {
+        localizedName = "Вітровий піщаний ґрунт"
       }
     }
   }
@@ -310,6 +385,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Wind Eroded Sand"
       }
+      uk_UA {
+        localizedName = "Вітровий пісок"
+      }
     }
   }
   val 风蚀沙水 = ShallowLiquid("windErodedSandWater", 风蚀沙地).apply {
@@ -319,6 +397,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Wind Eroded Sand Water"
+      }
+      uk_UA {
+        localizedName = "Вода вітрового піску"
       }
     }
   }
@@ -330,6 +411,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Wind Eroded Sand Deep Water"
       }
+      uk_UA {
+        localizedName = "Глибока вода вітрового піску"
+      }
     }
   }
   val 风蚀沙墙 = StaticWall("windErodedSandWall").apply {
@@ -339,6 +423,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Wind Eroded Sand Wall"
+      }
+      uk_UA {
+        localizedName = "Стіна з вітрового піску"
       }
     }
   }
@@ -352,6 +439,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Wind Eroded Vent"
       }
+      uk_UA {
+        localizedName = "Вітровий вентиль"
+      }
     }
   }
   val 光辉板岩 = Floor("brillianceSlate").apply {
@@ -361,6 +451,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Brilliance Slate"
+      }
+      uk_UA {
+        localizedName = "Світлий сланець"
       }
     }
   }
@@ -372,6 +465,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Brilliance Slate Water"
       }
+      uk_UA {
+        localizedName = "Вода світлого сланцю"
+      }
     }
   }
   val 光辉板岩墙 = StaticWall("brillianceSlateWall").apply {
@@ -381,6 +477,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Brilliance Slate Wall"
+      }
+      uk_UA {
+        localizedName = "Стіна зі світлого сланцю"
       }
     }
   }
@@ -392,6 +491,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Greisen Pillar"
       }
+      uk_UA {
+        localizedName = "Грейзеновий стовп"
+      }
     }
   }
   val 云英岩 = Floor("greisen").apply {
@@ -401,6 +503,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Greisen"
+      }
+      uk_UA {
+        localizedName = "Грейзен"
       }
     }
   }
@@ -412,6 +517,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Greisen Water"
       }
+      uk_UA {
+        localizedName = "Вода грейзену"
+      }
     }
   }
   val 云英岩深水 = ShallowDeepLiquid("greisenDeepWater", 云英岩).apply {
@@ -421,6 +529,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Greisen Deep Water"
+      }
+      uk_UA {
+        localizedName = "Глибока вода грейзену"
       }
     }
   }
@@ -432,6 +543,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Greisen Wall"
       }
+      uk_UA {
+        localizedName = "Стіна з грейзену"
+      }
     }
   }
   val 红土石块 = Prop("redDirStone").apply {
@@ -441,6 +555,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Red Dirt Stone"
+      }
+      uk_UA {
+        localizedName = "Камінь червоного ґрунту"
       }
     }
   }
@@ -452,6 +569,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Red Dirt"
       }
+      uk_UA {
+        localizedName = "Червоний ґрунт"
+      }
     }
   }
   val 红土墙 = StaticWall("redDirWall").apply {
@@ -461,6 +581,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Red Dirt Wall"
+      }
+      uk_UA {
+        localizedName = "Стіна з червоного ґрунту"
       }
     }
   }
@@ -472,6 +595,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Liparite"
       }
+      uk_UA {
+        localizedName = "Ліпарит"
+      }
     }
   }
   val 流纹岩水 = ShallowLiquid("lipariteWater", 流纹岩).apply {
@@ -481,6 +607,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Liparite Water"
+      }
+      uk_UA {
+        localizedName = "Вода ліпариту"
       }
     }
   }
@@ -492,6 +621,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Liparite Wall"
       }
+      uk_UA {
+        localizedName = "Стіна з ліпариту"
+      }
     }
   }
   val 潮汐石 = Floor("nightTideStone").apply {
@@ -501,6 +633,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Night Tide Stone"
+      }
+      uk_UA {
+        localizedName = "Камінь нічного приливу"
       }
     }
   }
@@ -512,6 +647,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Night Tide Stone Water"
       }
+      uk_UA {
+        localizedName = "Вода каменю нічного приливу"
+      }
     }
   }
   val 潮汐石墙 = StaticWall("nightTideStoneWall").apply {
@@ -521,6 +659,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Night Tide Stone Wall"
+      }
+      uk_UA {
+        localizedName = "Стіна з каменю нічного приливу"
       }
     }
   }
@@ -534,6 +675,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Night Tide Vent"
       }
+      uk_UA {
+        localizedName = "Вентиль нічного приливу"
+      }
     }
   }
   val 侵蚀层地 = Floor("erosionalSlate").apply {
@@ -543,6 +687,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Erosional Slate"
+      }
+      uk_UA {
+        localizedName = "Ерозійний сланець"
       }
     }
   }
@@ -554,6 +701,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Erosional Slate Water"
       }
+      uk_UA {
+        localizedName = "Вода ерозійного сланцю"
+      }
     }
   }
   val 侵蚀层地墙 = StaticWall("erosionalSlateWall").apply {
@@ -563,6 +713,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Erosional Slate Wall"
+      }
+      uk_UA {
+        localizedName = "Стіна з ерозійного сланцю"
       }
     }
 
@@ -576,6 +729,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Igneous Rocks"
       }
+      uk_UA {
+        localizedName = "Вулканічні породи"
+      }
     }
   }
   val 炎晶矿脉 = Floor("incandescent-crystal-vein").apply {
@@ -585,6 +741,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Incandescent Crystal Vein"
+      }
+      uk_UA {
+        localizedName = "Порука інкандесцентного кристалу"
       }
     }
     blendGroup = 火成岩
@@ -598,6 +757,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Incandescent Crystal Pulse"
       }
+      uk_UA {
+        localizedName = "Пульса інкандесцентного кристалу"
+      }
     }
     blendGroup = 火成岩
     attributes.set(Attribute.heat, 0.85f)
@@ -610,6 +772,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Phlogiston Crystal Cluster"
       }
+      uk_UA {
+        localizedName = "Кластер флогістону"
+      }
     }
   }
   val 晶石地 = Floor("crystalStone").apply {
@@ -619,6 +784,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Crystal Stone"
+      }
+      uk_UA {
+        localizedName = "Кристалічний камінь"
       }
     }
     attributes.set(IAttribute.沥青, 0.1f)
@@ -631,6 +799,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Crystal Stone Water"
       }
+      uk_UA {
+        localizedName = "Вода кристалічного каменю"
+      }
     }
   }
   val 晶石墙 = StaticWall("crystalStoneWall").apply {
@@ -640,6 +811,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Crystal Stone Wall"
+      }
+      uk_UA {
+        localizedName = "Стіна з кристалічного каменю"
       }
     }
   }
@@ -651,6 +825,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Cluster Ghosts"
       }
+      uk_UA {
+        localizedName = "Скупчення привидів"
+      }
     }
   }
   val 幽冥蕨 = TallBlock("ghostGrassFern").apply {
@@ -660,6 +837,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Ghost Grass Fern"
+      }
+      uk_UA {
+        localizedName = "Примарна папороть"
       }
     }
   }
@@ -671,6 +851,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Ghost Grass Flower"
       }
+      uk_UA {
+        localizedName = "Квітка примарної трави"
+      }
     }
   }
   val 幽灵草 = Floor("ghostGrass").apply {
@@ -680,6 +863,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Ghost Grass"
+      }
+      uk_UA {
+        localizedName = "Примарна трава"
       }
     }
   }
@@ -691,6 +877,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Ghost Grass Water"
       }
+      uk_UA {
+        localizedName = "Вода примарної трави"
+      }
     }
   }
   val 幽灵草深水 = ShallowDeepLiquid("ghostGrassDeepWater", 幽灵草).apply {
@@ -700,6 +889,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Ghost Grass Deep Water"
+      }
+      uk_UA {
+        localizedName = "Глибока вода примарної трави"
       }
     }
   }
@@ -711,6 +903,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Ghost Grass Wall"
       }
+      uk_UA {
+        localizedName = "Стіна з примарної трави"
+      }
     }
   }
   val 灰烬地 = Floor("ash").apply {
@@ -720,6 +915,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Ash"
+      }
+      uk_UA {
+        localizedName = "Попіл"
       }
     }
   }
@@ -731,6 +929,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Ash Water"
       }
+      uk_UA {
+        localizedName = "Вода попелу"
+      }
     }
   }
   val 灰烬墙 = StaticWall("ashWall").apply {
@@ -740,6 +941,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Ash Wall"
+      }
+      uk_UA {
+        localizedName = "Стіна з попелу"
       }
     }
   }
@@ -751,6 +955,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Steel Floor 1"
       }
+      uk_UA {
+        localizedName = "Сталева підлога 1"
+      }
     }
   }
   val 钢铁墙1 = StaticWall("steelFloorWall1").apply {
@@ -760,6 +967,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Steel Wall 1"
+      }
+      uk_UA {
+        localizedName = "Сталева стіна 1"
       }
     }
   }
@@ -771,6 +981,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Steel Floor"
       }
+      uk_UA {
+        localizedName = "Сталева підлога"
+      }
     }
   }
   val 钢铁墙2 = StaticWall("steelFloorWall2").apply {
@@ -780,6 +993,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Steel Wall"
+      }
+      uk_UA {
+        localizedName = "Сталева стіна"
       }
     }
   }
@@ -791,6 +1007,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Steel Deck"
       }
+      uk_UA {
+        localizedName = "Сталевий настил"
+      }
     }
   }
   val 跨界钢板 = TiledFloor("bridgeSteel", 9).apply {
@@ -800,6 +1019,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Bridge Steel"
+      }
+      uk_UA {
+        localizedName = "Мостова сталь"
       }
     }
   }
@@ -811,6 +1033,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Bridge Steel Wall"
       }
+      uk_UA {
+        localizedName = "Стіна з мостової сталі"
+      }
     }
   }
   val 供能板 = Floor("powerBoard").apply {
@@ -820,6 +1045,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Power Board"
+      }
+      uk_UA {
+        localizedName = "Енергетична панель"
       }
     }
   }
@@ -831,6 +1059,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Power Wall"
       }
+      uk_UA {
+        localizedName = "Енергетична стіна"
+      }
     }
   }
   val 诅咒之地 = Floor("curseLand").apply {
@@ -840,6 +1071,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Curse Land"
+      }
+      uk_UA {
+        localizedName = "Проклята земля"
       }
     }
   }
@@ -851,6 +1085,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Curse Wall"
       }
+      uk_UA {
+        localizedName = "Проклята стіна"
+      }
     }
   }
   val 新月岩 = Floor("crescent").apply {
@@ -859,7 +1096,10 @@ object EnvironmentBlocks {
         localizedName = "新月岩"
       }
       en {
-        localizedName = "Crescent"
+        localizedName = "Crescent Rock"
+      }
+      uk_UA {
+        localizedName = "Камінь нового місяця"
       }
     }
   }
@@ -871,6 +1111,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Crescent Water"
       }
+      uk_UA {
+        localizedName = "Вода нового місяця"
+      }
     }
   }
   val 新月岩墙 = StaticWall("crescentWall").apply {
@@ -880,6 +1123,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Crescent Wall"
+      }
+      uk_UA {
+        localizedName = "Кам'яна стіна нового місяця"
       }
     }
   }
@@ -904,6 +1150,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Crescent Vent"
       }
+      uk_UA {
+        localizedName = "Вентиль нового місяця"
+      }
     }
   }
   val 凌冰尖刺 = TallBlock("tortureIceSpikes").apply {
@@ -913,6 +1162,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Torture Ice Spikes"
+      }
+      uk_UA {
+        localizedName = "Шипи з морозного льоду"
       }
     }
   }
@@ -924,6 +1176,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Torture Ice Stone"
       }
+      uk_UA {
+        localizedName = "Камінь з морозного льоду"
+      }
     }
   }
   val 霜寒草 = Prop("frostbiteGrass").apply {
@@ -933,6 +1188,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Frostbite Grass"
+      }
+      uk_UA {
+        localizedName = "Морозна трава"
       }
     }
   }
@@ -944,7 +1202,11 @@ object EnvironmentBlocks {
       en {
         localizedName = "Torture Ice"
       }
+      uk_UA {
+        localizedName = "Мучильний лід"
+      }
     }
+}
     attributes.set(IAttribute.寒冷, 1f)
   }
   val 凌冰水 = ShallowLiquid("tortureIceWater", 凌冰).apply {
@@ -954,6 +1216,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Torture Ice Water"
+      }
+      uk_UA {
+        localizedName = "Вода мучильного льоду"
       }
     }
     attributes.set(IAttribute.寒冷, 0.7f)
@@ -966,6 +1231,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Torture Ice Deep Water"
       }
+      uk_UA {
+        localizedName = "Глибока вода мучильного льоду"
+      }
     }
     attributes.set(IAttribute.寒冷, 0.8f)
   }
@@ -976,6 +1244,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Torture Ice Wall"
+      }
+      uk_UA {
+        localizedName = "Мучильна стіна"
       }
     }
   }
@@ -999,6 +1270,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Blood Shoal"
+      }
+      uk_UA {
+        localizedName = "Кривава мілина"
       }
     }
   }
@@ -1028,6 +1302,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Thick Blood"
       }
+      uk_UA {
+        localizedName = "Густа кров"
+      }
     }
   }
   val 深血池 = Floor("deepThickBlood").apply {
@@ -1051,6 +1328,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Deep Thick Blood"
       }
+      uk_UA {
+        localizedName = "Глибока густа кров"
+      }
     }
   }
   val 浓稠深血池 = Floor("denseDeepThickBlood").apply {
@@ -1073,6 +1353,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Dense Deep Thick Blood"
       }
+      uk_UA {
+        localizedName = "Щільна глибока густа кров"
+      }
     }
   }
   val 肿瘤地 = Floor("bloodNeoplasma").apply {
@@ -1084,6 +1367,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Neoplasma"
       }
+      uk_UA {
+        localizedName = "Кривава нейоплазма"
+      }
     }
   }
   val 碎骨地 = Floor("brokenBone").apply {
@@ -1092,7 +1378,10 @@ object EnvironmentBlocks {
         localizedName = "碎骨地"
       }
       en {
-        localizedName = "Broken Bone"
+        localizedName = "Broken Bones"
+      }
+      uk_UA {
+        localizedName = "Подрібнені кісток"
       }
     }
   }
@@ -1104,6 +1393,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Broken Bone Wall"
       }
+      uk_UA {
+        localizedName = "Стіна подрібнених кісток"
+      }
     }
   }
   val 血沙石块 = Prop("bloodSandStone").apply {
@@ -1113,6 +1405,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Blood Sand Stone"
+      }
+      uk_UA {
+        localizedName = "Кривавий пісковий камінь"
       }
     }
   }
@@ -1124,6 +1419,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Sand"
       }
+      uk_UA {
+        localizedName = "Кривавий пісок"
+      }
     }
   }
   val 殷血粗沙墙 = StaticWall("bloodSandWall").apply {
@@ -1134,6 +1432,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Sand Wall"
       }
+      uk_UA {
+        localizedName = "Кривава піскова стіна"
+      }
     }
   }
   val 骸骨地 = Floor("humanBones").apply {
@@ -1143,6 +1444,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Human Bones"
+      }
+      uk_UA {
+        localizedName = "Людські кістки"
       }
     }
   }
@@ -1157,6 +1461,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Scars"
       }
+      uk_UA {
+        localizedName = "Криваві шрами"
+      }
     }
   }
   val 血痂岩 = Floor("bloodScarsStone").apply {
@@ -1167,6 +1474,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Scars Stone"
       }
+      uk_UA {
+        localizedName = "Кривавий шрамовий камінь"
+      }
     }
   }
   val 血蚀岩石块 = Prop("bloodmoriteStone").apply {
@@ -1176,6 +1486,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Bloodmorite Stone"
+      }
+      uk_UA {
+        localizedName = "Кривавий моритовий камінь"
       }
     }
   }
@@ -1188,6 +1501,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Bloodmorite"
       }
+      uk_UA {
+        localizedName = "Кривавий морит"
+      }
     }
   }
   val 血蚀墙 = StaticWall("bloodmoriteWall").apply {
@@ -1197,6 +1513,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Bloodmorite Wall"
+      }
+      uk_UA {
+        localizedName = "Кривава моритова стіна"
       }
     }
   }
@@ -1208,6 +1527,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Neoplasma Wall"
       }
+      uk_UA {
+        localizedName = "Кривава нейоплазмова стіна"
+      }
     }
   }
   val 红冰 = Floor("redIce").apply {
@@ -1217,6 +1539,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Red Ice"
+      }
+      uk_UA {
+        localizedName = "Червоний лід"
       }
     }
   }
@@ -1228,6 +1553,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Red Ice Wall"
       }
+      uk_UA {
+        localizedName = "Червона крижана стіна"
+      }
     }
   }
   val 赤雪 = Floor("bloodIceSnow").apply {
@@ -1237,6 +1565,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Blood Ice Snow"
+      }
+      uk_UA {
+        localizedName = "Кривавий сніг"
       }
     }
   }
@@ -1248,6 +1579,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Snow Stone"
       }
+      uk_UA {
+        localizedName = "Кривавий сніговий камінь"
+      }
     }
   }
   val 红霜 = Floor("bloodSnow").apply {
@@ -1258,6 +1592,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Snow"
       }
+      uk_UA {
+        localizedName = "Кривавий сніг"
+      }
     }
   }
   val 红霜墙 = StaticWall("bloodSnowWall").apply {
@@ -1267,6 +1604,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Blood Snow Wall"
+      }
+      uk_UA {
+        localizedName = "Кривава снігова стіна"
       }
     }
   }
@@ -1280,6 +1620,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Blood Neoplasma Vent"
+      }
+      uk_UA {
+        localizedName = "Кривавий нейоплазмовий вентиль"
       }
     }
   }
@@ -1303,6 +1646,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Neoplasma Well"
       }
+      uk_UA {
+        localizedName = "Кривава пухлинна криниця"
+      }
     }
   }
   val 肉瘤菇 = TallBlock("bloodBall").apply {
@@ -1312,6 +1658,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Blood Ball"
+      }
+      uk_UA {
+        localizedName = "М'ясна пухлина-гриб"
       }
     }
   }
@@ -1323,6 +1672,9 @@ object EnvironmentBlocks {
       en {
         localizedName = "Blood Blastocyst"
       }
+      uk_UA {
+        localizedName = "Кривавий бластоцист"
+      }
     }
   }
   val 缚肉树 = TallBlock("bloodFleshTree").apply {
@@ -1332,6 +1684,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Blood Flesh Tree"
+      }
+      uk_UA {
+        localizedName = "Криваве м'ясне дерево"
       }
     }
   }
@@ -1344,6 +1699,9 @@ object EnvironmentBlocks {
       }
       en {
         localizedName = "Soul Capturing Wall"
+      }
+      uk_UA {
+        localizedName = "Стіна захоплення душ"
       }
     }
   }
