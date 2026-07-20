@@ -17,6 +17,10 @@ class 仓库 :StorageBlock("warehouse") {
         localizedName = "Warehouse"
         description = "Stores a large amount of various items. Can be unloaded with unloaders."
       }
+      uk_UA {
+        localizedName = "Склад"
+        description = "Зберігає велику кількість різноманітних предметів. Можна розвантажувати за допомогою розвантажувачів."
+      }
     }
     size = 3
     health = 1280

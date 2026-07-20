@@ -19,6 +19,10 @@ class 传输矿仓 :ItemExtractor("conveyOreWar") {
         localizedName = "Convey Ore War"
         description = "Automatically links to drills within range and remotely extracts products from them. Link count is limited."
       }
+      uk_UA {
+        localizedName = "Транспортний рудний склад"
+        description = "Автоматично з'єднується з буровими установками в радіусі дії та дистанційно вилучає з них продукти. Кількість з'єднань обмежена."
+      }
     }
     size = 2
     buildSize = 8

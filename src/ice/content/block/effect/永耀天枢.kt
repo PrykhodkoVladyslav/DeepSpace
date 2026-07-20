@@ -19,6 +19,10 @@ class 永耀天枢 :CoreBlock("foreverShineCore") {
         description =
           "The foundation of sector control. Features the largest capacity and heavy armor. Once destroyed, the sector will revert to enemy control."
       }
+      uk_UA {
+        localizedName = "Ядро Вічного Сяйва"
+        description = "Основа контролю сектора. Має найбільшу ємність та важку броню. Після знищення сектор перейде під контроль ворога."
+      }
     }
     armor = 25f
     size = 5

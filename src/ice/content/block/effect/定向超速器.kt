@@ -13,6 +13,10 @@ class 定向超速器 :OrientationProjector("orientationProjector") {
         localizedName = "Orientation Overdrive Projector"
         description = "Boosts the working efficiency of selected linked buildings within range. Link count is limited."
       }
+      uk_UA {
+        localizedName = "Орієнтований прискорювач"
+        description = "Підвищує робочу ефективність обраних з'єднаних споруд у радіусі дії. Кількість з'єднань обмежена."
+      }
     }
     size = 2
     buildSize = 5

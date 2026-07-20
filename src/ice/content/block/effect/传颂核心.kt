@@ -19,6 +19,10 @@ class 传颂核心 :CoreBlock("eulogyCore") {
         description =
           "The foundation of sector control. Features larger capacity and medium armor. Once destroyed, the sector will revert to enemy control."
       }
+      uk_UA {
+        localizedName = "Ядро Елогії"
+        description = "Основа контролю сектора. Має більшу ємність та середню броню. Після знищення сектор перейде під контроль ворога."
+      }
     }
     size = 4
     armor = 30f

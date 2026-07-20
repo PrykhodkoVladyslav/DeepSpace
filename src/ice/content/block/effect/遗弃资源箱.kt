@@ -13,6 +13,10 @@ class 遗弃资源箱 :ResBox("resBox") {
         localizedName = "Abandoned Resource Box"
         description = "An abandoned storage box. A small amount of resources may still remain inside."
       }
+      uk_UA {
+        localizedName = "Залишена скринька ресурсів"
+        description = "Залишена скринька для зберігання. Всередині може залишитися невелика кількість ресурсів."
+      }
     }
     squareSprite = false
   }

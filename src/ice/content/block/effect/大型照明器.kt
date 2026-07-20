@@ -19,6 +19,11 @@ class 大型照明器 :LightBlock("illuminatorLarge") {
         description = "Provides lighting to a large surrounding area."
         details = "And God said, 'Let there be light,' and there was light."
       }
+      uk_UA {
+        localizedName = "Великий освітлювач"
+        description = "Забезпечує освітлення великої навколишньої території."
+        details = "І сказав Бог: 'Хай станеться світло', і сталося світло."
+      }
     }
     size = 2
     armor = 4f

@@ -14,6 +14,14 @@ class 修理器 :MendProjector("mend-projector") {
         localizedName = "修理器"
         description = "定期修复附近的建筑"
       }
+      en {
+        localizedName = "Repairer"
+        description = "Periodically repairs nearby buildings."
+      }
+      uk_UA {
+        localizedName = "Ремонтник"
+        description = "Періодично ремонтує сусідні споруди."
+      }
     }
     requirements(Category.effect, IItems.铅锭, 100, IItems.高碳钢, 25, IItems.单晶硅, 40, IItems.铜锭, 50)
     consumePower(1.5f)

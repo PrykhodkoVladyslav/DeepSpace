@@ -18,6 +18,11 @@ class 真菌塔 :FungusCore("fungusTower") {
           "A symbol of fungal occupation in this area. Once destroyed, all fungi in the sector will lose their nutrient supply and die."
         details = "The out-of-control biological weapon has become a nightmare for native creatures..."
       }
+      uk_UA {
+        localizedName = "Грибова вежа"
+        description = "Символ грибкової окупації цієї території. Після знищення всі гриби в секторі втратять живлення і загинуть."
+        details = "Неконтрольована біологічна зброя стала кошмаром для місцевих істот..."
+      }
     }
     size = 2
     squareSprite = false

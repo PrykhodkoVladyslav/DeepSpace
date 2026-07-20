@@ -19,6 +19,11 @@ class 小型照明器 :LightBlock("illuminatorSmall") {
         description = "Provides lighting to the surrounding area."
         details = "Efficient lighting equipment with low power consumption and wide illumination range."
       }
+      uk_UA {
+        localizedName = "Освітлювач"
+        description = "Забезпечує освітлення навколишньої території."
+        details = "Ефективне освітлювальне обладнання з низьким споживанням енергії та широким діапазоном освітлення."
+      }
     }
     size = 1
     armor = 1f

@@ -17,6 +17,10 @@ open class 血肉枢纽 :FleshAndBloodCoreBlock("fleshAndBloodhinge") {
         localizedName = "Flesh and Blood Hinge"
         description = "The only way to control flesh creatures..."
       }
+      uk_UA {
+        localizedName = "Вузол Плоті та Крові"
+        description = "Єдиний спосіб контролювати істот з плоті..."
+      }
     }
     health = -1
     size = 4

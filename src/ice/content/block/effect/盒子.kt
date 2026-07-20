@@ -19,6 +19,11 @@ class 盒子 :StorageBlock("box") {
         description = "Stores a small amount of various items. Can be unloaded with unloaders."
         details = "A classic return - this little box is your forever home."
       }
+      uk_UA {
+        localizedName = "Коробка"
+        description = "Зберігає невелику кількість різноманітних предметів. Можна розвантажувати за допомогою розвантажувачів."
+        details = "Класичне повернення - ця маленька коробка - твій вічний дім."
+      }
     }
     size = 1
     health = 180

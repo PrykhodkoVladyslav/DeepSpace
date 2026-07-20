@@ -18,6 +18,10 @@ class 晶格数据矩阵 :StorageBlock("effect_latticeDataMatrix") {
         description =
           "Stores massive amounts of various items. Items are deconstructed into data for storage. Can be unloaded with unloaders."
       }
+      uk_UA {
+        localizedName = "Кристалічна матриця даних"
+        description = "Зберігає величезну кількість різноманітних предметів. Предмети деконструюються в дані для зберігання. Можна розвантажувати за допомогою розвантажувачів."
+      }
     }
     size = 4
     health = 16000

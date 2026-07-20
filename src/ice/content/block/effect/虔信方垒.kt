@@ -18,6 +18,10 @@ class 虔信方垒 :CoreBlock("pietasCornerCore") {
         localizedName = "Pietas Corner Core"
         description = "The foundation of sector control. Once destroyed, the sector will revert to enemy control."
       }
+      uk_UA {
+        localizedName = "Ядро Пієтас"
+        description = "Основа контролю сектора. Після знищення сектор перейде під контроль ворога."
+      }
     }
     size = 3
     armor = 20f

@@ -14,6 +14,14 @@ class 小型修理器 :MendProjector("mender") {
         localizedName = "小型修理器"
         description = "定期修复附近的建筑"
       }
+      en {
+        localizedName = "Small Repairer"
+        description = "Periodically repairs nearby buildings."
+      }
+      uk_UA {
+        localizedName = "Малий ремонтник"
+        description = "Періодично ремонтує сусідні споруди."
+      }
     }
     requirements(Category.effect, IItems.铜锭, 30, IItems.低碳钢, 25)
     consumePower(0.3f)

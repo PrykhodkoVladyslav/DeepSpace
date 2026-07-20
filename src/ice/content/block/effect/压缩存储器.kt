@@ -17,6 +17,10 @@ class 压缩存储器 :StorageBlock("compressorMemory") {
         localizedName = "Compressed Storage"
         description = "Stores various types of items. Can be unloaded with unloaders."
       }
+      uk_UA {
+        localizedName = "Стиснене сховище"
+        description = "Зберігає різні типи предметів. Можна розвантажувати за допомогою розвантажувачів."
+      }
     }
     size = 2
     armor = 4f

@@ -16,6 +16,10 @@ class 基础实验室 :Laboratory("laboratory") {
         localizedName = "Basic Laboratory"
         description = "Slowly researches selected technologies when supplied with resources. Configurable."
       }
+      uk_UA {
+        localizedName = "Базова лабораторія"
+        description = "Повільно досліджує обрані технології при постачанні ресурсів. Налаштовується."
+      }
     }
     consumePower(100f / 60)
     itemCapacity = 100

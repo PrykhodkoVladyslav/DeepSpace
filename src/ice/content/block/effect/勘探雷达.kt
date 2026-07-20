@@ -50,6 +50,10 @@ class 勘探雷达 :SglBlock("prospectingRadar") {
         localizedName = "Prospecting Radar"
         description = "Periodically reveals minerals hidden underground within a large area."
       }
+      uk_UA {
+        localizedName = "Розвідувальний радар"
+        description = "Періодично виявляє корисні копалини, приховані під землею на великій площі."
+      }
     }
     update = true
     configurable = true

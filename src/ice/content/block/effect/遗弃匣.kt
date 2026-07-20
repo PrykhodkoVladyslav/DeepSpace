@@ -13,6 +13,9 @@ class 遗弃匣 :LostBox("lostBox") {
       en {
         localizedName = "Lost Box"
       }
+      uk_UA {
+        localizedName = "Загублена скринька"
+      }
     }
     size = 2
     envEnabled = Env.any

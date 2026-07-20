@@ -29,6 +29,10 @@ class 洛华 :ContinuousTurret("mendTower") {
         localizedName = "Luo Hua"
         description = "Refracts and projects a fan-shaped repair beam to cover and repair buildings."
       }
+      uk_UA {
+        localizedName = "Ло Хуа"
+        description = "Рефлектує та проєктує вентиляційний ремонтний промінь для покриття та ремонту споруд."
+      }
     }
 
     buildType = Prov {
