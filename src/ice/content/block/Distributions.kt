@@ -47,6 +47,13 @@ object Distributions {
         localizedName = "Base Conveyor"
         description = "Transport facility, low cost"
       }
+
+      
+      
+      {
+        localizedName = "Базовий конвеєр"
+        description = "Транспортний пристрій із низькою вартістю виробництва."
+      }
     }
     size = 1
     speed = 6f
@@ -65,7 +72,11 @@ object Distributions {
       }
       en {
         localizedName = "Reinforced Conveyor"
-        description = "Transport facility, low cost, faster than base conveyor"
+        description = "Transport facility, low cost, faster than the Base Conveyor"
+      }
+      uk_UA {
+        localizedName = "Посилений конвеєр"
+        description = "Транспортний пристрій із низькою вартістю виробництва. Швидший за базовий конвеєр."
       }
     }
     size = 1
@@ -87,7 +98,11 @@ object Distributions {
       }
       en {
         localizedName = "Special Conveyor"
-        description = "Transport facility, faster than reinforced conveyor, does not accept side input"
+        description = "Transport facility, faster than the Reinforced Conveyor, does not accept side input"
+      }
+      uk_UA {
+        localizedName = "Спеціальний конвеєр"
+        description = "Транспортний пристрій, швидший за посилений конвеєр. Не приймає предмети з боків."
       }
     }
     size = 1
@@ -109,7 +124,11 @@ object Distributions {
       }
       en {
         localizedName = "Flesh Armor Conveyor"
-        description = "Transport facility, faster than special conveyor, slowly regenerates health"
+        description = "Transport facility, faster than the Special Conveyor, slowly regenerates health"
+      }
+      uk_UA {
+        localizedName = "Конвеєр із живої броні"
+        description = "Транспортний пристрій, швидший за спеціальний конвеєр. Повільно відновлює власну міцність."
       }
     }
     health = 600
@@ -132,6 +151,9 @@ object Distributions {
       }
       en {
         localizedName = "Cobalt-Bright Conveyor"
+      }
+      uk_UA {
+        localizedName = "Кобальтовий сяйний конвеєр"
       }
     }
     health = 120
@@ -157,7 +179,11 @@ object Distributions {
       }
       en {
         localizedName = "Bio-Steel Conveyor"
-        description = "Transport facility, transports items in batches, speeds up when powered"
+        description = "Transport facility that transports items in batches. Movement speed increases when powered."
+      }
+      uk_UA {
+        localizedName = "Біосталевий конвеєр"
+        description = "Транспортний пристрій, що перевозить предмети пакетами. Після подачі живлення швидкість транспортування збільшується."
       }
     }
     healAmount = 10f
@@ -205,7 +231,11 @@ object Distributions {
       }
       en {
         localizedName = "Graded Conveyor"
-        description = "Transport facility, transports multiple types of items in batches"
+        description = "Transport facility that transports multiple item types in batches."
+      }
+      uk_UA {
+        localizedName = "Градієнтний конвеєр"
+        description = "Транспортний пристрій, що перевозить кілька типів предметів пакетами."
       }
     }
     health = 120
@@ -237,7 +267,11 @@ object Distributions {
       }
       en {
         localizedName = "Base Junction"
-        description = "Bridge between two crossing conveyors"
+        description = "A bridge allowing two conveyors to cross."
+      }
+      uk_UA {
+        localizedName = "Базовий перехрестник"
+        description = "Міст для перетину двох конвеєрів."
       }
     }
     size = 1
@@ -252,7 +286,11 @@ object Distributions {
       }
       en {
         localizedName = "Neural Junction Chain"
-        description = "Bridge between two crossing conveyors, faster than junction"
+        description = "A bridge allowing two conveyors to cross. Faster than the Base Junction."
+      }
+      uk_UA {
+        localizedName = "Нейронний перехресний ланцюг"
+        description = "Міст для перетину двох конвеєрів. Швидший за базовий перехрестник."
       }
     }
     armor = 4f
@@ -271,8 +309,11 @@ object Distributions {
       }
       en {
         localizedName = "Transform Sorter"
-        description =
-          "Intelligently sorts items based on configured type, matching items pass through, non-matching items are diverted to sides. Supports normal/reverse sorting mode toggle"
+        description = "Intelligently sorts items by the configured item type. Matching items pass straight through, while non-matching items are diverted to the sides. Supports both normal and inverted sorting modes."
+      }
+      uk_UA {
+        localizedName = "Перемикний сортувальник"
+        description = "Інтелектуально сортує предмети за заданим типом. Відповідні предмети проходять прямо, а невідповідні відводяться вбік. Підтримує звичайний і зворотний режими сортування."
       }
     }
     size = 1
@@ -287,7 +328,11 @@ object Distributions {
       }
       en {
         localizedName = "Base Router"
-        description = "Distributes items evenly to the other three directions"
+        description = "Evenly distributes items to the other three directions."
+      }
+      uk_UA {
+        localizedName = "Базовий маршрутизатор"
+        description = "Рівномірно розподіляє предмети між трьома іншими напрямками."
       }
     }
     size = 1
@@ -303,7 +348,11 @@ object Distributions {
       }
       en {
         localizedName = "Transform Overflow Gate"
-        description = "Outputs to sides/front only when front/sides are blocked, used to handle excess items. Configurable"
+        description = "Outputs to the sides/front only when the front/sides are blocked. Used to handle excess items. Configurable."
+      }
+      uk_UA {
+        localizedName = "Перемикний перепускний шлюз"
+        description = "Спрямовує предмети в боки або вперед лише тоді, коли шлях попереду або з боків заблокований. Використовується для обробки надлишкових предметів. Налаштовується."
       }
     }
     size = 1
@@ -320,7 +369,11 @@ object Distributions {
       }
       en {
         localizedName = "Base Conveyor Bridge"
-        description = "Transports items across terrain or buildings"
+        description = "Transports items across terrain or buildings."
+      }
+      uk_UA {
+        localizedName = "Базовий конвеєрний міст"
+        description = "Переміщує предмети через рельєф або будівлі."
       }
     }
     allowDiagonal = false
@@ -343,7 +396,11 @@ object Distributions {
       }
       en {
         localizedName = "Armor Conveyor Bridge"
-        description = "Transports items across any terrain or buildings, faster and longer range than standard bridge"
+        description = "Transports items across any terrain or buildings. Faster and has a longer range than the standard conveyor bridge."
+      }
+      uk_UA {
+        localizedName = "Броньований конвеєрний міст"
+        description = "Переміщує предмети через будь-який рельєф або будівлі. Швидший і має більшу дальність, ніж звичайний конвеєрний міст."
       }
     }
     allowDiagonal = false
@@ -381,8 +438,11 @@ object Distributions {
       }
       en {
         localizedName = "Growth Conveyor Bridge"
-        description =
-          "Transports items across any terrain or buildings, faster and longer range than armor bridge. Slowly regenerates health"
+        description = "Transports items across any terrain or buildings. Faster and has a longer range than the Armor Conveyor Bridge. Slowly regenerates health."
+      }
+      uk_UA {
+        localizedName = "Регенеративний конвеєрний міст"
+        description = "Переміщує предмети через будь-який рельєф або будівлі. Швидший і має більшу дальність, ніж броньований конвеєрний міст. Повільно відновлює власну міцність."
       }
     }
   }
@@ -394,7 +454,11 @@ object Distributions {
       }
       en {
         localizedName = "Transfer Node"
-        description = "Can transport both liquids and items, has longer range"
+        description = "Can transport both liquids and items over a long distance."
+      }
+      uk_UA {
+        localizedName = "Вузол передачі"
+        description = "Може транспортувати як рідини, так і предмети. Має велику дальність передачі."
       }
     }
     hasPower = false
@@ -413,7 +477,11 @@ object Distributions {
       }
       en {
         localizedName = "Transport Node"
-        description = "Advanced conveyor bridge, can configure specific item input and output for any side of the node"
+        description = "An advanced conveyor bridge that allows configuring specific item input and output on any side of the node."
+      }
+      uk_UA {
+        localizedName = "Транспортний вузол"
+        description = "Покращений конвеєрний міст. Дозволяє налаштовувати вхід і вихід певних предметів для будь-якої сторони вузла."
       }
     }
     health = 80
@@ -430,7 +498,11 @@ object Distributions {
       }
       en {
         localizedName = "Phase Transport Node"
-        description = "Advanced conveyor bridge, has faster transport speed and longer connection range"
+        description = "An advanced conveyor bridge with higher transport speed and a longer connection range."
+      }
+      uk_UA {
+        localizedName = "Фазовий транспортний вузол"
+        description = "Покращений конвеєрний міст із вищою швидкістю транспортування та більшою дальністю з'єднання."
       }
     }
     health = 150
@@ -456,8 +528,11 @@ object Distributions {
       }
       en {
         localizedName = "Efficient Transport Node"
-        description =
-          "Advanced conveyor bridge, has faster transport speed and longer connection range, node also has unloader function, can directly extract selected items from blocks in specified direction"
+        description = "An advanced conveyor bridge with higher transport speed and a longer connection range. Also functions as an unloader, allowing it to directly extract selected items from blocks in the specified direction."
+      }
+      uk_UA {
+        localizedName = "Ефективний транспортний вузол"
+        description = "Покращений конвеєрний міст із вищою швидкістю транспортування та більшою дальністю з'єднання. Також виконує функцію розвантажувача, дозволяючи безпосередньо витягувати вибрані предмети з блоків у заданому напрямку."
       }
     }
     requirements(
@@ -488,7 +563,11 @@ object Distributions {
       }
       en {
         localizedName = "Base Unloader"
-        description = "Unloads items from containers"
+        description = "Unloads items from containers."
+      }
+      uk_UA {
+        localizedName = "Базовий розвантажувач"
+        description = "Вивантажує предмети з контейнерів."
       }
     }
     speed = 60f / 10f
@@ -503,7 +582,11 @@ object Distributions {
       }
       en {
         localizedName = "Speed Unloader"
-        description = "High-speed item unloading from containers"
+        description = "High-speed unloading of items from containers."
+      }
+      uk_UA {
+        localizedName = "Швидкісний розвантажувач"
+        description = "Високошвидкісне вивантаження предметів із контейнерів."
       }
     }
     speed = 60f / 30f
@@ -519,7 +602,11 @@ object Distributions {
       }
       en {
         localizedName = "Quantum Unloader"
-        description = "Ultra-high-speed item unloading from containers"
+        description = "Ultra-high-speed unloading of items from containers."
+      }
+      uk_UA {
+        localizedName = "Квантовий розвантажувач"
+        description = "Надшвидкісне вивантаження предметів із контейнерів."
       }
     }
     squareSprite = false
@@ -541,7 +628,11 @@ object Distributions {
       }
       en {
         localizedName = "Mass Driver"
-        description = "Long-range item transport, collects items and launches them to another mass driver"
+        description = "Long-range item transport system. Collects items and launches them to another Mass Driver."
+      }
+      uk_UA {
+        localizedName = "Масовий прискорювач"
+        description = "Система далекого транспортування предметів. Збирає певну кількість предметів і запускає їх до іншого масового прискорювача."
       }
     }
     size = 2
@@ -570,8 +661,11 @@ object Distributions {
       }
       en {
         localizedName = "Heavy Mass Driver"
-        description =
-          "Ultra long-range item transport, collects items and launches them to another heavy mass driver, huge capacity but slow rotation and launch speed"
+        description = "Ultra long-range item transport system. Collects items and launches them to another Heavy Mass Driver. Has a huge capacity but slower rotation and launch speed."
+      }
+      uk_UA {
+        localizedName = "Важкий масовий прискорювач"
+        description = "Система наддалекого транспортування предметів. Збирає велику кількість предметів і запускає їх до іншого важкого масового прискорювача. Має величезну місткість, але повільніший поворот і швидкість запуску."
       }
     }
     size = 5
@@ -602,7 +696,11 @@ object Distributions {
       }
       en {
         localizedName = "Logistics Hub Core"
-        description = "Simple item management module, distributes items through conduits"
+        description = "A simple item management module that distributes items through conduits."
+      }
+      uk_UA {
+        localizedName = "Ядро логістичного вузла"
+        description = "Простий модуль керування предметами, що розподіляє ресурси через трубопроводи."
       }
     }
     requirements(
@@ -617,7 +715,11 @@ object Distributions {
       }
       en {
         localizedName = "Hub Conduit"
-        description = "Logistics hub distributes items through this conduit, must be placed adjacent"
+        description = "The Logistics Hub distributes items through this conduit. Must be placed adjacent to the hub."
+      }
+      uk_UA {
+        localizedName = "Трубопровід вузла"
+        description = "Логістичний вузол розподіляє предмети через цей трубопровід. Має бути розміщений поруч із вузлом."
       }
     }
     requirements(Category.distribution, IItems.锌锭, 1, IItems.导能回路, 1)
@@ -630,7 +732,11 @@ object Distributions {
       }
       en {
         localizedName = "Logistics Input"
-        description = "Inputs items to current hub through conduit"
+        description = "Inputs items into the current hub through the conduit."
+      }
+      uk_UA {
+        localizedName = "Логістичний ввід"
+        description = "Подає предмети до поточного вузла через трубопровід."
       }
     }
     requirements(Category.distribution, IItems.铜锭, 20, IItems.导能回路, 5)
@@ -643,7 +749,11 @@ object Distributions {
       }
       en {
         localizedName = "Logistics Output"
-        description = "Extracts items from current hub through conduit"
+        description = "Extracts items from the current hub through the conduit."
+      }
+      uk_UA {
+        localizedName = "Логістичний вивід"
+        description = "Витягує предмети з поточного вузла через трубопровід."
       }
     }
     requirements(Category.distribution, IItems.锌锭, 1, IItems.电子元件, 1)
@@ -658,7 +768,11 @@ object Distributions {
       }
       en {
         localizedName = "Drone Receiving Terminal"
-        description = "Used to receive items from delivery terminal"
+        description = "Used to receive items from delivery terminals."
+      }
+      uk_UA {
+        localizedName = "Термінал приймання дронів"
+        description = "Використовується для отримання предметів від терміналів постачання."
       }
     }
   }
@@ -670,7 +784,11 @@ object Distributions {
       }
       en {
         localizedName = "Random Source"
-        description = "Randomly outputs all resources"
+        description = "Randomly outputs all resources."
+      }
+      uk_UA {
+        localizedName = "Випадкове джерело"
+        description = "Випадково видає всі типи ресурсів."
       }
     }
     buildVisibility = BuildVisibility.sandboxOnly
@@ -683,7 +801,11 @@ object Distributions {
       }
       en {
         localizedName = "Directed Source"
-        description = "Directly outputs all resources"
+        description = "Directly outputs all resources."
+      }
+      uk_UA {
+        localizedName = "Спрямоване джерело"
+        description = "Спрямовано видає всі типи ресурсів."
       }
     }
   }
