@@ -754,7 +754,22 @@ object Distributions {
     }
     requirements(Category.distribution, IItems.锌锭, 1, IItems.电子元件, 1)
   }
-  val 无人机供货端 = DroneDeliveryTerminal("droneTeliveryTerminal")
+  val 无人机供货端 = DroneDeliveryTerminal("droneDeliveryTerminal").apply {
+    localization {
+      zh_CN {
+        localizedName = "无人机配送终端"
+        description = "无人机供货端,用于将物品从无人机供货端运输到无人机需求端"
+      }
+      en {
+        localizedName = "Drone Delivery Terminal"
+        description = "Drone supply endpoint used to transport items from the supply terminal to the drone demand terminal"
+      }
+      uk_UA {
+        localizedName = "Термінал доставки дронів"
+        description = "Пункт постачання дронів, використовується для транспортування предметів від терміналу постачання до терміналу попиту"
+      }
+    }
+  }
   val 无人机需求端 = DroneReceivingRnd("droneReceivingRnd").apply {
     requirements(Category.distribution, IItems.铜锭, 20, IItems.单晶硅, 10)
     localization {
