@@ -42,6 +42,16 @@ class 冬至 :SglTurret("winter") {
         description =
           "它用力场,将周围的物质分子的移动牢牢的限制,在极寒领域展开的瞬间,有如时间也被冻结一般,一切都停了下来,并破碎成无数微小的碎片"
       }
+      en {
+        this.localizedName = "Winter Solstice"
+        description =
+          "It uses force fields to firmly restrict the movement of surrounding material molecules. The moment the extreme cold field unfolds, it is as if time itself is frozen, everything stops and shatters into countless tiny fragments"
+      }
+      uk_UA {
+        this.localizedName = "Зимове сонцестояння"
+        description =
+          "Він використовує силові поля, щоб міцно обмежити рух молекул навколишньої речовини. У момент розгортання надзвичайно холодного поля здається, ніби сам час замерз, все зупиняється і розбивається на безліч дрібних уламків"
+      }
     }
     requirements(
       Category.turret,

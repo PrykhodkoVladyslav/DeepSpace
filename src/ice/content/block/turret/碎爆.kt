@@ -24,6 +24,14 @@ class 碎爆 :SglTurret("turret_shatter") {
         localizedName = "碎爆"
         description = "新式炮台,可兼容各种弹药"
       }
+      en {
+        localizedName = "Shatter"
+        description = "New-style turret compatible with various ammunition types"
+      }
+      uk_UA {
+        localizedName = "Розліт"
+        description = "Башта нового стилю, сумісна з різними типами боєприпасів"
+      }
     }
 
     health = 1280

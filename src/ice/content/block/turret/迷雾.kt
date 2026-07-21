@@ -27,6 +27,14 @@ class 迷雾 :SglTurret("mist") {
         localizedName = "迷雾"
         description = "一门重型对地复合石墨大炮,发射4颗填充了松散石墨的炮弹,爆炸后会产生一片会带有电磁脉冲的石墨云"
       }
+      en {
+        localizedName = "Mist"
+        description = "A heavy ground composite graphite cannon that fires 4 shells filled with loose graphite, creating a graphite cloud with electromagnetic pulse after explosion"
+      }
+      uk_UA {
+        localizedName = "Туман"
+        description = "Важка наземна композитна графітова гармата, що запускає 4 снаряди, наповнені пухким графітом, створюючи хмару графіту з електромагнітним імпульсом після вибуху"
+      }
     }
     requirements(Category.turret, IItems.强化合金, 100, IItems.气凝胶, 120, IItems.铬锭, 100, IItems.铜锭, 80, IItems.铅锭, 85)
     size = 3

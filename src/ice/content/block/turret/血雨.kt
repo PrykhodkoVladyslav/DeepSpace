@@ -34,6 +34,14 @@ class 血雨 :SglTurret("turret_bloodyRain") {
         localizedName = "血雨"
         description = " 改进型双联速射炮,向敌人发射大型穿甲弹,兼容各种弹药\n其恐怖的穿透力足以击穿建筑装甲"
       }
+      en {
+        localizedName = "Bloody Rain"
+        description = "Improved twin rapid-fire cannon that fires large armor-piercing rounds at enemies, compatible with various ammunition\nIts terrifying penetration power is sufficient to penetrate building armor"
+      }
+      uk_UA {
+        localizedName = "Кривавий дощ"
+        description = "Покращена спарена швидкострільна гармата, що запускає великі бронебійні снаряди по ворогах, сумісна з різними боєприпасами\nЇї жахлива пробивна сила достатня для пробивання броні будівель"
+      }
     }
     health = 5400
     size = 5

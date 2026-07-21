@@ -26,6 +26,14 @@ class 喧嚣 :SglTurret("turret_clamor") {
         localizedName = "喧嚣"
         description = "扩散性等离子炮塔,向敌人发射逐渐消散的螺旋等离子体\n等离子体在消散的过程中会分裂出许多小型能量裂片"
       }
+      en {
+        localizedName = "Clamor"
+        description = "Diffusive plasma turret that fires gradually dissipating spiral plasma at enemies\nThe plasma splits into many small energy fragments during dissipation"
+      }
+      uk_UA {
+        localizedName = "Шум"
+        description = "Дифузійна плазмова башта, що запускає поступово зникаючу спіральну плазму по ворогах\nПлазма розколюється на багато дрібних енергетичних уламків під час зникнення"
+      }
     }
 
     health = 4320

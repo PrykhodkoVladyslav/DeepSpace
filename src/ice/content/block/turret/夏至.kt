@@ -34,6 +34,14 @@ class 夏至 :SglTurret("summer") {
         this.localizedName = "夏至"
         description = "高速释放巨量的受控热能团,以太阳风暴摧毁一切敌人,它开火伴随着猛烈的热浪,将被击中的一切化为铁水灰烬"
       }
+      en {
+        this.localizedName = "Summer Solstice"
+        description = "High-speed release of massive controlled thermal energy clusters, destroying all enemies with solar storms. Its firing is accompanied by fierce heat waves, turning everything hit into molten iron ash"
+      }
+      uk_UA {
+        this.localizedName = "Літнє сонцестояння"
+        description = "Високошвидкісне вивільнення величезних контрольованих теплових скупчень, знищуючи всіх ворогів сонячними штормами. Його стрільба супроводжується лютою хвилею тепла, перетворюючи все, в що влучає, на розплавлене залізо та попіл"
+      }
     }
     requirements(
       Category.turret,

@@ -24,6 +24,14 @@ class 双星 :SglTurret("turret_twinStar") {
         localizedName = "双星"
         description = "双管交替发射小型制导导弹,弹体沿正弦轨迹蛇行前进,命中后造成范围伤害"
       }
+      en {
+        localizedName = "Twin Star"
+        description = "Twin barrels alternately fire small guided missiles that snake forward along a sinusoidal trajectory, causing area damage upon impact"
+      }
+      uk_UA {
+        localizedName = "Подвійна зірка"
+        description = "Подвійні стволи по черзі запускають малі керовані ракети, що рухаються змійкою по синусоїдальній траєкторії, спричиняючи площинні пошкодження при влученні"
+      }
     }
     size = 2
     health = 1000

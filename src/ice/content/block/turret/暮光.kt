@@ -27,6 +27,14 @@ class 暮光 :SglTurret("turret_twilight") {
         localizedName = "暮光"
         description = "重型激光炮塔,向指定方向发射一道超视距湍能激光束\n其聚能速度会随聚焦晶体的预热而逐渐提升"
       }
+      en {
+        localizedName = "Twilight"
+        description = "Heavy laser turret that fires a super-horizon turbulent energy laser beam in a specified direction\nIts energy accumulation speed gradually increases with the preheating of focusing crystals"
+      }
+      uk_UA {
+        localizedName = "Сутінки"
+        description = "Важка лазерна башта, що запускає наддалекий лазерний промінь турбулентної енергії у вказаному напрямку\nШвидкість накопичення енергії поступово зростає з розігрівом фокусувальних кристалів"
+      }
     }
     warmupSpeed=0.02f
     size = 6

@@ -126,6 +126,14 @@ class 信标 :SglTurret("turret_beacon") {
         localizedName = "信标"
         description = "持续引导聚爆能量弹坠向信标标记处,毁灭范围内所有敌方目标"
       }
+      en {
+        localizedName = "Beacon"
+        description = "Continuously guides implosion energy bombs to fall on the beacon marker, destroying all enemy targets within range"
+      }
+      uk_UA {
+        localizedName = "Маяк"
+        description = "Безперервно наводить імплозійні енергетичні бомби на місце маркера маяка, знищуючи всі ворожі цілі в радіусі дії"
+      }
     }
     requirementPairs(
       Category.turret,

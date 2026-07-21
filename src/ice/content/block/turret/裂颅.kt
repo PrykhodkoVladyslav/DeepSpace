@@ -26,6 +26,14 @@ class 裂颅 :SglTurret("turret_skullSplitter") {
         localizedName = "裂颅"
         description = "以临界速度发射三道远程穿透磁轨炮摧毁敌人,能够扫除一切障碍"
       }
+      en {
+        localizedName = "Skull Splitter"
+        description = "Fires three long-range penetrating railguns at critical speed to destroy enemies, capable of clearing all obstacles"
+      }
+      uk_UA {
+        localizedName = "Розкол черепа"
+        description = "Запускає три дальнобійні проникні рейлгани з критичною швидкістю для знищення ворогів, здатний зчищати всі перешкоди"
+      }
     }
     health = 3600
     size = 4

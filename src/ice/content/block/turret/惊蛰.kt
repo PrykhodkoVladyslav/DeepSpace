@@ -50,6 +50,16 @@ class 惊蛰 :SglTurret("thunder") {
         description = "大功率电离轰击武器,它会用耀眼的闪电将敌人化为灰烬"
         details = "这座庞然大物凭借其如同雷鸣般的声响和能够与雷电平齐的杀伤力"
       }
+      en {
+        localizedName = "Awakening of Insects"
+        description = "High-power ionization bombardment weapon that turns enemies to ash with dazzling lightning"
+        details = "This behemoth relies on its thunderous sound and lethality equal to that of lightning"
+      }
+      uk_UA {
+        localizedName = "Пробудження комах"
+        description = "Високопотужна зброя іонізаційного бомбардування, що перетворює ворогів на попіл осліплюючою блискавкою"
+        details = "Цей велетень покладається на свій гучний звук і летальність, рівну блискавці"
+      }
     }
     requirements(
       Category.turret,

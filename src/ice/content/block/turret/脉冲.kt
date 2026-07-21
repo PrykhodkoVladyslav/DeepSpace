@@ -27,6 +27,10 @@ class 脉冲 :SglTurret("turret_pulse") {
         localizedName = "Pulse"
         description = "Fires powerful pulse energy to attack enemies, causing area EMP damage"
       }
+      uk_UA {
+        localizedName = "Імпульс"
+        description = "Запускає потужну імпульсну енергію для атаки ворогів, спричиняючи площинні ЕМІ-пошкодження"
+      }
     }
 
     health = 2560

@@ -34,6 +34,14 @@ class 震击 :SglTurret("turret_shock") {
         localizedName = "震击"
         description = "以相位技术传送炮弹,使其瞬间到达目标点"
       }
+      en {
+        localizedName = "Shock Strike"
+        description = "Uses phase technology to teleport shells, making them instantly reach the target point"
+      }
+      uk_UA {
+        localizedName = "Шоковий удар"
+        description = "Використовує фазову технологію для телепортації снарядів, що дозволяє їм миттєво досягати цілі"
+      }
     }
     health = 4680
     size = 5

@@ -22,6 +22,14 @@ class 遮幕 :SglTurret("curtain") {
         this.localizedName = "遮幕"
         description = "发射石墨炸弹,会制造一篇石墨云,一种朴素但有效的对空防御武器"
       }
+      en {
+        this.localizedName = "Curtain"
+        description = "Fires graphite bombs that create a graphite cloud, a simple but effective anti-air defense weapon"
+      }
+      uk_UA {
+        this.localizedName = "Завіса"
+        description = "Запускає графітові бомби, що створюють хмару графіту, проста але ефективна зброя протиповітряної оборони"
+      }
     }
     requirements(Category.turret, IItems.铬锭, 20, IItems.锌锭, 20, IItems.铅锭, 12)
     itemCapacity = 20

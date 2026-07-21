@@ -21,6 +21,14 @@ class 聚焦 :ContinuousTurret("turret_focus") {
         localizedName = "聚焦"
         description = "持续发射高能激光束,对单个目标造成持续伤害并施加熔融状态"
       }
+      en {
+        localizedName = "Focus"
+        description = "Continuously fires high-energy laser beams, causing continuous damage to a single target and applying melting status"
+      }
+      uk_UA {
+        localizedName = "Фокус"
+        description = "Безперервно запускає високоенергетичні лазерні промені, спричиняючи безперервні пошкодження однієї цілі та накладаючи статус плавлення"
+      }
     }
 
     health = 1305

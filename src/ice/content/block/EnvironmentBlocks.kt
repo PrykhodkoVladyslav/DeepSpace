@@ -1206,7 +1206,6 @@ object EnvironmentBlocks {
         localizedName = "Мучильний лід"
       }
     }
-}
     attributes.set(IAttribute.寒冷, 1f)
   }
   val 凌冰水 = ShallowLiquid("tortureIceWater", 凌冰).apply {

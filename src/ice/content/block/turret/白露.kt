@@ -42,6 +42,14 @@ class 白露 :ProjectileTurret("dew") {
         localizedName = "白露"
         description = "连续高速发射一连串穿甲弹,向敌人倾泻如同暴雨般的火力"
       }
+      en {
+        localizedName = "White Dew"
+        description = "Continuously fires a rapid stream of armor-piercing rounds, pouring torrential firepower upon enemies"
+      }
+      uk_UA {
+        localizedName = "Біла роса"
+        description = "Безперервно запускає швидкий потік бронебійних снарядів, обливаючи ворогів зливоподібним вогнем"
+      }
     }
     requirements(
       Category.turret, IItems.强化合金, 150, IItems.铝锭, 110, IItems.气凝胶, 120,

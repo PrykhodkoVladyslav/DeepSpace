@@ -20,6 +20,14 @@ class 极光 :SglTurret("turret_aurora") {
         localizedName = "极光"
         description = "向附近的敌人发射九发近距离穿透性镭射激光束"
       }
+      en {
+        localizedName = "Aurora"
+        description = "Fires nine short-range penetrating laser beams at nearby enemies"
+      }
+      uk_UA {
+        localizedName = "Аврора"
+        description = "Запускає дев'ять короткобійних проникних лазерних променів по сусідніх ворогах"
+      }
     }
 
     health = 4320

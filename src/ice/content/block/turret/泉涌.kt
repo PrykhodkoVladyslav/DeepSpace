@@ -23,6 +23,14 @@ class 泉涌 :SglTurret("turret_quicksand") {
         localizedName = "泉涌"
         description = "使用增压器高速喷射液体攻击敌人,使用水作为弹药时可以灭火"
       }
+      en {
+        localizedName = "Gushing Spring"
+        description = "Uses boosters to spray liquid at high speed to attack enemies, can extinguish fires when using water as ammunition"
+      }
+      uk_UA {
+        localizedName = "Бурхливе джерело"
+        description = "Використовує підсилювачі для швидкого розпилення рідини для атаки ворогів, може гасити пожежі при використанні води як боєприпасів"
+      }
     }
     health = 2430
     size = 3

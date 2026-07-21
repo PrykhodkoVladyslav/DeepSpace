@@ -21,6 +21,14 @@ class 光谱 :SglTurret("turret_spectral") {
         localizedName = "光谱"
         description = "中型能量炮塔,可以快速向敌人发射高热激光"
       }
+      en {
+        localizedName = "Spectral"
+        description = "Medium-sized energy turret that can rapidly fire high-heat lasers at enemies"
+      }
+      uk_UA {
+        localizedName = "Спектраль"
+        description = "Середня енергетична башта, яка може швидко стріляти високотемпературними лазерами по ворогах"
+      }
     }
     health = 1380
     size = 3

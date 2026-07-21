@@ -37,6 +37,14 @@ class 吹雪 :LaserTurret("fubuki") {
         this.localizedName = "吹雪"
         description = "向前喷发凛冽的冰霜风暴,凛冽的风雪足以将敌人冻结成冰雕"
       }
+      en {
+        this.localizedName = "Blizzard"
+        description = "Sprays a biting frost storm forward, the biting wind and snow are enough to freeze enemies into ice sculptures"
+      }
+      uk_UA {
+        this.localizedName = "Буря"
+        description = "Випускає лютий морозний шторм вперед, лютий вітер і сніг достатньо, щоб заморозити ворогів у крижані скульптури"
+      }
     }
     requirementPairs(
       Category.turret,

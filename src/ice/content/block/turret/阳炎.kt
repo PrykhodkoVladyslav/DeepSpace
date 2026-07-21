@@ -42,6 +42,14 @@ class 阳炎 :SglTurret("soflame") {
         localizedName = "阳炎"
         description = "将能量聚集到“太阳分子”上,直到能量足够高时发射出去,极热的物质云会留下灼热的轨迹,并在碰撞时爆炸,将目标化为灰烬"
       }
+      en {
+        localizedName = "Heat Haze"
+        description = "Concentrates energy onto "solar molecules" until energy is high enough to fire. The extremely hot matter cloud leaves scorching trails and explodes upon impact, turning targets to ash"
+      }
+      uk_UA {
+        localizedName = "Марево"
+        description = "Зосереджує енергію на "сонячних молекулах", поки енергія не стане достатньо високою для запуску. Надзвичайно гаряча хмара речовини залишає палючі сліди і вибухає при ударі, перетворюючи цілі на попіл"
+      }
     }
 
     size = 5

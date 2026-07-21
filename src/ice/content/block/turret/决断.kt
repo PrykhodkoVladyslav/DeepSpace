@@ -27,6 +27,14 @@ class 决断 :SglTurret("turret_judgment") {
         localizedName = "决断"
         description = "一次性发射四道湍能弹精准攻击敌人"
       }
+      en {
+        localizedName = "Judgment"
+        description = "Fires four turbulent energy projectiles in one burst to precisely attack enemies"
+      }
+      uk_UA {
+        localizedName = "Суд"
+        description = "Одноразово запускає чотири турбулентні енергетичні снаряди для точної атаки ворогів"
+      }
     }
     health = 6350
     armor = 6f

@@ -25,6 +25,14 @@ class 腥风 :SglTurret("turret_bloodyWind") {
         localizedName = "腥风"
         description = "改进型四联速射粒子炮,向敌人发射高热的粒子束\n为了更强的电热转换回路拆除了部分气冷系统,使用液体时冷却效果更佳"
       }
+      en {
+        localizedName = "Bloody Wind"
+        description = "Improved quad rapid-fire particle cannon that fires high-heat particle beams at enemies\nPart of the air cooling system was removed for stronger electro-thermal conversion circuits, liquid cooling is more effective"
+      }
+      uk_UA {
+        localizedName = "Кривавий вітер"
+        description = "Покращена чотириствольна швидкострільна часткова гармата, що стріляє високотемпературними пучками частинок по ворогах\nЧастина системи повітряного охолодження була видалена для сильніших електротермічних перетворювальних кіл, рідинне охолодження ефективніше"
+      }
     }
     squareSprite = false
     health = 6400

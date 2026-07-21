@@ -19,6 +19,14 @@ class 流火 :ContinuousTurret("flowingFire") {
         localizedName = "流火"
         description = "小型等离子炮塔\n持续消耗燃料以喷射高热的等离子火焰,近距离内十分有效"
       }
+      en {
+        localizedName = "Flowing Fire"
+        description = "Small plasma turret\nContinuously consumes fuel to spray high-heat plasma flames, very effective at close range"
+      }
+      uk_UA {
+        localizedName = "Плинучий вогонь"
+        description = "Мала плазмова башта\nБезперервно споживає паливо для розпилення високотемпературного плазмового вогню, дуже ефективна на близькій відстані"
+      }
     }
     drawers
     health = 1800

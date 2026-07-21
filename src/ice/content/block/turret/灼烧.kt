@@ -23,6 +23,14 @@ class 灼烧 :SglTurret("turret_scorch") {
         localizedName = "灼烧"
         description = "大型激光炮塔,大量质能反应使能量到达临界点,然后以毁灭性激光的形式释放而出"
       }
+      en {
+        localizedName = "Scorch"
+        description = "Large laser turret where massive mass-energy reactions bring energy to a critical point, then released in the form of destructive lasers"
+      }
+      uk_UA {
+        localizedName = "Обпік"
+        description = "Велика лазерна башта, де масові масово-енергетичні реакції доводять енергію до критичної точки, а потім вивільняються у формі руйнівних лазерів"
+      }
     }
 
     size = 4

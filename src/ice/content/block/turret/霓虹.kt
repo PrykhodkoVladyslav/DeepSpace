@@ -33,6 +33,14 @@ class 霓虹 :SglTurret("turret_rainbow") {
         localizedName = "霓虹"
         description = "快速发射渐变霓虹攻击敌人\n其聚能速度会随持续射击而逐渐提升"
       }
+      en {
+        localizedName = "Neon"
+        description = "Rapidly fires gradient neon to attack enemies\nIts energy accumulation speed gradually increases with continuous shooting"
+      }
+      uk_UA {
+        localizedName = "Неон"
+        description = "Швидко запускає градієнтний неон для атаки ворогів\nШвидкість накопичення енергії поступово зростає при безперервній стрільбі"
+      }
     }
     health = 820
     size = 2

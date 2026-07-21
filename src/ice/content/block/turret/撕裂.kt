@@ -26,6 +26,14 @@ class 撕裂 :SglTurret("turret_tear") {
         localizedName = "撕裂"
         description = "一座强大的电磁轨道炮,超长轨道,超大力度,可以快速地进行精准射击"
       }
+      en {
+        localizedName = "Tear"
+        description = "A powerful electromagnetic railgun with ultra-long tracks and ultra-high power, capable of rapid precise shooting"
+      }
+      uk_UA {
+        localizedName = "Розрив"
+        description = "Потужний електромагнітний рейлган з наддовгими рейками і надвисокою потужністю, здатний до швидкої точної стрільби"
+      }
     }
     squareSprite = false
     health = 19200

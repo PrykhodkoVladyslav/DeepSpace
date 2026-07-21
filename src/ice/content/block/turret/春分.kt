@@ -35,6 +35,16 @@ class 春分 :SglTurret("spring") {
         description = "这座炮塔能够引导能量够修复我方单位和建筑,同时它会侵入敌方的机械结构中,阻止其行动"
         details = "成熟的能量引导技术赋予了这座巨物十分突出的能力"
       }
+      en {
+        this.localizedName = "Spring Equinox"
+        description = "This turret can guide energy to repair friendly units and buildings, while it infiltrates enemy mechanical structures to stop their movement"
+        details = "Mature energy guidance technology gives this giant outstanding capabilities"
+      }
+      uk_UA {
+        this.localizedName = "Весняне рівнодення"
+        description = "Ця башта може спрямовувати енергію для ремонту дружніх юнітів і будівель, водночас вона проникає в механічні структури ворога, зупиняючи їх рух"
+        details = "Зріла технологія спрямування енергії надає цьому велетню видатні можливості"
+      }
     }
     requirements(
       Category.turret,

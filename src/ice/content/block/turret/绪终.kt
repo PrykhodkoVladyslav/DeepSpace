@@ -18,6 +18,12 @@ class 绪终 :SglTurret("turret_thinkEnd") {
       zh_CN {
         localizedName = "绪终"
       }
+      en {
+        localizedName = "End of Thread"
+      }
+      uk_UA {
+        localizedName = "Кінець нитки"
+      }
     }
     size = 5
     health = 2000

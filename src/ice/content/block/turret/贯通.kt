@@ -20,6 +20,14 @@ class 贯通 :SglTurret("turret_penetrate") {
         localizedName = "贯通"
         description = "向指定方位发射一道强劲的定向爆破束"
       }
+      en {
+        localizedName = "Penetrate"
+        description = "Fires a powerful directional explosive beam in a specified direction"
+      }
+      uk_UA {
+        localizedName = "Проникнення"
+        description = "Запускає потужний спрямований вибуховий промінь у вказаному напрямку"
+      }
     }
     health = 1930
     armor = 4f

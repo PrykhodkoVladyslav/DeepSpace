@@ -23,6 +23,14 @@ class 碎冰 :SglTurret("turret_trashIce") {
         localizedName = "碎冰"
         description = "小型速射散射炮塔,散布较大,不适合对付高速单体或重甲目标"
       }
+      en {
+        localizedName = "Shattered Ice"
+        description = "Small rapid-fire scatter turret with large spread, not suitable for dealing with high-speed single targets or heavily armored targets"
+      }
+      uk_UA {
+        localizedName = "Розбите криго"
+        description = "Мала швидкострільна розсіювальна башта з великим розкидом, не підходить для боротьби з високошвидкісними одиночними цілями або важкоброньованими цілями"
+      }
     }
     size = 1
     health = 250

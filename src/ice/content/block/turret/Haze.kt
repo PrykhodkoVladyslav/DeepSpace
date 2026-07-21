@@ -55,6 +55,14 @@ class Haze :SglTurret("haze") {
         localizedName = "阴霾"
         description = "大型石墨导弹发射器,发射一枚电磁脉冲核弹,包裹的巨量石墨会产生一片巨大的石墨云传导电磁脉冲,造成严重的电子损伤"
       }
+      en {
+        localizedName = "Haze"
+        description = "Large graphite missile launcher that fires an EMP nuclear warhead. The massive amount of graphite wrapped around it creates a huge graphite cloud that conducts EMP, causing severe electronic damage"
+      }
+      uk_UA {
+        localizedName = "Пітьма"
+        description = "Велика пускова установка графітових ракет, що запускає ядерну боєголовку з ЕМІ. Величезна кількість графіту, що обгоряє навколо неї, створює величезну графітову хмару, яка проводить ЕМІ, спричиняючи серйозні електронні пошкодження"
+      }
     }
     requirements(
       Category.turret, IItems.强化合金, 180, IItems.气凝胶, 180,

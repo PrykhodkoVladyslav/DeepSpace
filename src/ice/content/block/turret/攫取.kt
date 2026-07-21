@@ -18,6 +18,14 @@ class 攫取 :SglTurret("turret_grab") {
         localizedName = "攫取"
         description = "快速发射汲取光束,攻击敌人的同时修复自身"
       }
+      en {
+        localizedName = "Seize"
+        description = "Rapidly fires draining beams, repairing itself while attacking enemies"
+      }
+      uk_UA {
+        localizedName = "Хватання"
+        description = "Швидко запускає висмоктуючі промені, ремонтуючи себе під час атаки ворогів"
+      }
     }
     health = 600
     recoil = 1f

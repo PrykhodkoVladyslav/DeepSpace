@@ -46,6 +46,14 @@ class 虚妄 :SglTurret("mirage") {
         this.localizedName = "虚妄"
         description = "高能FEX结晶弹射器,将大块结晶态FEX发射向目标,不同的结晶状态会产生截然不同的效果,在互相作用下可以造成相当大的杀伤效果"
       }
+      en {
+        this.localizedName = "Mirage"
+        description = "High-energy FEX crystal launcher that fires large crystalline FEX at targets. Different crystalline states produce completely different effects, and can cause considerable lethal effects through mutual interaction"
+      }
+      uk_UA {
+        this.localizedName = "Марево"
+        description = "Високоенергетичний пусковий пристрій FEX-кристалів, що запускає великі кристалічні FEX на цілі. Різні кристалічні стани дають зовсім різні ефекти і можуть спричиняти значні летальні ефекти через взаємодію"
+      }
     }
     requirements(
       Category.turret,

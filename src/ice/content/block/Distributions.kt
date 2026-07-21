@@ -42,15 +42,11 @@ object Distributions {
         localizedName = "基础传送带"
         description = "运输设施,造价低廉"
       }
-
       en {
         localizedName = "Base Conveyor"
         description = "Transport facility, low cost"
       }
-
-      
-      
-      {
+      uk_UA {
         localizedName = "Базовий конвеєр"
         description = "Транспортний пристрій із низькою вартістю виробництва."
       }

@@ -60,6 +60,14 @@ class 罪碑 :SglTurret("turret_sin_monument") {
         localizedName = "罪碑"
         description = "强大的超远程炮塔,通过投射不稳定的压缩黑洞持续杀伤敌人\n引力奇点坍缩器的极度不稳定性"
       }
+      en {
+        localizedName = "Sin Monument"
+        description = "Powerful ultra-long-range turret that continuously damages enemies by projecting unstable compressed black holes\nExtreme instability of the gravitational singularity collapser"
+      }
+      uk_UA {
+        localizedName = "Пам'ятник гріха"
+        description = "Потужна наддалека башта, що безперервно пошкоджує ворогів, проецируючи нестабільні стиснені чорні діри\nКрайня нестабільність колапсора гравітаційної сингулярності"
+      }
     }
     warmupSpeed = 0.004f
     health = 256000

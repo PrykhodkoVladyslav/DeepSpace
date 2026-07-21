@@ -29,6 +29,14 @@ class 伦琴 :ProjectileTurret("roentgen") {
         localizedName = "伦琴"
         description = "发射极具穿透力的高能激光束,杀伤力极强"
       }
+      en {
+        localizedName = "Roentgen"
+        description = "Fires highly penetrating high-energy laser beams with extremely strong lethality"
+      }
+      uk_UA {
+        localizedName = "Рентген"
+        description = "Запусkaє високо проникні лазерні промені високої енергії з надзвичайно високою летальністю"
+      }
     }
     requirements(
       Category.turret, ItemStack.with(

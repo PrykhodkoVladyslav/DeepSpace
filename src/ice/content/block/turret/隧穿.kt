@@ -27,6 +27,14 @@ class 隧穿 :SglTurret("turret_tunnelOpening") {
         localizedName = "隧穿"
         description = "向指定方位发射三道强劲的定向爆破束,并在到达极限距离后原路返回"
       }
+      en {
+        localizedName = "Tunneling"
+        description = "Fires three powerful directional blasting beams in a specified direction, which return along the original path after reaching maximum range"
+      }
+      uk_UA {
+        localizedName = "Тунелювання"
+        description = "Випускає три потужні спрямовані вибухові промені в заданому напрямку, які після досягнення максимальної дальності повертаються тим самим шляхом"
+      }
     }
     squareSprite = false
     health = 3450

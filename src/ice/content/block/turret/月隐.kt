@@ -36,6 +36,14 @@ class 月隐 :SglTurret("moonShadow") {
         localizedName = "月隐"
         description = "中型能量炮塔,可以快速向敌人发射闪电能量团"
       }
+      en {
+        localizedName = "Moon Shadow"
+        description = "Medium-sized energy turret that can rapidly fire lightning energy clusters at enemies"
+      }
+      uk_UA {
+        localizedName = "Місячна тінь"
+        description = "Середня енергетична башта, яка може швидко стріляти скупченнями енергії блискавок по ворогах"
+      }
     }
     requirements(
       Category.turret, IItems.铬锭, 200, IItems.钍锭, 125, IItems.单晶硅, 160, IItems.钴钢, 85

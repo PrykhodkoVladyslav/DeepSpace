@@ -25,6 +25,12 @@ class 热泉 :SglTurret("turret_hotSprings") {
       zh_CN {
         localizedName = "热泉"
       }
+      en {
+        localizedName = "Hot Springs"
+      }
+      uk_UA {
+        localizedName = "Гарячі джерела"
+      }
     }
     liquidCapacity = 40f
     itemCapacity = 20

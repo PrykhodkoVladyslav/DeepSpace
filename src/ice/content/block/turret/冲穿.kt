@@ -28,6 +28,14 @@ class 冲穿 :SglTurret("turret_breakThrough") {
         localizedName = "冲穿"
         description = "以临界速度发射五道远程穿透磁轨炮摧毁敌人,比裂颅更强"
       }
+      en {
+        localizedName = "Breakthrough"
+        description = "Fires five long-range penetrating railguns at critical speed to destroy enemies, stronger than Skull Splitter"
+      }
+      uk_UA {
+        localizedName = "Прорив"
+        description = "Запускає п'ять дальніх проникних рейлганів на критичній швидкості для знищення ворогів, сильніший за Розкол черепа"
+      }
     }
     health = 5600
     size = 5

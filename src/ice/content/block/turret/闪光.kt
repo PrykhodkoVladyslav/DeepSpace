@@ -23,6 +23,14 @@ class 闪光 :SglTurret("flash") {
         localizedName = "闪光"
         description = "发射带电巨浪子弹贯穿敌人,释放的大量闪电能够对集群造成十分可观的打击"
       }
+      en {
+        localizedName = "Flash"
+        description = "Fires charged surge bullets that penetrate enemies, releasing massive lightning that can deal considerable damage to clusters"
+      }
+      uk_UA {
+        localizedName = "Спалах"
+        description = "Запускає заряджені хвилеві кулі, що проникають крізь ворогів, вивільняючи масу блискавок, які можуть завдавати значної шкоди скупченням"
+      }
     }
 
     size = 2

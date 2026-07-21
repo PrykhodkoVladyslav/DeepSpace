@@ -31,6 +31,14 @@ class 霜降 :LaserTurret("frost") {
         localizedName = "霜降"
         description = "从激光冷却发展而来的巨型冷冻光束炮,用巨大的冰冻光束给敌人沉痛而寒冷的重击"
       }
+      en {
+        localizedName = "Frost's Descent"
+        description = "A giant freezing beam cannon developed from laser cooling, delivering a painful and cold blow to enemies with massive freezing beams"
+      }
+      uk_UA {
+        localizedName = "Спуск морозу"
+        description = "Велика заморожуюча променева гармата, розроблена на основі лазерного охолодження, що завдає болісного і холодного удару ворогам масивними заморожуючими променями"
+      }
     }
     requirements(
       Category.turret, IItems.强化合金, 160, IItems.铝锭, 110, IItems.絮凝剂, 100,

@@ -26,6 +26,14 @@ class 浪潮 :SglTurret("turret_wave") {
         localizedName = "浪潮"
         description = "大型抛射炮塔,能够快速交替发射散射炮弹\n使用聚能装药爆破弹,极大提升了炮弹毁伤力"
       }
+      en {
+        localizedName = "Wave"
+        description = "Large artillery turret capable of rapidly alternating fire of scatter shells\nUses shaped charge explosive shells, greatly increasing shell destructive power"
+      }
+      uk_UA {
+        localizedName = "Хвиля"
+        description = "Велика артилерійська башта, здатна до швидкого чергування розсіювальних снарядів\nВикористовує кумулятивні вибухові снаряди, що значно підвищує руйнівну силу снарядів"
+      }
     }
     health = 2080
     size = 4
