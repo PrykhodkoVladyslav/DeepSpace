@@ -44,11 +44,11 @@ class 阳炎 :SglTurret("soflame") {
       }
       en {
         localizedName = "Heat Haze"
-        description = "Concentrates energy onto "solar molecules" until energy is high enough to fire. The extremely hot matter cloud leaves scorching trails and explodes upon impact, turning targets to ash"
+        description = "Concentrates energy onto \"solar molecules\" until energy is high enough to fire. The extremely hot matter cloud leaves scorching trails and explodes upon impact, turning targets to ash"
       }
       uk_UA {
         localizedName = "Марево"
-        description = "Зосереджує енергію на "сонячних молекулах", поки енергія не стане достатньо високою для запуску. Надзвичайно гаряча хмара речовини залишає палючі сліди і вибухає при ударі, перетворюючи цілі на попіл"
+        description = "Зосереджує енергію на \"сонячних молекулах\", поки енергія не стане достатньо високою для запуску. Надзвичайно гаряча хмара речовини залишає палючі сліди і вибухає при ударі, перетворюючи цілі на попіл"
       }
     }
 
