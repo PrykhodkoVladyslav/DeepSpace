@@ -16,6 +16,12 @@ class 文漪 {
         zh_CN {
           localizedName = "文漪副本"
         }
+        en {
+          localizedName = "Wenyi Instance"
+        }
+        uk_UA {
+          localizedName = "Клон Веньї"
+        }
       }
       hidden = true
     }
