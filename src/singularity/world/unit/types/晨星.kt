@@ -58,6 +58,14 @@ class 晨星 : AirSeaAmphibiousUnit("mornstar") {
         localizedName ="晨星"
         description="搭载光束引擎的巨型护卫舰,载有光棱蜉蝣模块,能够引导光束能量体发动猛烈的攻击,同时它搭载的重型电磁脉冲主炮也能对敌人造成致命的打击"
       }
+      en {
+        localizedName = "Morningstar"
+        description = "A massive escort-class warship equipped with a beam engine, carrying a prism drone module that can guide beam energy entities to launch fierce attacks; additionally, its heavy electromagnetic pulse main cannon can deliver deadly strikes to enemies"
+      }
+      uk_UA {
+        localizedName = "Ранкова Зоря"
+        description = "Великий ескортний бойовий корабель із променевим двигуном, оснащений модулем призматичних дронів, що здатні спрямовувати енергетичні промені для потужних атак; також має важку електромагнітну імпульсну гармату, яка завдає ворогам смертельних ударів"
+      }
     }
 
     armor = 19f

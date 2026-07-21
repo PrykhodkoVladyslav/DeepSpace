@@ -62,6 +62,14 @@ class 辉夜 :SglUnitType<SglUnitEntity>("kaguya", SglUnitEntity::class.java) {
         localizedName = "辉夜"
         description = "攻击型巨型攻击舰,具有强大的火力和相当灵活的机动性,其武装足以将绝大多数防线夷为平地"
       }
+      en {
+        localizedName = "Kaguya"
+        description = "A massive attack battleship with powerful firepower and considerable maneuverability, its armament is enough to level most defensive lines"
+      }
+      uk_UA {
+        localizedName = "Каґуя"
+        description = "Гігантський ударний бойовий корабель із потужною вогневою міццю та доволі високою маневреністю, його озброєння здатне зрівняти з землею більшість оборонних ліній"
+      }
     }
 
     armor = 20f

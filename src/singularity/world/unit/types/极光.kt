@@ -58,6 +58,16 @@ class 极光 :AirSeaAmphibiousUnit("aurora") {
         description =
           "搭载光束引擎的战列旗舰,将引擎功率最大程度内化,其装载的两门'光锥'主炮能够贯穿任何强互作用材料之外的装甲,给敌人以毁灭性的打击"
       }
+      en {
+        localizedName = "Aurora"
+        description =
+          "A flagship battleship equipped with a beam engine that internalizes engine power to the maximum extent; its two 'Light Cone' main cannons can penetrate any armor except those made of strongly interacting materials, delivering devastating strikes to enemies"
+      }
+      uk_UA {
+        localizedName = "Аврора"
+        description =
+          "Флагманський лінкор, оснащений променевим двигуном, що максимально акумулює його потужність; дві головні гармати «Світловий конус» здатні пробивати будь-яку броню, окрім матеріалів із сильною взаємодією, завдаючи ворогам нищівних ударів"
+      }
     }
     armor = 10f
     speed = 0.65f
