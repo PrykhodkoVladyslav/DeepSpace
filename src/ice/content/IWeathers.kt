@@ -46,6 +46,12 @@ object IWeathers {
       zh_CN {
         this.localizedName = "凌雪"
       }
+      en {
+        this.localizedName = "Frostbite Snow"
+      }
+      uk_UA {
+        this.localizedName = "Обморожений сніг"
+      }
     }
   }
   var 血雨: Weather = object :RainWeather("bloodRain"), Localizable {
@@ -75,6 +81,12 @@ object IWeathers {
     localization {
       zh_CN {
         this.localizedName = "血雨"
+      }
+      en {
+        this.localizedName = "Blood Rain"
+      }
+      uk_UA {
+        this.localizedName = "Кривавий дощ"
       }
     }
   }
