@@ -32,6 +32,16 @@ open class UnitSpawnAbility(var u: UnitType, var size: Int = 1, var time: Float,
         description = "建造时间"
         sizes = "数量"
       }
+      en {
+        localizedName = "Construction Units"
+        description = "Build time"
+        sizes = "Amount"
+      }
+      uk_UA {
+        localizedName = "Одиниці будівництва"
+        description = "Час будівництва"
+        sizes = "Кількість"
+      }
     }
   }
 
