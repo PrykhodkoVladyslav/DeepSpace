@@ -17,6 +17,14 @@ class InterceptAbilty(var damage: Float, var range: Float) :IceAbility() {
         localizedName = "拦截护盾"
         description = "格挡一定伤害值的子弹,对伤害超出格挡上限的子弹无效"
       }
+      en {
+        localizedName = "Interception Shield"
+        description = "Blocks bullets up to a certain damage threshold; ineffective against bullets that exceed the blocking limit"
+      }
+      uk_UA {
+        localizedName = "Перехоплюючий щит"
+        description = "Блокує кулі до певного рівня шкоди; неефективний проти пострілів, що перевищують межу блокування"
+      }
     }
   }
 
