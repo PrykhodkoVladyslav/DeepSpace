@@ -100,6 +100,12 @@ class 霓虹 :SglTurret("turret_rainbow") {
         zh_CN {
           description = "完全充能"
         }
+        en {
+          description = "Fully charged"
+        }
+        uk_UA {
+          description = "Повністю заряджено"
+        }
       }
     }
     stats.add(stat, "${change / 60}", StatUnit.seconds)
