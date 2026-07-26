@@ -18,6 +18,14 @@ class DeathGiftAbility(var range: Float, var status: StatusEffect, var duration:
         localizedName = "遗馈"
         description = "死亡为周围单位施加状态,并恢复生命"
       }
+      en {
+        localizedName = "Legacy"
+        description = "On death, applies a status effect to nearby units and restores health"
+      }
+      uk_UA {
+        localizedName = "Спадок"
+        description = "Після смерті накладає ефект стану на сусідні цілі та відновлює здоров’я"
+      }
     }
   }
 
