@@ -84,6 +84,12 @@ open class WindGenerator(name: String) :SglBlock(name) {
         zh_CN {
           localizedName = "禁建范围"
         }
+        en {
+          localizedName = "No-Build Zone"
+        }
+        uk_UA {
+          localizedName = "Зона заборони будівництва"
+        }
       }
     }, "$range")
   }
